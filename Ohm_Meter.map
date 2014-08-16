@@ -1,0 +1,770 @@
+HI-TECH Software C Compiler 
+
+Linker command line:
+
+--edf=C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\dat\en_msgs.txt \
+  -cs -h+Ohm_Meter.sym -z -Q18F4620 -ol.obj -MOhm_Meter.map -E1 \
+  -ACODE=0300h-0FD7Fh -ACONST=00h-0FD7Fh \
+  -ASMALLCONST=01000h-010FFhx237,0FD00h-0FD7Fh -AMEDIUMCONST=01000h-0FD7Fh \
+  -ARAM=00h-0FFhx14,0E00h-0EF3h,0F00h-0F7Fh -ABIGRAM=00h-0EF3h,0F00h-0F7Fh \
+  -ACOMRAM=00h-07Fh -AABS1=00h-0EF3h,0F00h-0F7Fh -ABANK0=00h-0FFh \
+  -ABANK1=0100h-01FFh -ABANK2=0200h-02FFh -ABANK3=0300h-03FFh \
+  -ABANK4=0400h-04FFh -ABANK5=0500h-05FFh -ABANK6=0600h-06FFh \
+  -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh -ABANK9=0900h-09FFh \
+  -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh -ABANK12=0C00h-0CFFh \
+  -ABANK13=0D00h-0DFFh -ABANK14=0E00h-0EF3h -ABANK15=0F00h-0F7Fh \
+  -ANVRAM=0F00h-0F7Fh \
+  -preset_vec=0300h,intcode=0308h,intcodelo,powerup,init,end_init \
+  -pramtop=01000h -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST \
+  -pconst=CONST -pparam4=BANK4 -AFARRAM=00h-00h -ACONFIG=0300000h-030000Dh \
+  -pconfig=CONFIG -AIDLOC=0200000h-0200007h -pidloc=IDLOC \
+  -AEEDATA=0F00000h-0F003FFh -peeprom_data=EEDATA \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE c:\temp\s3fc.obj \
+  Ohm_Meter.obj 
+
+Object code version is 3.10
+
+Machine type is 18F4620
+
+Call graph: (short form)
+
+*_main size 0,2 offset 0
+     _ISD_Vol size 1,1 offset 2
+         _ISD_Out size 1,3 offset 8
+             _Wait_ms size 2,2 offset 16
+     _Soothing size 0,1 offset 2
+     _Glower size 0,0 offset 2
+         ___lwmod size 4,2 offset 2
+     _Set_Play size 4,2 offset 2
+         _ISD_Out size 1,3 offset 8
+         _Wait_ms size 2,2 offset 16
+         ___wmul size 4,2 offset 8
+     _IR_output size 4,2 offset 2
+         ___lmul size 8,4 offset 10
+         _M_Read_Address size 4,0 offset 8
+         _M_Read_Data size 2,2 offset 8
+         _IR_out size 0,2 offset 8
+*    _IR_Program size 4,4 offset 2
+         _IR_program_mode size 0,2 offset 10
+         _Wait_ms size 2,2 offset 16
+         _M_Write_Enable size 0,0 offset 16
+*        ___lmul size 8,4 offset 10
+         _M_Write_0 size 6,0 offset 10
+             _Wait_ms size 2,2 offset 16
+             _M_Write_Enable size 0,0 offset 16
+             _M_Write_Address size 4,0 offset 16
+             _M_Write_Data size 1,0 offset 16
+     _RF_output size 3,2 offset 2
+         _wakeup size 0,0 offset 7
+         _RF_out size 0,1 offset 7
+     _Wait_ms size 2,2 offset 16
+     _Digital_Up size 0,0 offset 2
+         _Wait_ms size 2,2 offset 16
+     _Digital_Dn size 0,0 offset 2
+         _Wait_ms size 2,2 offset 16
+
+Estimated maximum call depth: 3
+
+*intlevel2 size 0,0 offset 22
+*    _IntServe size 0,14 offset 22
+         i2___lwmod size 4,2 offset 36
+*        i2_Wait_ms size 2,2 offset 46
+*        i2_Set_Play size 4,2 offset 36
+*            i2_ISD_Out size 1,3 offset 42
+*                i2_Wait_ms size 2,2 offset 46
+*            i2_Wait_ms size 2,2 offset 46
+             i2___wmul size 4,2 offset 42
+
+Estimated maximum call depth: 4
+
+
+                Name          Link     Load   Length Selector Space Scale
+c:\temp\s3fc.obj
+                end_init       344      344       24     184     0
+                init           318      318       2C     184     0
+                reset_vec      300      300        4     180     0
+Ohm_Meter.obj   intcode        308      308       10     184     0
+                idata          368      368      188     184     0
+                text24        5EC4     5EC4       12     184     0
+                text23        5E54     5E54       42     184     0
+                text25        45AA     45AA      3B2     184     0
+                text22        5ED6     5ED6       12     184     0
+                text19        5AB4     5AB4       7C     184     0
+                text18        5D40     5D40       4A     184     0
+                text21        5D8A     5D8A       44     184     0
+                text20        582A     582A       B6     184     0
+                text26        4C56     4C56      2FA     184     0
+                text28        5774     5774       B6     184     0
+                text27        5984     5984       98     184     0
+                text30        5DCE     5DCE       44     184     0
+                text29        5C14     5C14       66     184     0
+                text5         55C8     55C8       E0     184     0
+                text4         529C     529C      114     184     0
+                text7         5B30     5B30       72     184     0
+                text6         56A8     56A8       CC     184     0
+                text3         3F8E     3F8E      61C     184     0
+                text0          4F0      4F0     3A9E     184     0
+                text2         54C2     54C2      106     184     0
+                text1         495C     495C      2FA     184     0
+                text8         4F50     4F50      1EA     184     0
+                text15        58E0     58E0       A4     184     0
+                text14        5A1C     5A1C       98     184     0
+                text17        5E12     5E12       42     184     0
+                text16        5C7A     5C7A       66     184     0
+                text13        5E96     5E96       2E     184     0
+                text10        53B0     53B0      112     184     0
+                text9         5BA2     5BA2       72     184     0
+                text12        513A     513A      162     184     0
+                text11        5CE0     5CE0       60     184     0
+
+COMMON          param4         400      400       32     400     1
+
+TOTAL           Name          Link     Load   Length  Space
+        CLASS   CODE           
+                end_init       344      344       24     0
+                intcode        308      308       10     0
+                init           318      318       2C     0
+                idata          368      368      188     0
+                reset_vec      300      300        4     0
+                text24        5EC4     5EC4       12     0
+                text23        5E54     5E54       42     0
+                text25        45AA     45AA      3B2     0
+                text22        5ED6     5ED6       12     0
+                text19        5AB4     5AB4       7C     0
+                text18        5D40     5D40       4A     0
+                text21        5D8A     5D8A       44     0
+                text20        582A     582A       B6     0
+                text26        4C56     4C56      2FA     0
+                text28        5774     5774       B6     0
+                text27        5984     5984       98     0
+                text30        5DCE     5DCE       44     0
+                text29        5C14     5C14       66     0
+                text5         55C8     55C8       E0     0
+                text4         529C     529C      114     0
+                text7         5B30     5B30       72     0
+                text6         56A8     56A8       CC     0
+                text3         3F8E     3F8E      61C     0
+                text0          4F0      4F0     3A9E     0
+                text2         54C2     54C2      106     0
+                text1         495C     495C      2FA     0
+                text8         4F50     4F50      1EA     0
+                text15        58E0     58E0       A4     0
+                text14        5A1C     5A1C       98     0
+                text17        5E12     5E12       42     0
+                text16        5C7A     5C7A       66     0
+                text13        5E96     5E96       2E     0
+                text10        53B0     53B0      112     0
+                text9         5BA2     5BA2       72     0
+                text12        513A     513A      162     0
+                text11        5CE0     5CE0       60     0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   RAM            
+
+        CLASS   BIGRAM         
+
+        CLASS   COMRAM         
+
+        CLASS   ABS1           
+                abs_s1           0        0       5B     1
+                abs_s1         100      100      278     1
+
+        CLASS   BANK0          
+
+        CLASS   BANK1          
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   BANK4          
+                param4         400      400       32     1
+
+        CLASS   BANK5          
+
+        CLASS   BANK6          
+
+        CLASS   BANK7          
+
+        CLASS   BANK8          
+
+        CLASS   BANK9          
+
+        CLASS   BANK10         
+
+        CLASS   BANK11         
+
+        CLASS   BANK12         
+
+        CLASS   BANK13         
+
+        CLASS   BANK14         
+
+        CLASS   BANK15         
+
+        CLASS   NVRAM          
+
+        CLASS   FARRAM         
+
+        CLASS   CONFIG         
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name           Load    Length   Top     Selector    Space Class
+
+                reset_vec       000300  000004  000304       180       0  CODE    
+                intcode         000308  005BE0  005EE8       184       0  CODE    
+                param4          000400  000032  000432       400       1  BANK4   
+
+
+UNUSED ADDRESS RANGES
+
+        BANK0            00005B-0000FF
+        BANK10           000A00-000AFF
+        BANK11           000B00-000BFF
+        BANK12           000C00-000CFF
+        BANK13           000D00-000DFF
+        BANK14           000E00-000EF3
+        BANK15           000F00-000F7F
+        BANK3            000378-0003FF
+        BANK4            000432-0004FF
+        BANK5            000500-0005FF
+        BANK6            000600-0006FF
+        BANK7            000700-0007FF
+        BANK8            000800-0008FF
+        BANK9            000900-0009FF
+        BIGRAM           00005B-0000FF
+                         000378-0003FF
+                         000432-000EF3
+                         000F00-000F7F
+        CODE             000304-000307
+                         005EE8-00FD7F
+        COMRAM           00005B-00007F
+        CONFIG           300000-30000D
+        CONST            000000-0002FF
+                         000304-000307
+                         005EE8-00FD7F
+        EEDATA           F00000-F003FF
+        FARRAM           000000-000000
+        IDLOC            200000-200007
+        MEDIUMCONST      005EE8-00FD7F
+        NVRAM            000F00-000F7F
+        RAM              00005B-0000FF
+                         000378-0003FF
+                         000432-000EF3
+                         000F00-000F7F
+        SMALLCONST       005EE8-00FD7F
+
+                                  Symbol Table
+
+??_Digital_Dn            param4       000402
+??_Digital_Up            param4       000402
+??_Glower                param4       000402
+??_IR_Program            param4       000406
+??_IR_out                param4       000408
+??_IR_output             param4       000406
+??_IR_program_mode       param4       00040A
+??_ISD_Out               param4       000409
+??_ISD_Vol               param4       000403
+??_IntServe              param4       000416
+??_M_Read_Address        param4       00040C
+??_M_Read_Data           param4       00040A
+??_M_Write_0             param4       000410
+??_M_Write_Address       param4       000414
+??_M_Write_Data          param4       000411
+??_M_Write_Enable        param4       000410
+??_RF_out                param4       000407
+??_RF_output             param4       000405
+??_Set_Play              param4       000406
+??_Soothing              param4       000402
+??_Wait_ms               param4       000412
+??___lmul                param4       000412
+??___lwmod               param4       000406
+??___wmul                param4       00040C
+??_main                  param4       000400
+??_wakeup                param4       000407
+??i2_ISD_Out             param4       00042B
+??i2_Set_Play            param4       000428
+??i2_Wait_ms             param4       000430
+??i2___lwmod             param4       000428
+??i2___wmul              param4       00042E
+?_Digital_Dn             param4       000402
+?_Digital_Up             param4       000402
+?_Glower                 param4       000402
+?_IR_Program             param4       000402
+?_IR_out                 param4       000408
+?_IR_output              param4       000402
+?_IR_program_mode        param4       00040A
+?_ISD_Out                param4       000408
+?_ISD_Vol                param4       000402
+?_IntServe               param4       000416
+?_M_Read_Address         param4       000408
+?_M_Read_Data            param4       000408
+?_M_Write_0              param4       00040A
+?_M_Write_Address        param4       000410
+?_M_Write_Data           param4       000410
+?_M_Write_Enable         param4       000410
+?_RF_out                 param4       000407
+?_RF_output              param4       000402
+?_Set_Play               param4       000402
+?_Soothing               param4       000402
+?_Wait_ms                param4       000410
+?___lmul                 param4       00040A
+?___lwmod                param4       000402
+?___wmul                 param4       000408
+?_main                   param4       000400
+?_wakeup                 param4       000407
+?i2_ISD_Out              param4       00042A
+?i2_Set_Play             param4       000424
+?i2_Wait_ms              param4       00042E
+?i2___lwmod              param4       000424
+?i2___wmul               param4       00042A
+IR_Program@Address       param4       000402
+IR_output@Address        param4       000402
+ISD_Out@DATA             param4       000408
+ISD_Out@RESULT           param4       000409
+ISD_Out@i                param4       00040A
+ISD_Vol@Volume           param4       000402
+M_Read_Address@Address   param4       000408
+M_Read_Data@Result       param4       00040A
+M_Write_0@Address        param4       00040A
+M_Write_0@Data           param4       00040E
+M_Write_Address@Address  param4       000410
+M_Write_Data@Data        param4       000410
+RF_output@A              param4       000402
+RF_output@Number         param4       000403
+Set_Play@End             param4       000404
+Set_Play@Start           param4       000402
+Wait_ms@X                param4       000410
+Wait_ms@Y                param4       000412
+_A1                      (abs)        000043
+_A1_OFF                  (abs)        0001F0
+_A1_ON                   (abs)        000214
+_A2                      (abs)        000019
+_A2_OFF                  (abs)        000238
+_A2_ON                   (abs)        00025C
+_A3                      (abs)        000017
+_A3_OFF                  (abs)        000280
+_A3_ON                   (abs)        0002A4
+_A4                      (abs)        00001D
+_A4_OFF                  (abs)        0002C8
+_A4_ON                   (abs)        0002EC
+_A5                      (abs)        00001B
+_A5_OFF                  (abs)        000310
+_A5_ON                   (abs)        000334
+_ADCON1                  (abs)        000FC1
+_A_1_8                   (abs)        000358
+_B                       (abs)        000016
+_BLUE                    (abs)        000049
+_Break                   (abs)        00000A
+_CCP1CON                 (abs)        000FBD
+_CCP1IE                  (abs)        007CEA
+_CCP1IF                  (abs)        007CF2
+_CCP1IP                  (abs)        007CFA
+_CCP2CON                 (abs)        000FBA
+_CCP2IE                  (abs)        007D00
+_CCP2IF                  (abs)        007D08
+_CCP2IP                  (abs)        007D10
+_Cat                     (abs)        000009
+_Color                   (abs)        000055
+_Com                     (abs)        00000C
+_Count                   (abs)        000053
+_DO                      (abs)        00000B
+_Digital_Dn              text7        005B30
+_Digital_Up              text9        005BA2
+_Dnb                     (abs)        000006
+_Dng                     (abs)        000005
+_Dnr                     (abs)        000008
+_G                       (abs)        000007
+_GIE                     (abs)        007F97
+_GREEN                   (abs)        000059
+_Glower                  text5        0055C8
+_INT0IE                  (abs)        007F94
+_INT0IF                  (abs)        007F91
+_INT1IE                  (abs)        007F83
+_INT1IF                  (abs)        007F80
+_INT1IP                  (abs)        007F86
+_INTEDG0                 (abs)        007F8E
+_INTEDG1                 (abs)        007F8D
+_IR_Program              text2        0054C2
+_IR_out                  text19       005AB4
+_IR_output               text4        00529C
+_IR_program              (abs)        000100
+_IR_program_mode         text10       0053B0
+_ISD_Out                 text20       00582A
+_ISD_Vol                 text6        0056A8
+_IntServe                text25       0045AA
+_LED                     (abs)        000004
+_M_Read_Address          text17       005E12
+_M_Read_Data             text18       005D40
+_M_Write_0               text11       005CE0
+_M_Write_Address         text23       005E54
+_M_Write_Data            text24       005EC4
+_M_Write_Enable          text22       005ED6
+_Menu                    (abs)        000000
+_Module                  (abs)        000057
+_Move                    (abs)        00000D
+_PEIE                    (abs)        007F96
+_Program                 (abs)        000013
+_R                       (abs)        000012
+_RA0                     (abs)        007C00
+_RA1                     (abs)        007C01
+_RA2                     (abs)        007C02
+_RA3                     (abs)        007C03
+_RA4                     (abs)        007C04
+_RA5                     (abs)        007C05
+_RB0                     (abs)        007C08
+_RB1                     (abs)        007C09
+_RB2                     (abs)        007C0A
+_RB3                     (abs)        007C0B
+_RB4                     (abs)        007C0C
+_RB5                     (abs)        007C0D
+_RB6                     (abs)        007C0E
+_RB7                     (abs)        007C0F
+_RC0                     (abs)        007C10
+_RC1                     (abs)        007C11
+_RC6                     (abs)        007C16
+_RC7                     (abs)        007C17
+_RE0                     (abs)        007C20
+_RE1                     (abs)        007C21
+_RED                     (abs)        000002
+_RF_out                  text12       00513A
+_RF_output               text3        003F8E
+_RF_signal_toggle        (abs)        00001F
+_SSPBUF                  (abs)        000FC9
+_SSPCON1                 (abs)        000FC6
+_SSPIE                   (abs)        007CEB
+_SSPIF                   (abs)        007CF3
+_SSPSTAT                 (abs)        000FC7
+_Set_Play                text1        00495C
+_Soothing                text8        004F50
+_Sub                     (abs)        000015
+_T                       (abs)        000045
+_T0CON                   (abs)        000FD5
+_T3CON                   (abs)        000FB1
+_TMR0                    (abs)        000FD6
+_TMR0IE                  (abs)        007F95
+_TMR0IF                  (abs)        007F92
+_TMR0IP                  (abs)        007F8A
+_TMR0ON                  (abs)        007EAF
+_TMR1                    (abs)        000FCE
+_TMR1ON                  (abs)        007E68
+_TMR3                    (abs)        000FB2
+_TMR3IE                  (abs)        007D01
+_TMR3IF                  (abs)        007D09
+_TMR3IP                  (abs)        007D11
+_TMR3ON                  (abs)        007D88
+_TRISA0                  (abs)        007C90
+_TRISA1                  (abs)        007C91
+_TRISA2                  (abs)        007C92
+_TRISA3                  (abs)        007C93
+_TRISA4                  (abs)        007C94
+_TRISA5                  (abs)        007C95
+_TRISB0                  (abs)        007C98
+_TRISB1                  (abs)        007C99
+_TRISB2                  (abs)        007C9A
+_TRISB3                  (abs)        007C9B
+_TRISB4                  (abs)        007C9C
+_TRISB5                  (abs)        007C9D
+_TRISB6                  (abs)        007C9E
+_TRISB7                  (abs)        007C9F
+_TRISC0                  (abs)        007CA0
+_TRISC1                  (abs)        007CA1
+_TRISC2                  (abs)        007CA2
+_TRISC3                  (abs)        007CA3
+_TRISC4                  (abs)        007CA4
+_TRISC5                  (abs)        007CA5
+_TRISC6                  (abs)        007CA6
+_TRISC7                  (abs)        007CA7
+_TRISD0                  (abs)        007CA8
+_TRISD1                  (abs)        007CA9
+_TRISD2                  (abs)        007CAA
+_TRISD3                  (abs)        007CAB
+_TRISD4                  (abs)        007CAC
+_TRISD5                  (abs)        007CAD
+_TRISD6                  (abs)        007CAE
+_TRISD7                  (abs)        007CAF
+_TRISE0                  (abs)        007CB0
+_TRISE1                  (abs)        007CB1
+_Time                    (abs)        00004D
+_Volume                  (abs)        000014
+_Wait_ms                 text21       005D8A
+__Bnvbit                 nvbit        00005B
+__Brbit                  rbit         00005B
+__HRAM                   (abs)        000000
+__Habsbss0               (abs)        00005B
+__Habsbss1               (abs)        0001F0
+__Hbigbss                bigbss       000432
+__Hbigdata               bigdata      000432
+__Hbss                   bss          00005B
+__Hclrtext               clrtext      0004F0
+__Hconfig                config       300000
+__Hconst                 const        000368
+__Hdata                  data         0004F0
+__Hdata0                 (abs)        000378
+__Heeprom_data           eeprom_data  F00000
+__Hend_init              end_init     000368
+__Hfarbss                farbss       000000
+__Hfardata               fardata      000000
+__Hibigdata              ibigdata     0004F0
+__Hidata                 idata        0004F0
+__Hidloc                 idloc        200000
+__Hifardata              ifardata     0004F0
+__Hinit                  init         000344
+__Hintcode               intcode      000318
+__Hintcodelo             intcodelo    000318
+__Hintentry              intentry     0004F0
+__Hintret                intret       0004F0
+__Hintsave_regs          intsave_regs 000432
+__Hirdata                irdata       0004F0
+__Hmediumconst           mediumconst  001000
+__Hnvbit                 nvbit        0002D8
+__Hnvram                 nvram        0004F0
+__Hnvrram                nvrram       00005B
+__Hparam                 param4       000432
+__Hparam0                param0       0004F0
+__Hparam1                param1       0004F0
+__Hparam10               param10      0004F0
+__Hparam11               param11      0004F0
+__Hparam12               param12      0004F0
+__Hparam13               param13      0004F0
+__Hparam14               param14      0004F0
+__Hparam15               param15      0004F0
+__Hparam2                param2       0004F0
+__Hparam3                param3       0004F0
+__Hparam4                param4       000432
+__Hparam5                param5       0004F0
+__Hparam6                param6       0004F0
+__Hparam7                param7       0004F0
+__Hparam8                param8       0004F0
+__Hparam9                param9       0004F0
+__Hpowerup               powerup      000318
+__Hramtop                ramtop       001000
+__Hrbit                  rbit         0002D8
+__Hrbss                  rbss         00005B
+__Hrdata                 rdata        00005B
+__Hreset_vec             reset_vec    000304
+__Hrparam                rparam       0004F0
+__Hsmallconst            smallconst   001000
+__Hstruct                struct       00005B
+__Htemp                  temp         00005B
+__Htext                  text         0004F0
+__Htext0                 text0        0004F0
+__Htext1                 text1        0004F0
+__Htext10                text10       0004F0
+__Htext11                text11       0004F0
+__Htext12                text12       0004F0
+__Htext13                text13       0004F0
+__Htext14                text14       0004F0
+__Htext15                text15       0004F0
+__Htext16                text16       0004F0
+__Htext17                text17       0004F0
+__Htext18                text18       0004F0
+__Htext19                text19       0004F0
+__Htext2                 text2        0004F0
+__Htext20                text20       0004F0
+__Htext21                text21       0004F0
+__Htext22                text22       0004F0
+__Htext23                text23       0004F0
+__Htext24                text24       0004F0
+__Htext25                text25       0004F0
+__Htext26                text26       0004F0
+__Htext27                text27       0004F0
+__Htext28                text28       0004F0
+__Htext29                text29       0004F0
+__Htext3                 text3        0004F0
+__Htext30                text30       0004F0
+__Htext31                text31       0004F0
+__Htext4                 text4        0004F0
+__Htext5                 text5        0004F0
+__Htext6                 text6        0004F0
+__Htext7                 text7        0004F0
+__Htext8                 text8        0004F0
+__Htext9                 text9        0004F0
+__LRAM                   (abs)        000001
+__Labsbss0               (abs)        000000
+__Labsbss1               (abs)        000100
+__Lbigbss                bigbss       000432
+__Lbigdata               bigdata      000432
+__Lbss                   bss          00005B
+__Lclrtext               clrtext      0004F0
+__Lconfig                config       300000
+__Lconst                 const        000368
+__Ldata                  (abs)        0001F0
+__Ldata0                 (abs)        0001F0
+__Leeprom_data           eeprom_data  F00000
+__Lend_init              end_init     000344
+__Lfarbss                farbss       000000
+__Lfardata               fardata      000000
+__Libigdata              ibigdata     0004F0
+__Lidata                 idata        000368
+__Lidloc                 idloc        200000
+__Lifardata              ifardata     0004F0
+__Linit                  init         000318
+__Lintcode               intcode      000308
+__Lintcodelo             intcodelo    000318
+__Lintentry              intentry     0004F0
+__Lintret                intret       0004F0
+__Lintsave_regs          intsave_regs 000432
+__Lirdata                irdata       0004F0
+__Lmediumconst           mediumconst  001000
+__Lnvbit                 nvbit        0002D8
+__Lnvram                 nvram        0004F0
+__Lnvrram                nvrram       00005B
+__Lparam                 param4       000400
+__Lparam0                param0       0004F0
+__Lparam1                param1       0004F0
+__Lparam10               param10      0004F0
+__Lparam11               param11      0004F0
+__Lparam12               param12      0004F0
+__Lparam13               param13      0004F0
+__Lparam14               param14      0004F0
+__Lparam15               param15      0004F0
+__Lparam2                param2       0004F0
+__Lparam3                param3       0004F0
+__Lparam4                param4       000400
+__Lparam5                param5       0004F0
+__Lparam6                param6       0004F0
+__Lparam7                param7       0004F0
+__Lparam8                param8       0004F0
+__Lparam9                param9       0004F0
+__Lpowerup               powerup      000318
+__Lramtop                ramtop       001000
+__Lrbit                  rbit         0002D8
+__Lrbss                  rbss         00005B
+__Lrdata                 rdata        00005B
+__Lreset_vec             reset_vec    000300
+__Lrparam                rparam       0004F0
+__Lsmallconst            smallconst   001000
+__Lstruct                struct       00005B
+__Ltemp                  temp         00005B
+__Ltext                  text         0004F0
+__Ltext0                 text0        0004F0
+__Ltext1                 text1        0004F0
+__Ltext10                text10       0004F0
+__Ltext11                text11       0004F0
+__Ltext12                text12       0004F0
+__Ltext13                text13       0004F0
+__Ltext14                text14       0004F0
+__Ltext15                text15       0004F0
+__Ltext16                text16       0004F0
+__Ltext17                text17       0004F0
+__Ltext18                text18       0004F0
+__Ltext19                text19       0004F0
+__Ltext2                 text2        0004F0
+__Ltext20                text20       0004F0
+__Ltext21                text21       0004F0
+__Ltext22                text22       0004F0
+__Ltext23                text23       0004F0
+__Ltext24                text24       0004F0
+__Ltext25                text25       0004F0
+__Ltext26                text26       0004F0
+__Ltext27                text27       0004F0
+__Ltext28                text28       0004F0
+__Ltext29                text29       0004F0
+__Ltext3                 text3        0004F0
+__Ltext30                text30       0004F0
+__Ltext31                text31       0004F0
+__Ltext4                 text4        0004F0
+__Ltext5                 text5        0004F0
+__Ltext6                 text6        0004F0
+__Ltext7                 text7        0004F0
+__Ltext8                 text8        0004F0
+__Ltext9                 text9        0004F0
+__S0                     (abs)        F00000
+__S1                     (abs)        000F00
+___lmul                  text15       0058E0
+___lmul@multiplicand     param4       00040E
+___lmul@multiplier       param4       00040A
+___lmul@product          param4       000412
+___lwmod                 text14       005A1C
+___lwmod@counter         param4       000406
+___lwmod@dividend        param4       000402
+___lwmod@divisor         param4       000404
+___wmul                  text16       005C7A
+___wmul@multiplicand     param4       00040A
+___wmul@multiplier       param4       000408
+___wmul@product          param4       00040C
+__accesstop              (abs)        000080
+__activetblptr           (abs)        000000
+__end_of_Digital_Dn      text7        005BA2
+__end_of_Digital_Up      text9        005C14
+__end_of_Glower          text5        0056A8
+__end_of_IR_Program      text2        0055C8
+__end_of_IR_out          text19       005B30
+__end_of_IR_output       text4        0053B0
+__end_of_IR_program_mode text10       0054C2
+__end_of_ISD_Out         text20       0058E0
+__end_of_ISD_Vol         text6        005774
+__end_of_IntServe        text25       00495C
+__end_of_M_Read_Address  text17       005E54
+__end_of_M_Read_Data     text18       005D8A
+__end_of_M_Write_0       text11       005D40
+__end_of_M_Write_Address text23       005E96
+__end_of_M_Write_Data    text24       005ED6
+__end_of_M_Write_Enable  text22       005EE8
+__end_of_RF_out          text12       00529C
+__end_of_RF_output       text3        0045AA
+__end_of_Set_Play        text1        004C56
+__end_of_Soothing        text8        00513A
+__end_of_Wait_ms         text21       005DCE
+__end_of___lmul          text15       005984
+__end_of___lwmod         text14       005AB4
+__end_of___wmul          text16       005CE0
+__end_of_main            text0        003F8E
+__end_of_wakeup          text13       005EC4
+__end_ofi2_ISD_Out       text28       00582A
+__end_ofi2_Set_Play      text26       004F50
+__end_ofi2_Wait_ms       text30       005E12
+__end_ofi2___lwmod       text27       005A1C
+__end_ofi2___wmul        text29       005C7A
+__mediumconst            mediumconst  001000
+__ramtop                 ramtop       001000
+__smallconst             smallconst   001000
+_exit                    init         000318
+_f                       (abs)        00004B
+_glower                  (abs)        00000F
+_i                       (abs)        000051
+_main                    text0        0004F0
+_soothing                (abs)        00000E
+_wakeup                  text13       005E96
+_x                       (abs)        000011
+_y                       (abs)        00004F
+_z0                      (abs)        000010
+_z1                      (abs)        000001
+i2ISD_Out@DATA           param4       00042A
+i2ISD_Out@RESULT         param4       00042B
+i2ISD_Out@i              param4       00042C
+i2Set_Play@End           param4       000426
+i2Set_Play@Start         param4       000424
+i2Wait_ms@X              param4       00042E
+i2Wait_ms@Y              param4       000430
+i2_ISD_Out               text28       005774
+i2_Set_Play              text26       004C56
+i2_Wait_ms               text30       005DCE
+i2___lwmod               text27       005984
+i2___lwmod@counter       param4       000428
+i2___lwmod@dividend      param4       000424
+i2___lwmod@divisor       param4       000426
+i2___wmul                text29       005C14
+i2___wmul@multiplicand   param4       00042C
+i2___wmul@multiplier     param4       00042A
+i2___wmul@product        param4       00042E
+int_func                 intcode      000308
+intlevel0                text         005EE8
+intlevel1                text         005EE8
+intlevel2                text         005EE8
+intlevel3                text         005EE8
+start                    init         000318

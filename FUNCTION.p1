@@ -1,0 +1,147 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"14 Z:\ECE376\Lab2\FUNCTION.C
+[v _hex2dec `(v 1 ef2`ui`**uc ]
+{
+[; ;FUNCTION.C: 13: void hex2dec(unsigned int X, unsigned char *A[5])
+[; ;FUNCTION.C: 14: {
+[e :U _hex2dec ]
+[v _X `ui 1 r1 ]
+[v _A `**uc 1 r2 ]
+[f ]
+"15
+[v _Y `ui 1 a ]
+"16
+[v _a4 `uc 1 a ]
+[v _a3 `uc 1 a ]
+[v _a2 `uc 1 a ]
+[v _a1 `uc 1 a ]
+[v _a0 `uc 1 a ]
+[; ;FUNCTION.C: 15: unsigned int Y;
+[; ;FUNCTION.C: 16: unsigned char a4, a3, a2, a1, a0;
+[; ;FUNCTION.C: 18: a4 = X / 10000;
+"18
+[e = _a4 -> / _X -> -> 10000 `i `ui `uc ]
+[; ;FUNCTION.C: 19: Y = a4;
+"19
+[e = _Y -> _a4 `ui ]
+[; ;FUNCTION.C: 20: X -= 10000 * Y;
+"20
+[e =- _X * -> -> 10000 `i `ui _Y ]
+[; ;FUNCTION.C: 22: a3 = X / 1000;
+"22
+[e = _a3 -> / _X -> -> 1000 `i `ui `uc ]
+[; ;FUNCTION.C: 23: Y = a3;
+"23
+[e = _Y -> _a3 `ui ]
+[; ;FUNCTION.C: 24: X -= 1000 * Y;
+"24
+[e =- _X * -> -> 1000 `i `ui _Y ]
+[; ;FUNCTION.C: 26: a2 = X / 100;
+"26
+[e = _a2 -> / _X -> -> 100 `i `ui `uc ]
+[; ;FUNCTION.C: 27: Y = a2;
+"27
+[e = _Y -> _a2 `ui ]
+[; ;FUNCTION.C: 28: X -= 100 * Y;
+"28
+[e =- _X * -> -> 100 `i `ui _Y ]
+[; ;FUNCTION.C: 30: a1 = X / 10;
+"30
+[e = _a1 -> / _X -> -> 10 `i `ui `uc ]
+[; ;FUNCTION.C: 31: Y = a1;
+"31
+[e = _Y -> _a1 `ui ]
+[; ;FUNCTION.C: 32: X -= 10 * Y;
+"32
+[e =- _X * -> -> 10 `i `ui _Y ]
+[; ;FUNCTION.C: 34: a0 = X;
+"34
+[e = _a0 -> _X `uc ]
+[; ;FUNCTION.C: 36: A[4] = a4;
+"36
+[e = *U + _A * -> -> 4 `i `x -> -> # *U _A `i `x -> _a4 `*uc ]
+[; ;FUNCTION.C: 37: A[3] = a3;
+"37
+[e = *U + _A * -> -> 3 `i `x -> -> # *U _A `i `x -> _a3 `*uc ]
+[; ;FUNCTION.C: 38: A[2] = a2;
+"38
+[e = *U + _A * -> -> 2 `i `x -> -> # *U _A `i `x -> _a2 `*uc ]
+[; ;FUNCTION.C: 39: A[1] = a1;
+"39
+[e = *U + _A * -> -> 1 `i `x -> -> # *U _A `i `x -> _a1 `*uc ]
+[; ;FUNCTION.C: 40: A[0] = a0;
+"40
+[e = *U + _A * -> -> 0 `i `x -> -> # *U _A `i `x -> _a0 `*uc ]
+[; ;FUNCTION.C: 41: }
+"41
+[e :UE 1 ]
+}
+"46
+[v _Wait_ms `(v 1 ef1`ui ]
+{
+[; ;FUNCTION.C: 45: void Wait_ms(unsigned int X)
+[; ;FUNCTION.C: 46: {
+[e :U _Wait_ms ]
+[v _X `ui 1 r1 ]
+[f ]
+"47
+[v _Y `ui 1 a ]
+[; ;FUNCTION.C: 47: unsigned int Y;
+[; ;FUNCTION.C: 49: do {
+"49
+[e :U 5 ]
+{
+[; ;FUNCTION.C: 50: Y = 500;
+"50
+[e = _Y -> -> 500 `i `ui ]
+[; ;FUNCTION.C: 51: do {
+"51
+[e :U 8 ]
+{
+[; ;FUNCTION.C: 52: Y -= 1;
+"52
+[e =- _Y -> -> 1 `i `ui ]
+"53
+}
+[; ;FUNCTION.C: 53: } while (Y > 0);
+[e $ > _Y -> -> 0 `i `ui 8  ]
+[e :U 7 ]
+[; ;FUNCTION.C: 54: X -= 1;
+"54
+[e =- _X -> -> 1 `i `ui ]
+"55
+}
+[; ;FUNCTION.C: 55: } while (X > 0);
+[e $ > _X -> -> 0 `i `ui 5  ]
+[e :U 4 ]
+[; ;FUNCTION.C: 56: }
+"56
+[e :UE 2 ]
+}
+"61
+[v _ascii `(uc 1 ef1`uc ]
+{
+[; ;FUNCTION.C: 60: unsigned char ascii(unsigned char c)
+[; ;FUNCTION.C: 61: {
+[e :U _ascii ]
+[v _c `uc 1 r1 ]
+[f ]
+[; ;FUNCTION.C: 62: c = c & 0x0F;
+"62
+[e = _c -> & -> _c `i -> 15 `i `uc ]
+[; ;FUNCTION.C: 63: if (c < 10) return (c+48);
+"63
+[e $ ! < -> _c `i -> 10 `i 10  ]
+[e ) -> + -> _c `i -> 48 `i `uc ]
+[e $UE 9  ]
+[e $U 11  ]
+"64
+[e :U 10 ]
+[; ;FUNCTION.C: 64: else return(c + 55);
+[e ) -> + -> _c `i -> 55 `i `uc ]
+[e $UE 9  ]
+[e :U 11 ]
+[; ;FUNCTION.C: 65: }
+"65
+[e :UE 9 ]
+}

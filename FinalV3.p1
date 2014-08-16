@@ -1,0 +1,3841 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"18 Z:\Final_Code\lcd_portd.c
+[v _RF3 `VNb 0 e@31739 ]
+"148 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _PORTD `VNuc 0 e@3971 ]
+"14 Z:\Final_Code\lcd_portd.c
+[v _PORTF `VNuc 0 e@3967 ]
+"17 Z:\Final_Code\lcd_portd.c
+[v _RF2 `VNb 0 e@31738 ]
+"134 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISD `VNuc 0 e@3989 ]
+"67 Z:\Final_Code\FinalV3.C
+[v _x `uc 1 e ]
+"67 Z:\Final_Code\FinalV3.C
+[v _Break `uc 1 e ]
+"68 Z:\Final_Code\FinalV3.C
+[v _IR_program `ui -> 120 `i e ]
+"72 Z:\Final_Code\FinalV3.C
+[v _A1 `ui 1 e ]
+"72 Z:\Final_Code\FinalV3.C
+[v _A2 `ui 1 e ]
+"72 Z:\Final_Code\FinalV3.C
+[v _A3 `ui 1 e ]
+"72 Z:\Final_Code\FinalV3.C
+[v _A4 `ui 1 e ]
+"72 Z:\Final_Code\FinalV3.C
+[v _A5 `ui 1 e ]
+"73 Z:\Final_Code\FinalV3.C
+[v _A_1_8 `ui -> 16 `i e ]
+"74 Z:\Final_Code\FinalV3.C
+[v _A1_ON `ui -> 18 `i e ]
+"75 Z:\Final_Code\FinalV3.C
+[v _A1_OFF `ui -> 18 `i e ]
+"76 Z:\Final_Code\FinalV3.C
+[v _A2_ON `ui -> 18 `i e ]
+"77 Z:\Final_Code\FinalV3.C
+[v _A2_OFF `ui -> 18 `i e ]
+"78 Z:\Final_Code\FinalV3.C
+[v _A3_ON `ui -> 18 `i e ]
+"79 Z:\Final_Code\FinalV3.C
+[v _A3_OFF `ui -> 18 `i e ]
+"80 Z:\Final_Code\FinalV3.C
+[v _A4_ON `ui -> 18 `i e ]
+"81 Z:\Final_Code\FinalV3.C
+[v _A4_OFF `ui -> 18 `i e ]
+"82 Z:\Final_Code\FinalV3.C
+[v _A5_ON `ui -> 18 `i e ]
+"83 Z:\Final_Code\FinalV3.C
+[v _A5_OFF `ui -> 18 `i e ]
+"84 Z:\Final_Code\FinalV3.C
+[v _RF_signal_toggle `ui -> 18 `i e ]
+"85 Z:\Final_Code\FinalV3.C
+[v _y `ui 1 e ]
+"85 Z:\Final_Code\FinalV3.C
+[v _f `ui 1 e ]
+"86 Z:\Final_Code\FinalV3.C
+[v _Time `ui 1 e ]
+"88 Z:\Final_Code\FinalV3.C
+[v _Color `ui 1 e ]
+"88 Z:\Final_Code\FinalV3.C
+[v _RED `ui 1 e ]
+"88 Z:\Final_Code\FinalV3.C
+[v _BLUE `ui 1 e ]
+"88 Z:\Final_Code\FinalV3.C
+[v _GREEN `ui 1 e ]
+"89 Z:\Final_Code\FinalV3.C
+[v _Count `ui 1 e ]
+"90 Z:\Final_Code\FinalV3.C
+[v _R `uc 1 e ]
+"90 Z:\Final_Code\FinalV3.C
+[v _B `uc 1 e ]
+"90 Z:\Final_Code\FinalV3.C
+[v _G `uc 1 e ]
+"90 Z:\Final_Code\FinalV3.C
+[v _Dnr `uc 1 e ]
+"90 Z:\Final_Code\FinalV3.C
+[v _Dnb `uc 1 e ]
+"90 Z:\Final_Code\FinalV3.C
+[v _Dng `uc 1 e ]
+"91 Z:\Final_Code\FinalV3.C
+[v _soothing `uc 1 e ]
+"91 Z:\Final_Code\FinalV3.C
+[v _glower `uc 1 e ]
+"91 Z:\Final_Code\FinalV3.C
+[v _LED `uc 1 e ]
+"93 Z:\Final_Code\FinalV3.C
+[v _i `ui 1 e ]
+"93 Z:\Final_Code\FinalV3.C
+[v _Module `ui 1 e ]
+"94 Z:\Final_Code\FinalV3.C
+[v _z0 `uc 1 e ]
+"94 Z:\Final_Code\FinalV3.C
+[v _z1 `uc 1 e ]
+"94 Z:\Final_Code\FinalV3.C
+[v _Move `uc 1 e ]
+"94 Z:\Final_Code\FinalV3.C
+[v _Menu `uc 1 e ]
+"94 Z:\Final_Code\FinalV3.C
+[v _Sub `uc 1 e ]
+"94 Z:\Final_Code\FinalV3.C
+[v _Cat `uc 1 e ]
+"94 Z:\Final_Code\FinalV3.C
+[v _Com `uc 1 e ]
+"95 Z:\Final_Code\FinalV3.C
+[v _T `ul 1 e ]
+"97 Z:\Final_Code\FinalV3.C
+[v _A `uc -> 0 `x e ]
+"162 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR0IF `VNb 0 e@32658 ]
+"75 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR1 `VNui 0 e@4046 ]
+"65 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR0 `VNui 0 e@4054 ]
+"442 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR3IF `VNb 0 e@32009 ]
+"642 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RB5 `VNb 0 e@31757 ]
+"643 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RB6 `VNb 0 e@31758 ]
+"644 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RB7 `VNb 0 e@31759 ]
+"112 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR3 `VNui 0 e@4018 ]
+"441 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _CCP2IF `VNb 0 e@32008 ]
+"634 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RC7 `VNb 0 e@31767 ]
+"477 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _CCP1IF `VNb 0 e@31986 ]
+"161 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _INT0IF `VNb 0 e@32657 ]
+"637 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RB0 `VNb 0 e@31752 ]
+"181 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _INT1IF `VNb 0 e@32640 ]
+"638 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RB1 `VNb 0 e@31753 ]
+"478 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _SSPIF `VNb 0 e@31987 ]
+"80 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _SSPBUF `VNuc 0 e@4041 ]
+"633 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RC6 `VNb 0 e@31766 ]
+"628 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RC1 `VNb 0 e@31761 ]
+"453 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR3IE `Nb 0 e@32001 ]
+"391 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR3ON `Nb 0 e@32136 ]
+"648 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RA1 `VNb 0 e@31745 ]
+"627 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RC0 `VNb 0 e@31760 ]
+"649 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RA2 `VNb 0 e@31746 ]
+"650 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RA3 `VNb 0 e@31747 ]
+"651 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RA4 `VNb 0 e@31748 ]
+"647 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RA0 `VNb 0 e@31744 ]
+[p mainexit ]
+"490 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _SSPIE `Nb 0 e@31979 ]
+"534 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISC5 `VNb 0 e@31909 ]
+"533 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISC4 `VNb 0 e@31908 ]
+"532 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISC3 `VNb 0 e@31907 ]
+"535 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISC6 `VNb 0 e@31910 ]
+"82 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _SSPSTAT `VNuc 0 e@4039 ]
+"83 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _SSPCON1 `VNuc 0 e@4038 ]
+"66 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _T0CON `Nuc 0 e@4053 ]
+"203 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR0ON `Nb 0 e@32431 ]
+"165 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR0IE `Nb 0 e@32661 ]
+"174 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR0IP `Nb 0 e@32650 ]
+"242 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR1ON `Nb 0 e@32360 ]
+"113 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _T3CON `Nuc 0 e@4017 ]
+"431 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TMR3IP `Nb 0 e@32017 ]
+"530 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISC1 `VNb 0 e@31905 ]
+"101 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _CCP2CON `VNuc 0 e@4026 ]
+"452 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _CCP2IE `Nb 0 e@32000 ]
+"430 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _CCP2IP `Nb 0 e@32016 ]
+"531 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISC2 `VNb 0 e@31906 ]
+"96 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _CCP1CON `VNuc 0 e@4029 ]
+"489 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _CCP1IE `Nb 0 e@31978 ]
+"465 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _CCP1IP `Nb 0 e@31994 ]
+"539 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISB0 `VNb 0 e@31896 ]
+"164 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _INT0IE `Nb 0 e@32660 ]
+"177 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _INTEDG0 `Nb 0 e@32654 ]
+"183 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _INT1IE `Nb 0 e@32643 ]
+"185 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _INT1IP `Nb 0 e@32646 ]
+"540 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISB1 `VNb 0 e@31897 ]
+"176 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _INTEDG1 `Nb 0 e@32653 ]
+"166 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _PEIE `Nb 0 e@32662 ]
+"167 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _GIE `Nb 0 e@32663 ]
+"90 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _ADCON1 `Nuc 0 e@4033 ]
+"529 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISC0 `VNb 0 e@31904 ]
+"536 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISC7 `VNb 0 e@31911 ]
+"541 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISB2 `VNb 0 e@31898 ]
+"542 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISB3 `VNb 0 e@31899 ]
+"543 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISB4 `VNb 0 e@31900 ]
+"544 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISB5 `VNb 0 e@31901 ]
+"545 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISB6 `VNb 0 e@31902 ]
+"546 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISB7 `VNb 0 e@31903 ]
+"550 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISA1 `VNb 0 e@31889 ]
+"549 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISA0 `VNb 0 e@31888 ]
+"551 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISA2 `VNb 0 e@31890 ]
+"552 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISA3 `VNb 0 e@31891 ]
+"553 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISA4 `VNb 0 e@31892 ]
+"554 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISA5 `VNb 0 e@31893 ]
+"509 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISE0 `VNb 0 e@31920 ]
+"510 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _TRISE1 `VNb 0 e@31921 ]
+"641 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RB4 `VNb 0 e@31756 ]
+"639 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RB2 `VNb 0 e@31754 ]
+"640 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RB3 `VNb 0 e@31755 ]
+"652 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RA5 `VNb 0 e@31749 ]
+"608 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RE0 `VNb 0 e@31776 ]
+"609 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _RE1 `VNb 0 e@31777 ]
+[; ;18f4620.h: 21: typedef union {
+[; ;18f4620.h: 22: struct {
+[; ;18f4620.h: 23: unsigned volatile STKPTR:5;
+[; ;18f4620.h: 24: unsigned :1;
+[; ;18f4620.h: 25: unsigned volatile STKUNF:1;
+[; ;18f4620.h: 26: unsigned volatile STKFUL:1;
+[; ;18f4620.h: 27: };
+[; ;18f4620.h: 28: } __STKPTRbits_t;
+[; ;18f4620.h: 29: extern volatile __STKPTRbits_t STKPTRbits @ 0xFFC;
+[; ;18f4620.h: 30: typedef union {
+[; ;18f4620.h: 31: struct {
+[; ;18f4620.h: 32: unsigned volatile RBIF:1;
+[; ;18f4620.h: 33: unsigned volatile INT0IF:1;
+[; ;18f4620.h: 34: unsigned volatile TMR0IF:1;
+[; ;18f4620.h: 35: unsigned RBIE:1;
+[; ;18f4620.h: 36: unsigned INT0IE:1;
+[; ;18f4620.h: 37: unsigned TMR0IE:1;
+[; ;18f4620.h: 38: unsigned PEIE:1;
+[; ;18f4620.h: 39: unsigned GIE:1;
+[; ;18f4620.h: 40: };
+[; ;18f4620.h: 41: struct {
+[; ;18f4620.h: 42: unsigned :6;
+[; ;18f4620.h: 43: unsigned GIEL:1;
+[; ;18f4620.h: 44: unsigned GIEH:1;
+[; ;18f4620.h: 45: };
+[; ;18f4620.h: 46: } __INTCONbits_t;
+[; ;18f4620.h: 47: extern __INTCONbits_t INTCONbits @ 0xFF2;
+[; ;18f4620.h: 48: typedef union {
+[; ;18f4620.h: 49: struct {
+[; ;18f4620.h: 50: unsigned volatile RBIP:1;
+[; ;18f4620.h: 51: unsigned :1;
+[; ;18f4620.h: 52: unsigned volatile TMR0IP:1;
+[; ;18f4620.h: 53: unsigned :1;
+[; ;18f4620.h: 54: unsigned volatile INTEDG2:1;
+[; ;18f4620.h: 55: unsigned volatile INTEDG1:1;
+[; ;18f4620.h: 56: unsigned volatile INTEDG0:1;
+[; ;18f4620.h: 57: unsigned RBPU:1;
+[; ;18f4620.h: 58: };
+[; ;18f4620.h: 59: } __INTCON2bits_t;
+[; ;18f4620.h: 60: extern __INTCON2bits_t INTCON2bits @ 0xFF1;
+[; ;18f4620.h: 61: typedef union {
+[; ;18f4620.h: 62: struct {
+[; ;18f4620.h: 63: unsigned volatile INT1IF:1;
+[; ;18f4620.h: 64: unsigned volatile INT2IF:1;
+[; ;18f4620.h: 65: unsigned :1;
+[; ;18f4620.h: 66: unsigned INT1IE:1;
+[; ;18f4620.h: 67: unsigned volatile INT2IE:1;
+[; ;18f4620.h: 68: unsigned :1;
+[; ;18f4620.h: 69: unsigned volatile INT1IP:1;
+[; ;18f4620.h: 70: unsigned volatile INT2IP:1;
+[; ;18f4620.h: 71: };
+[; ;18f4620.h: 72: } __INTCON3bits_t;
+[; ;18f4620.h: 73: extern volatile __INTCON3bits_t INTCON3bits @ 0xFF0;
+[; ;18f4620.h: 74: typedef union {
+[; ;18f4620.h: 75: struct {
+[; ;18f4620.h: 76: unsigned volatile CARRY:1;
+[; ;18f4620.h: 77: unsigned volatile DC:1;
+[; ;18f4620.h: 78: unsigned volatile ZERO:1;
+[; ;18f4620.h: 79: unsigned volatile OV:1;
+[; ;18f4620.h: 80: unsigned volatile NEGATIVE:1;
+[; ;18f4620.h: 81: };
+[; ;18f4620.h: 82: } __STATUSbits_t;
+[; ;18f4620.h: 83: extern volatile __STATUSbits_t STATUSbits @ 0xFD8;
+[; ;18f4620.h: 84: typedef union {
+[; ;18f4620.h: 85: struct {
+[; ;18f4620.h: 86: unsigned volatile T0PS:3;
+[; ;18f4620.h: 87: unsigned PSA:1;
+[; ;18f4620.h: 88: unsigned T0SE:1;
+[; ;18f4620.h: 89: unsigned T0CS:1;
+[; ;18f4620.h: 90: unsigned T08BIT:1;
+[; ;18f4620.h: 91: unsigned TMR0ON:1;
+[; ;18f4620.h: 92: };
+[; ;18f4620.h: 93: } __T0CONbits_t;
+[; ;18f4620.h: 94: extern __T0CONbits_t T0CONbits @ 0xFD5;
+[; ;18f4620.h: 95: typedef union {
+[; ;18f4620.h: 96: struct {
+[; ;18f4620.h: 97: unsigned volatile SCS:2;
+[; ;18f4620.h: 98: unsigned volatile IOFS:1;
+[; ;18f4620.h: 99: unsigned volatile OSTS:1;
+[; ;18f4620.h: 100: unsigned volatile IRCF:3;
+[; ;18f4620.h: 101: unsigned IDLEN:1;
+[; ;18f4620.h: 102: };
+[; ;18f4620.h: 103: } __OSCCONbits_t;
+[; ;18f4620.h: 104: extern __OSCCONbits_t OSCCONbits @ 0xFD3;
+[; ;18f4620.h: 105: typedef union {
+[; ;18f4620.h: 106: struct {
+[; ;18f4620.h: 107: unsigned volatile HLVDL:1;
+[; ;18f4620.h: 108: unsigned volatile HLVDL1:1;
+[; ;18f4620.h: 109: unsigned volatile HLVDL2:1;
+[; ;18f4620.h: 110: unsigned volatile HLVDL3:1;
+[; ;18f4620.h: 111: unsigned HLVDEN:1;
+[; ;18f4620.h: 112: };
+[; ;18f4620.h: 113: struct {
+[; ;18f4620.h: 114: unsigned volatile LVDL:1;
+[; ;18f4620.h: 115: unsigned volatile LVDL1:1;
+[; ;18f4620.h: 116: unsigned volatile LVDL2:1;
+[; ;18f4620.h: 117: unsigned volatile LVDL3:1;
+[; ;18f4620.h: 118: unsigned LVDEN:1;
+[; ;18f4620.h: 119: };
+[; ;18f4620.h: 120: } __HLVDCONbits_t;
+[; ;18f4620.h: 121: extern __HLVDCONbits_t HLVDCONbits @ 0xFD2;
+[; ;18f4620.h: 122: typedef union {
+[; ;18f4620.h: 123: struct {
+[; ;18f4620.h: 124: unsigned volatile SWDTEN:1;
+[; ;18f4620.h: 125: };
+[; ;18f4620.h: 126: } __WDTCONbits_t;
+[; ;18f4620.h: 127: extern volatile __WDTCONbits_t WDTCONbits @ 0xFD1;
+[; ;18f4620.h: 128: typedef union {
+[; ;18f4620.h: 129: struct {
+[; ;18f4620.h: 130: unsigned volatile BOR:1;
+[; ;18f4620.h: 131: unsigned volatile POR:1;
+[; ;18f4620.h: 132: unsigned volatile PD:1;
+[; ;18f4620.h: 133: unsigned volatile TO:1;
+[; ;18f4620.h: 134: unsigned volatile RI:1;
+[; ;18f4620.h: 135: unsigned :1;
+[; ;18f4620.h: 136: unsigned SBOREN:1;
+[; ;18f4620.h: 137: unsigned IPEN:1;
+[; ;18f4620.h: 138: };
+[; ;18f4620.h: 139: } __RCONbits_t;
+[; ;18f4620.h: 140: extern __RCONbits_t RCONbits @ 0xFD0;
+[; ;18f4620.h: 141: typedef union {
+[; ;18f4620.h: 142: struct {
+[; ;18f4620.h: 143: unsigned TMR1ON:1;
+[; ;18f4620.h: 144: unsigned TMR1CS:1;
+[; ;18f4620.h: 145: unsigned T1SYNC:1;
+[; ;18f4620.h: 146: unsigned T1OSCEN:1;
+[; ;18f4620.h: 147: unsigned volatile T1CKPS:2;
+[; ;18f4620.h: 148: unsigned T1RUN:1;
+[; ;18f4620.h: 149: unsigned volatile T1RD16:1;
+[; ;18f4620.h: 150: };
+[; ;18f4620.h: 151: } __T1CONbits_t;
+[; ;18f4620.h: 152: extern volatile __T1CONbits_t T1CONbits @ 0xFCD;
+[; ;18f4620.h: 153: typedef union {
+[; ;18f4620.h: 154: struct {
+[; ;18f4620.h: 155: unsigned volatile T2CKPS:2;
+[; ;18f4620.h: 156: unsigned TMR2ON:1;
+[; ;18f4620.h: 157: unsigned volatile T2OUTPS:4;
+[; ;18f4620.h: 158: };
+[; ;18f4620.h: 159: } __T2CONbits_t;
+[; ;18f4620.h: 160: extern volatile __T2CONbits_t T2CONbits @ 0xFCA;
+[; ;18f4620.h: 161: typedef union {
+[; ;18f4620.h: 162: struct {
+[; ;18f4620.h: 163: unsigned volatile BF:1;
+[; ;18f4620.h: 164: unsigned volatile UA:1;
+[; ;18f4620.h: 165: unsigned volatile RW:1;
+[; ;18f4620.h: 166: unsigned volatile START:1;
+[; ;18f4620.h: 167: unsigned volatile STOP:1;
+[; ;18f4620.h: 168: unsigned volatile DA:1;
+[; ;18f4620.h: 169: unsigned volatile CKE:1;
+[; ;18f4620.h: 170: unsigned volatile SMP:1;
+[; ;18f4620.h: 171: };
+[; ;18f4620.h: 172: } __SSPSTATbits_t;
+[; ;18f4620.h: 173: extern volatile __SSPSTATbits_t SSPSTATbits @ 0xFC7;
+[; ;18f4620.h: 174: typedef union {
+[; ;18f4620.h: 175: struct {
+[; ;18f4620.h: 176: unsigned volatile SSPM:4;
+[; ;18f4620.h: 177: unsigned volatile CKP:1;
+[; ;18f4620.h: 178: unsigned volatile SSPEN:1;
+[; ;18f4620.h: 179: unsigned volatile SSPOV:1;
+[; ;18f4620.h: 180: unsigned volatile WCOL:1;
+[; ;18f4620.h: 181: };
+[; ;18f4620.h: 182: } __SSPCON1bits_t;
+[; ;18f4620.h: 183: extern volatile __SSPCON1bits_t SSPCON1bits @ 0xFC6;
+[; ;18f4620.h: 184: typedef union {
+[; ;18f4620.h: 185: struct {
+[; ;18f4620.h: 186: unsigned volatile SEN:1;
+[; ;18f4620.h: 187: unsigned volatile RSEN:1;
+[; ;18f4620.h: 188: unsigned volatile PEN:1;
+[; ;18f4620.h: 189: unsigned volatile RCEN:1;
+[; ;18f4620.h: 190: unsigned volatile ACKEN:1;
+[; ;18f4620.h: 191: unsigned volatile ACKDT:1;
+[; ;18f4620.h: 192: unsigned volatile ACKSTAT:1;
+[; ;18f4620.h: 193: unsigned volatile GCEN:1;
+[; ;18f4620.h: 194: };
+[; ;18f4620.h: 195: } __SSPCON2bits_t;
+[; ;18f4620.h: 196: extern volatile __SSPCON2bits_t SSPCON2bits @ 0xFC5;
+[; ;18f4620.h: 197: typedef union {
+[; ;18f4620.h: 198: struct {
+[; ;18f4620.h: 199: unsigned ADON:1;
+[; ;18f4620.h: 200: unsigned volatile GODONE:1;
+[; ;18f4620.h: 201: unsigned volatile CHS:4;
+[; ;18f4620.h: 202: };
+[; ;18f4620.h: 203: } __ADCON0bits_t;
+[; ;18f4620.h: 204: extern volatile __ADCON0bits_t ADCON0bits @ 0xFC2;
+[; ;18f4620.h: 205: typedef union {
+[; ;18f4620.h: 206: struct {
+[; ;18f4620.h: 207: unsigned volatile PCFG:4;
+[; ;18f4620.h: 208: unsigned volatile VCFG:2;
+[; ;18f4620.h: 209: };
+[; ;18f4620.h: 210: } __ADCON1bits_t;
+[; ;18f4620.h: 211: extern volatile __ADCON1bits_t ADCON1bits @ 0xFC1;
+[; ;18f4620.h: 212: typedef union {
+[; ;18f4620.h: 213: struct {
+[; ;18f4620.h: 214: unsigned volatile ADCS:3;
+[; ;18f4620.h: 215: unsigned volatile ACQT:3;
+[; ;18f4620.h: 216: unsigned :1;
+[; ;18f4620.h: 217: unsigned ADFM:1;
+[; ;18f4620.h: 218: };
+[; ;18f4620.h: 219: } __ADCON2bits_t;
+[; ;18f4620.h: 220: extern __ADCON2bits_t ADCON2bits @ 0xFC0;
+[; ;18f4620.h: 221: typedef union {
+[; ;18f4620.h: 222: struct {
+[; ;18f4620.h: 223: unsigned volatile CCP1M:4;
+[; ;18f4620.h: 224: unsigned volatile DC1B:2;
+[; ;18f4620.h: 225: unsigned P1M:2;
+[; ;18f4620.h: 226: };
+[; ;18f4620.h: 227: } __CCP1CONbits_t;
+[; ;18f4620.h: 228: extern __CCP1CONbits_t CCP1CONbits @ 0xFBD;
+[; ;18f4620.h: 229: typedef union {
+[; ;18f4620.h: 230: struct {
+[; ;18f4620.h: 231: unsigned volatile CCP2M:4;
+[; ;18f4620.h: 232: unsigned volatile DC2B:2;
+[; ;18f4620.h: 233: };
+[; ;18f4620.h: 234: } __CCP2CONbits_t;
+[; ;18f4620.h: 235: extern volatile __CCP2CONbits_t CCP2CONbits @ 0xFBA;
+[; ;18f4620.h: 236: typedef union {
+[; ;18f4620.h: 237: struct {
+[; ;18f4620.h: 238: unsigned volatile ABDEN:1;
+[; ;18f4620.h: 239: unsigned volatile WUE:1;
+[; ;18f4620.h: 240: unsigned :1;
+[; ;18f4620.h: 241: unsigned volatile BRG16:1;
+[; ;18f4620.h: 242: unsigned volatile SCKP:1;
+[; ;18f4620.h: 243: unsigned volatile RXCKP:1;
+[; ;18f4620.h: 244: unsigned volatile RCIDL:1;
+[; ;18f4620.h: 245: unsigned volatile ABDOVF:1;
+[; ;18f4620.h: 246: };
+[; ;18f4620.h: 247: struct {
+[; ;18f4620.h: 248: unsigned :4;
+[; ;18f4620.h: 249: unsigned volatile TXCKP:1;
+[; ;18f4620.h: 250: };
+[; ;18f4620.h: 251: } __BAUDCONbits_t;
+[; ;18f4620.h: 252: extern volatile __BAUDCONbits_t BAUDCONbits @ 0xFB8;
+[; ;18f4620.h: 253: typedef union {
+[; ;18f4620.h: 254: struct {
+[; ;18f4620.h: 255: unsigned volatile PDC:7;
+[; ;18f4620.h: 256: unsigned volatile PRSEN:1;
+[; ;18f4620.h: 257: };
+[; ;18f4620.h: 258: } __PWM1CONbits_t;
+[; ;18f4620.h: 259: extern volatile __PWM1CONbits_t PWM1CONbits @ 0xFB7;
+[; ;18f4620.h: 260: typedef union {
+[; ;18f4620.h: 261: struct {
+[; ;18f4620.h: 262: unsigned volatile PSSBD:2;
+[; ;18f4620.h: 263: unsigned volatile PSSAC:2;
+[; ;18f4620.h: 264: unsigned volatile ECCPAS:3;
+[; ;18f4620.h: 265: unsigned volatile ECCPASE:1;
+[; ;18f4620.h: 266: };
+[; ;18f4620.h: 267: } __ECCP1ASbits_t;
+[; ;18f4620.h: 268: extern volatile __ECCP1ASbits_t ECCP1ASbits @ 0xFB6;
+[; ;18f4620.h: 269: typedef union {
+[; ;18f4620.h: 270: struct {
+[; ;18f4620.h: 271: unsigned volatile CVR:4;
+[; ;18f4620.h: 272: unsigned CVRSS:1;
+[; ;18f4620.h: 273: unsigned CVRR:1;
+[; ;18f4620.h: 274: unsigned CVROE:1;
+[; ;18f4620.h: 275: unsigned CVREN:1;
+[; ;18f4620.h: 276: };
+[; ;18f4620.h: 277: } __CVRCONbits_t;
+[; ;18f4620.h: 278: extern __CVRCONbits_t CVRCONbits @ 0xFB5;
+[; ;18f4620.h: 279: typedef union {
+[; ;18f4620.h: 280: struct {
+[; ;18f4620.h: 281: unsigned volatile CM:3;
+[; ;18f4620.h: 282: unsigned CIS:1;
+[; ;18f4620.h: 283: unsigned C1INV:1;
+[; ;18f4620.h: 284: unsigned C2INV:1;
+[; ;18f4620.h: 285: unsigned volatile C1OUT:1;
+[; ;18f4620.h: 286: unsigned volatile C2OUT:1;
+[; ;18f4620.h: 287: };
+[; ;18f4620.h: 288: } __CMCONbits_t;
+[; ;18f4620.h: 289: extern volatile __CMCONbits_t CMCONbits @ 0xFB4;
+[; ;18f4620.h: 290: typedef union {
+[; ;18f4620.h: 291: struct {
+[; ;18f4620.h: 292: unsigned TMR3ON:1;
+[; ;18f4620.h: 293: unsigned TMR3CS:1;
+[; ;18f4620.h: 294: unsigned T3SYNC:1;
+[; ;18f4620.h: 295: unsigned volatile T3CCP1:1;
+[; ;18f4620.h: 296: unsigned volatile T3CKPS:2;
+[; ;18f4620.h: 297: unsigned volatile T3CCP2:1;
+[; ;18f4620.h: 298: unsigned volatile T3RD16:1;
+[; ;18f4620.h: 299: };
+[; ;18f4620.h: 300: } __T3CONbits_t;
+[; ;18f4620.h: 301: extern volatile __T3CONbits_t T3CONbits @ 0xFB1;
+[; ;18f4620.h: 302: typedef union {
+[; ;18f4620.h: 303: struct {
+[; ;18f4620.h: 304: unsigned volatile TX9D:1;
+[; ;18f4620.h: 305: unsigned volatile TRMT:1;
+[; ;18f4620.h: 306: unsigned volatile BRGH:1;
+[; ;18f4620.h: 307: unsigned volatile SENDB:1;
+[; ;18f4620.h: 308: unsigned volatile SYNC:1;
+[; ;18f4620.h: 309: unsigned volatile TXEN:1;
+[; ;18f4620.h: 310: unsigned volatile TX9:1;
+[; ;18f4620.h: 311: unsigned volatile CSRC:1;
+[; ;18f4620.h: 312: };
+[; ;18f4620.h: 313: } __TXSTAbits_t;
+[; ;18f4620.h: 314: extern volatile __TXSTAbits_t TXSTAbits @ 0xFAC;
+[; ;18f4620.h: 315: typedef union {
+[; ;18f4620.h: 316: struct {
+[; ;18f4620.h: 317: unsigned volatile RX9D:1;
+[; ;18f4620.h: 318: unsigned volatile OERR:1;
+[; ;18f4620.h: 319: unsigned volatile FERR:1;
+[; ;18f4620.h: 320: unsigned ADDEN:1;
+[; ;18f4620.h: 321: unsigned CREN:1;
+[; ;18f4620.h: 322: unsigned SREN:1;
+[; ;18f4620.h: 323: unsigned volatile RX9:1;
+[; ;18f4620.h: 324: unsigned SPEN:1;
+[; ;18f4620.h: 325: };
+[; ;18f4620.h: 326: } __RCSTAbits_t;
+[; ;18f4620.h: 327: extern __RCSTAbits_t RCSTAbits @ 0xFAB;
+[; ;18f4620.h: 328: typedef union {
+[; ;18f4620.h: 329: struct {
+[; ;18f4620.h: 330: unsigned volatile RD:1;
+[; ;18f4620.h: 331: unsigned volatile WR:1;
+[; ;18f4620.h: 332: unsigned WREN:1;
+[; ;18f4620.h: 333: unsigned volatile WRERR:1;
+[; ;18f4620.h: 334: unsigned volatile FREE:1;
+[; ;18f4620.h: 335: unsigned :1;
+[; ;18f4620.h: 336: unsigned CFGS:1;
+[; ;18f4620.h: 337: unsigned EEPGD:1;
+[; ;18f4620.h: 338: };
+[; ;18f4620.h: 339: } __EECON1bits_t;
+[; ;18f4620.h: 340: extern __EECON1bits_t EECON1bits @ 0xFA6;
+[; ;18f4620.h: 341: typedef union {
+[; ;18f4620.h: 342: struct {
+[; ;18f4620.h: 343: unsigned volatile CCP2IP:1;
+[; ;18f4620.h: 344: unsigned TMR3IP:1;
+[; ;18f4620.h: 345: unsigned volatile HLVDIP:1;
+[; ;18f4620.h: 346: unsigned BCLIP:1;
+[; ;18f4620.h: 347: unsigned EEIP:1;
+[; ;18f4620.h: 348: unsigned :1;
+[; ;18f4620.h: 349: unsigned CMIP:1;
+[; ;18f4620.h: 350: unsigned OSCFIP:1;
+[; ;18f4620.h: 351: };
+[; ;18f4620.h: 352: struct {
+[; ;18f4620.h: 353: unsigned :2;
+[; ;18f4620.h: 354: unsigned LVDIP:1;
+[; ;18f4620.h: 355: };
+[; ;18f4620.h: 356: } __IPR2bits_t;
+[; ;18f4620.h: 357: extern __IPR2bits_t IPR2bits @ 0xFA2;
+[; ;18f4620.h: 358: typedef union {
+[; ;18f4620.h: 359: struct {
+[; ;18f4620.h: 360: unsigned volatile CCP2IF:1;
+[; ;18f4620.h: 361: unsigned volatile TMR3IF:1;
+[; ;18f4620.h: 362: unsigned volatile HLVDIF:1;
+[; ;18f4620.h: 363: unsigned volatile BCLIF:1;
+[; ;18f4620.h: 364: unsigned volatile EEIF:1;
+[; ;18f4620.h: 365: unsigned :1;
+[; ;18f4620.h: 366: unsigned volatile CMIF:1;
+[; ;18f4620.h: 367: unsigned volatile OSCFIF:1;
+[; ;18f4620.h: 368: };
+[; ;18f4620.h: 369: struct {
+[; ;18f4620.h: 370: unsigned :2;
+[; ;18f4620.h: 371: unsigned volatile LVDIF:1;
+[; ;18f4620.h: 372: };
+[; ;18f4620.h: 373: } __PIR2bits_t;
+[; ;18f4620.h: 374: extern volatile __PIR2bits_t PIR2bits @ 0xFA1;
+[; ;18f4620.h: 375: typedef union {
+[; ;18f4620.h: 376: struct {
+[; ;18f4620.h: 377: unsigned volatile CCP2IE:1;
+[; ;18f4620.h: 378: unsigned TMR3IE:1;
+[; ;18f4620.h: 379: unsigned volatile HLVDIE:1;
+[; ;18f4620.h: 380: unsigned BCLIE:1;
+[; ;18f4620.h: 381: unsigned EEIE:1;
+[; ;18f4620.h: 382: unsigned :1;
+[; ;18f4620.h: 383: unsigned CMIE:1;
+[; ;18f4620.h: 384: unsigned OSCFIE:1;
+[; ;18f4620.h: 385: };
+[; ;18f4620.h: 386: struct {
+[; ;18f4620.h: 387: unsigned :2;
+[; ;18f4620.h: 388: unsigned LVDIE:1;
+[; ;18f4620.h: 389: };
+[; ;18f4620.h: 390: } __PIE2bits_t;
+[; ;18f4620.h: 391: extern __PIE2bits_t PIE2bits @ 0xFA0;
+[; ;18f4620.h: 392: typedef union {
+[; ;18f4620.h: 393: struct {
+[; ;18f4620.h: 394: unsigned TMR1IP:1;
+[; ;18f4620.h: 395: unsigned TMR2IP:1;
+[; ;18f4620.h: 396: unsigned CCP1IP:1;
+[; ;18f4620.h: 397: unsigned SSPIP:1;
+[; ;18f4620.h: 398: unsigned TXIP:1;
+[; ;18f4620.h: 399: unsigned RCIP:1;
+[; ;18f4620.h: 400: unsigned volatile ADIP:1;
+[; ;18f4620.h: 401: unsigned PSPIP:1;
+[; ;18f4620.h: 402: };
+[; ;18f4620.h: 403: } __IPR1bits_t;
+[; ;18f4620.h: 404: extern __IPR1bits_t IPR1bits @ 0xF9F;
+[; ;18f4620.h: 405: typedef union {
+[; ;18f4620.h: 406: struct {
+[; ;18f4620.h: 407: unsigned volatile TMR1IF:1;
+[; ;18f4620.h: 408: unsigned volatile TMR2IF:1;
+[; ;18f4620.h: 409: unsigned volatile CCP1IF:1;
+[; ;18f4620.h: 410: unsigned volatile SSPIF:1;
+[; ;18f4620.h: 411: unsigned volatile TXIF:1;
+[; ;18f4620.h: 412: unsigned volatile RCIF:1;
+[; ;18f4620.h: 413: unsigned volatile ADIF:1;
+[; ;18f4620.h: 414: unsigned volatile PSPIF:1;
+[; ;18f4620.h: 415: };
+[; ;18f4620.h: 416: } __PIR1bits_t;
+[; ;18f4620.h: 417: extern volatile __PIR1bits_t PIR1bits @ 0xF9E;
+[; ;18f4620.h: 418: typedef union {
+[; ;18f4620.h: 419: struct {
+[; ;18f4620.h: 420: unsigned TMR1IE:1;
+[; ;18f4620.h: 421: unsigned TMR2IE:1;
+[; ;18f4620.h: 422: unsigned CCP1IE:1;
+[; ;18f4620.h: 423: unsigned SSPIE:1;
+[; ;18f4620.h: 424: unsigned TXIE:1;
+[; ;18f4620.h: 425: unsigned RCIE:1;
+[; ;18f4620.h: 426: unsigned volatile ADIE:1;
+[; ;18f4620.h: 427: unsigned PSPIE:1;
+[; ;18f4620.h: 428: };
+[; ;18f4620.h: 429: } __PIE1bits_t;
+[; ;18f4620.h: 430: extern __PIE1bits_t PIE1bits @ 0xF9D;
+[; ;18f4620.h: 431: typedef union {
+[; ;18f4620.h: 432: struct {
+[; ;18f4620.h: 433: unsigned volatile TUN:5;
+[; ;18f4620.h: 434: unsigned :1;
+[; ;18f4620.h: 435: unsigned volatile PLLEN:1;
+[; ;18f4620.h: 436: unsigned volatile INTSRC:1;
+[; ;18f4620.h: 437: };
+[; ;18f4620.h: 438: } __OSCTUNEbits_t;
+[; ;18f4620.h: 439: extern volatile __OSCTUNEbits_t OSCTUNEbits @ 0xF9B;
+[; ;18f4620.h: 440: typedef union {
+[; ;18f4620.h: 441: struct {
+[; ;18f4620.h: 442: unsigned volatile TRISE:3;
+[; ;18f4620.h: 443: unsigned :1;
+[; ;18f4620.h: 444: unsigned PSPMODE:1;
+[; ;18f4620.h: 445: unsigned volatile IBOV:1;
+[; ;18f4620.h: 446: unsigned volatile OBF:1;
+[; ;18f4620.h: 447: unsigned volatile IBF:1;
+[; ;18f4620.h: 448: };
+[; ;18f4620.h: 449: } __TRISEbits_t;
+[; ;18f4620.h: 450: extern volatile __TRISEbits_t TRISEbits @ 0xF96;
+[; ;18f4620.h: 451: typedef union {
+[; ;18f4620.h: 452: struct {
+[; ;18f4620.h: 453: unsigned volatile TRISD:8;
+[; ;18f4620.h: 454: };
+[; ;18f4620.h: 455: } __TRISDbits_t;
+[; ;18f4620.h: 456: extern volatile __TRISDbits_t TRISDbits @ 0xF95;
+[; ;18f4620.h: 457: typedef union {
+[; ;18f4620.h: 458: struct {
+[; ;18f4620.h: 459: unsigned volatile TRISC:8;
+[; ;18f4620.h: 460: };
+[; ;18f4620.h: 461: } __TRISCbits_t;
+[; ;18f4620.h: 462: extern volatile __TRISCbits_t TRISCbits @ 0xF94;
+[; ;18f4620.h: 463: typedef union {
+[; ;18f4620.h: 464: struct {
+[; ;18f4620.h: 465: unsigned volatile TRISB:8;
+[; ;18f4620.h: 466: };
+[; ;18f4620.h: 467: } __TRISBbits_t;
+[; ;18f4620.h: 468: extern volatile __TRISBbits_t TRISBbits @ 0xF93;
+[; ;18f4620.h: 469: typedef union {
+[; ;18f4620.h: 470: struct {
+[; ;18f4620.h: 471: unsigned volatile TRISA:8;
+[; ;18f4620.h: 472: };
+[; ;18f4620.h: 473: } __TRISAbits_t;
+[; ;18f4620.h: 474: extern volatile __TRISAbits_t TRISAbits @ 0xF92;
+[; ;18f4620.h: 475: typedef union {
+[; ;18f4620.h: 476: struct {
+[; ;18f4620.h: 477: unsigned volatile LATE:4;
+[; ;18f4620.h: 478: };
+[; ;18f4620.h: 479: } __LATEbits_t;
+[; ;18f4620.h: 480: extern volatile __LATEbits_t LATEbits @ 0xF8D;
+[; ;18f4620.h: 481: typedef union {
+[; ;18f4620.h: 482: struct {
+[; ;18f4620.h: 483: unsigned volatile LATD:8;
+[; ;18f4620.h: 484: };
+[; ;18f4620.h: 485: } __LATDbits_t;
+[; ;18f4620.h: 486: extern volatile __LATDbits_t LATDbits @ 0xF8C;
+[; ;18f4620.h: 487: typedef union {
+[; ;18f4620.h: 488: struct {
+[; ;18f4620.h: 489: unsigned volatile LATC:8;
+[; ;18f4620.h: 490: };
+[; ;18f4620.h: 491: } __LATCbits_t;
+[; ;18f4620.h: 492: extern volatile __LATCbits_t LATCbits @ 0xF8B;
+[; ;18f4620.h: 493: typedef union {
+[; ;18f4620.h: 494: struct {
+[; ;18f4620.h: 495: unsigned volatile LATB:8;
+[; ;18f4620.h: 496: };
+[; ;18f4620.h: 497: } __LATBbits_t;
+[; ;18f4620.h: 498: extern volatile __LATBbits_t LATBbits @ 0xF8A;
+[; ;18f4620.h: 499: typedef union {
+[; ;18f4620.h: 500: struct {
+[; ;18f4620.h: 501: unsigned volatile LATA:8;
+[; ;18f4620.h: 502: };
+[; ;18f4620.h: 503: } __LATAbits_t;
+[; ;18f4620.h: 504: extern volatile __LATAbits_t LATAbits @ 0xF89;
+[; ;18f4620.h: 505: typedef union {
+[; ;18f4620.h: 506: struct {
+[; ;18f4620.h: 507: unsigned volatile RE:4;
+[; ;18f4620.h: 508: };
+[; ;18f4620.h: 509: } __PORTEbits_t;
+[; ;18f4620.h: 510: extern volatile __PORTEbits_t PORTEbits @ 0xF84;
+[; ;18f4620.h: 511: typedef union {
+[; ;18f4620.h: 512: struct {
+[; ;18f4620.h: 513: unsigned volatile RD:8;
+[; ;18f4620.h: 514: };
+[; ;18f4620.h: 515: } __PORTDbits_t;
+[; ;18f4620.h: 516: extern volatile __PORTDbits_t PORTDbits @ 0xF83;
+[; ;18f4620.h: 517: typedef union {
+[; ;18f4620.h: 518: struct {
+[; ;18f4620.h: 519: unsigned volatile RC:8;
+[; ;18f4620.h: 520: };
+[; ;18f4620.h: 521: } __PORTCbits_t;
+[; ;18f4620.h: 522: extern volatile __PORTCbits_t PORTCbits @ 0xF82;
+[; ;18f4620.h: 523: typedef union {
+[; ;18f4620.h: 524: struct {
+[; ;18f4620.h: 525: unsigned volatile RB:8;
+[; ;18f4620.h: 526: };
+[; ;18f4620.h: 527: } __PORTBbits_t;
+[; ;18f4620.h: 528: extern volatile __PORTBbits_t PORTBbits @ 0xF81;
+[; ;18f4620.h: 529: typedef union {
+[; ;18f4620.h: 530: struct {
+[; ;18f4620.h: 531: unsigned volatile RA:8;
+[; ;18f4620.h: 532: };
+[; ;18f4620.h: 533: } __PORTAbits_t;
+[; ;18f4620.h: 534: extern volatile __PORTAbits_t PORTAbits @ 0xF80;
+[; ;pic18f4620.h: 21: extern volatile near unsigned char TOSU @ 0xFFF;
+[; ;pic18f4620.h: 22: extern volatile near unsigned char TOSH @ 0xFFE;
+[; ;pic18f4620.h: 23: extern volatile near unsigned char TOSL @ 0xFFD;
+[; ;pic18f4620.h: 24: extern volatile near unsigned char STKPTR @ 0xFFC;
+[; ;pic18f4620.h: 25: extern volatile near unsigned char PCLATU @ 0xFFB;
+[; ;pic18f4620.h: 26: extern volatile near unsigned char PCLATH @ 0xFFA;
+[; ;pic18f4620.h: 27: extern volatile near unsigned char PCL @ 0xFF9;
+[; ;pic18f4620.h: 28: extern volatile far unsigned char * TBLPTR @ 0xFF6;
+[; ;pic18f4620.h: 29: extern volatile near unsigned char TBLPTRU @ 0xFF8;
+[; ;pic18f4620.h: 30: extern volatile near unsigned char TBLPTRH @ 0xFF7;
+[; ;pic18f4620.h: 31: extern volatile near unsigned char TBLPTRL @ 0xFF6;
+[; ;pic18f4620.h: 32: extern volatile near unsigned char TABLAT @ 0xFF5;
+[; ;pic18f4620.h: 33: extern volatile near unsigned char PRODH @ 0xFF4;
+[; ;pic18f4620.h: 34: extern volatile near unsigned char PRODL @ 0xFF3;
+[; ;pic18f4620.h: 35: extern volatile near unsigned char INTCON @ 0xFF2;
+[; ;pic18f4620.h: 36: extern near unsigned char INTCON2 @ 0xFF1;
+[; ;pic18f4620.h: 37: extern volatile near unsigned char INTCON3 @ 0xFF0;
+[; ;pic18f4620.h: 38: extern volatile near unsigned char INDF0 @ 0xFEF;
+[; ;pic18f4620.h: 39: extern volatile near unsigned char POSTINC0 @ 0xFEE;
+[; ;pic18f4620.h: 40: extern volatile near unsigned char POSTDEC0 @ 0xFED;
+[; ;pic18f4620.h: 41: extern volatile near unsigned char PREINC0 @ 0xFEC;
+[; ;pic18f4620.h: 42: extern volatile near unsigned char PLUSW0 @ 0xFEB;
+[; ;pic18f4620.h: 43: extern volatile near unsigned char FSR0H @ 0xFEA;
+[; ;pic18f4620.h: 44: extern volatile near unsigned char FSR0L @ 0xFE9;
+[; ;pic18f4620.h: 45: extern volatile near unsigned char WREG @ 0xFE8;
+[; ;pic18f4620.h: 46: extern volatile near unsigned char INDF1 @ 0xFE7;
+[; ;pic18f4620.h: 47: extern volatile near unsigned char POSTINC1 @ 0xFE6;
+[; ;pic18f4620.h: 48: extern volatile near unsigned char POSTDEC1 @ 0xFE5;
+[; ;pic18f4620.h: 49: extern volatile near unsigned char PREINC1 @ 0xFE4;
+[; ;pic18f4620.h: 50: extern volatile near unsigned char PLUSW1 @ 0xFE3;
+[; ;pic18f4620.h: 51: extern volatile near unsigned char FSR1H @ 0xFE2;
+[; ;pic18f4620.h: 52: extern volatile near unsigned char FSR1L @ 0xFE1;
+[; ;pic18f4620.h: 53: extern near unsigned char BSR @ 0xFE0;
+[; ;pic18f4620.h: 54: extern volatile near unsigned char INDF2 @ 0xFDF;
+[; ;pic18f4620.h: 55: extern volatile near unsigned char POSTINC2 @ 0xFDE;
+[; ;pic18f4620.h: 56: extern volatile near unsigned char POSTDEC2 @ 0xFDD;
+[; ;pic18f4620.h: 57: extern volatile near unsigned char PREINC2 @ 0xFDC;
+[; ;pic18f4620.h: 58: extern volatile near unsigned char PLUSW2 @ 0xFDB;
+[; ;pic18f4620.h: 59: extern volatile near unsigned char FSR2H @ 0xFDA;
+[; ;pic18f4620.h: 60: extern volatile near unsigned char FSR2L @ 0xFD9;
+[; ;pic18f4620.h: 61: extern volatile near unsigned char STATUS @ 0xFD8;
+[; ;pic18f4620.h: 62: extern volatile near unsigned char TMR0H @ 0xFD7;
+[; ;pic18f4620.h: 63: extern volatile near unsigned char TMR0L @ 0xFD6;
+[; ;pic18f4620.h: 65: extern volatile near unsigned int TMR0 @ 0xFD6;
+[; ;pic18f4620.h: 66: extern near unsigned char T0CON @ 0xFD5;
+[; ;pic18f4620.h: 67: extern volatile near unsigned char OSCCON @ 0xFD3;
+[; ;pic18f4620.h: 68: extern volatile near unsigned char HLVDCON @ 0xFD2;
+[; ;pic18f4620.h: 69: extern volatile near unsigned char LVDCON @ 0xFD2;
+[; ;pic18f4620.h: 70: extern volatile near unsigned char WDTCON @ 0xFD1;
+[; ;pic18f4620.h: 71: extern volatile near unsigned char RCON @ 0xFD0;
+[; ;pic18f4620.h: 72: extern volatile near unsigned char TMR1H @ 0xFCF;
+[; ;pic18f4620.h: 73: extern volatile near unsigned char TMR1L @ 0xFCE;
+[; ;pic18f4620.h: 75: extern volatile near unsigned int TMR1 @ 0xFCE;
+[; ;pic18f4620.h: 76: extern near unsigned char T1CON @ 0xFCD;
+[; ;pic18f4620.h: 77: extern volatile near unsigned char TMR2 @ 0xFCC;
+[; ;pic18f4620.h: 78: extern near unsigned char PR2 @ 0xFCB;
+[; ;pic18f4620.h: 79: extern near unsigned char T2CON @ 0xFCA;
+[; ;pic18f4620.h: 80: extern volatile near unsigned char SSPBUF @ 0xFC9;
+[; ;pic18f4620.h: 81: extern near unsigned char SSPADD @ 0xFC8;
+[; ;pic18f4620.h: 82: extern volatile near unsigned char SSPSTAT @ 0xFC7;
+[; ;pic18f4620.h: 83: extern volatile near unsigned char SSPCON1 @ 0xFC6;
+[; ;pic18f4620.h: 84: extern volatile near unsigned char SSPCON2 @ 0xFC5;
+[; ;pic18f4620.h: 85: extern volatile near unsigned char ADRESH @ 0xFC4;
+[; ;pic18f4620.h: 86: extern volatile near unsigned char ADRESL @ 0xFC3;
+[; ;pic18f4620.h: 88: extern volatile near unsigned int ADRES @ 0xFC3;
+[; ;pic18f4620.h: 89: extern volatile near unsigned char ADCON0 @ 0xFC2;
+[; ;pic18f4620.h: 90: extern near unsigned char ADCON1 @ 0xFC1;
+[; ;pic18f4620.h: 91: extern near unsigned char ADCON2 @ 0xFC0;
+[; ;pic18f4620.h: 92: extern volatile near unsigned char CCPR1H @ 0xFBF;
+[; ;pic18f4620.h: 93: extern volatile near unsigned char CCPR1L @ 0xFBE;
+[; ;pic18f4620.h: 95: extern volatile near unsigned int CCPR1 @ 0xFBE;
+[; ;pic18f4620.h: 96: extern volatile near unsigned char CCP1CON @ 0xFBD;
+[; ;pic18f4620.h: 97: extern volatile near unsigned char CCPR2H @ 0xFBC;
+[; ;pic18f4620.h: 98: extern volatile near unsigned char CCPR2L @ 0xFBB;
+[; ;pic18f4620.h: 100: extern volatile near unsigned int CCPR2 @ 0xFBB;
+[; ;pic18f4620.h: 101: extern volatile near unsigned char CCP2CON @ 0xFBA;
+[; ;pic18f4620.h: 102: extern volatile near unsigned char BAUDCON @ 0xFB8;
+[; ;pic18f4620.h: 104: extern volatile near unsigned char PWM1CON @ 0xFB7;
+[; ;pic18f4620.h: 105: extern volatile near unsigned char ECCP1AS @ 0xFB6;
+[; ;pic18f4620.h: 107: extern volatile near unsigned char CVRCON @ 0xFB5;
+[; ;pic18f4620.h: 108: extern volatile near unsigned char CMCON @ 0xFB4;
+[; ;pic18f4620.h: 109: extern volatile near unsigned char TMR3H @ 0xFB3;
+[; ;pic18f4620.h: 110: extern volatile near unsigned char TMR3L @ 0xFB2;
+[; ;pic18f4620.h: 112: extern volatile near unsigned int TMR3 @ 0xFB2;
+[; ;pic18f4620.h: 113: extern near unsigned char T3CON @ 0xFB1;
+[; ;pic18f4620.h: 114: extern near unsigned char SPBRGH @ 0xFB0;
+[; ;pic18f4620.h: 115: extern near unsigned char SPBRG @ 0xFAF;
+[; ;pic18f4620.h: 116: extern volatile near unsigned char RCREG @ 0xFAE;
+[; ;pic18f4620.h: 117: extern volatile near unsigned char TXREG @ 0xFAD;
+[; ;pic18f4620.h: 118: extern volatile near unsigned char TXSTA @ 0xFAC;
+[; ;pic18f4620.h: 119: extern volatile near unsigned char RCSTA @ 0xFAB;
+[; ;pic18f4620.h: 120: extern near unsigned char EEADRH @ 0xFAA;
+[; ;pic18f4620.h: 121: extern near unsigned char EEADR @ 0xFA9;
+[; ;pic18f4620.h: 122: extern volatile near unsigned char EEDATA @ 0xFA8;
+[; ;pic18f4620.h: 123: extern volatile near unsigned char EECON2 @ 0xFA7;
+[; ;pic18f4620.h: 124: extern volatile near unsigned char EECON1 @ 0xFA6;
+[; ;pic18f4620.h: 125: extern near unsigned char IPR2 @ 0xFA2;
+[; ;pic18f4620.h: 126: extern volatile near unsigned char PIR2 @ 0xFA1;
+[; ;pic18f4620.h: 127: extern near unsigned char PIE2 @ 0xFA0;
+[; ;pic18f4620.h: 128: extern near unsigned char IPR1 @ 0xF9F;
+[; ;pic18f4620.h: 129: extern volatile near unsigned char PIR1 @ 0xF9E;
+[; ;pic18f4620.h: 130: extern near unsigned char PIE1 @ 0xF9D;
+[; ;pic18f4620.h: 131: extern near unsigned char OSCTUNE @ 0xF9B;
+[; ;pic18f4620.h: 133: extern volatile near unsigned char TRISE @ 0xF96;
+[; ;pic18f4620.h: 134: extern volatile near unsigned char TRISD @ 0xF95;
+[; ;pic18f4620.h: 136: extern volatile near unsigned char TRISC @ 0xF94;
+[; ;pic18f4620.h: 137: extern volatile near unsigned char TRISB @ 0xF93;
+[; ;pic18f4620.h: 138: extern volatile near unsigned char TRISA @ 0xF92;
+[; ;pic18f4620.h: 140: extern volatile near unsigned char LATE @ 0xF8D;
+[; ;pic18f4620.h: 141: extern volatile near unsigned char LATD @ 0xF8C;
+[; ;pic18f4620.h: 143: extern volatile near unsigned char LATC @ 0xF8B;
+[; ;pic18f4620.h: 144: extern volatile near unsigned char LATB @ 0xF8A;
+[; ;pic18f4620.h: 145: extern volatile near unsigned char LATA @ 0xF89;
+[; ;pic18f4620.h: 146: extern volatile near unsigned char PORTE @ 0xF84;
+[; ;pic18f4620.h: 148: extern volatile near unsigned char PORTD @ 0xF83;
+[; ;pic18f4620.h: 150: extern volatile near unsigned char PORTC @ 0xF82;
+[; ;pic18f4620.h: 151: extern volatile near unsigned char PORTB @ 0xF81;
+[; ;pic18f4620.h: 152: extern volatile near unsigned char PORTA @ 0xF80;
+[; ;pic18f4620.h: 156: extern volatile near bit STKUNF @ ((unsigned)&STKPTR*8)+6;
+[; ;pic18f4620.h: 157: extern volatile near bit STKFUL @ ((unsigned)&STKPTR*8)+7;
+[; ;pic18f4620.h: 160: extern volatile near bit RBIF @ ((unsigned)&INTCON*8)+0;
+[; ;pic18f4620.h: 161: extern volatile near bit INT0IF @ ((unsigned)&INTCON*8)+1;
+[; ;pic18f4620.h: 162: extern volatile near bit TMR0IF @ ((unsigned)&INTCON*8)+2;
+[; ;pic18f4620.h: 163: extern near bit RBIE @ ((unsigned)&INTCON*8)+3;
+[; ;pic18f4620.h: 164: extern near bit INT0IE @ ((unsigned)&INTCON*8)+4;
+[; ;pic18f4620.h: 165: extern near bit TMR0IE @ ((unsigned)&INTCON*8)+5;
+[; ;pic18f4620.h: 166: extern near bit PEIE @ ((unsigned)&INTCON*8)+6;
+[; ;pic18f4620.h: 167: extern near bit GIE @ ((unsigned)&INTCON*8)+7;
+[; ;pic18f4620.h: 169: extern near bit GIEL @ ((unsigned)&INTCON*8)+6;
+[; ;pic18f4620.h: 170: extern near bit GIEH @ ((unsigned)&INTCON*8)+7;
+[; ;pic18f4620.h: 173: extern near bit RBIP @ ((unsigned)&INTCON2*8)+0;
+[; ;pic18f4620.h: 174: extern near bit TMR0IP @ ((unsigned)&INTCON2*8)+2;
+[; ;pic18f4620.h: 175: extern near bit INTEDG2 @ ((unsigned)&INTCON2*8)+4;
+[; ;pic18f4620.h: 176: extern near bit INTEDG1 @ ((unsigned)&INTCON2*8)+5;
+[; ;pic18f4620.h: 177: extern near bit INTEDG0 @ ((unsigned)&INTCON2*8)+6;
+[; ;pic18f4620.h: 178: extern near bit RBPU @ ((unsigned)&INTCON2*8)+7;
+[; ;pic18f4620.h: 181: extern volatile near bit INT1IF @ ((unsigned)&INTCON3*8)+0;
+[; ;pic18f4620.h: 182: extern volatile near bit INT2IF @ ((unsigned)&INTCON3*8)+1;
+[; ;pic18f4620.h: 183: extern near bit INT1IE @ ((unsigned)&INTCON3*8)+3;
+[; ;pic18f4620.h: 184: extern near bit INT2IE @ ((unsigned)&INTCON3*8)+4;
+[; ;pic18f4620.h: 185: extern near bit INT1IP @ ((unsigned)&INTCON3*8)+6;
+[; ;pic18f4620.h: 186: extern near bit INT2IP @ ((unsigned)&INTCON3*8)+7;
+[; ;pic18f4620.h: 189: extern volatile near bit CARRY @ ((unsigned)&STATUS*8)+0;
+[; ;pic18f4620.h: 190: extern volatile near bit DC @ ((unsigned)&STATUS*8)+1;
+[; ;pic18f4620.h: 191: extern volatile near bit ZERO @ ((unsigned)&STATUS*8)+2;
+[; ;pic18f4620.h: 192: extern volatile near bit OV @ ((unsigned)&STATUS*8)+3;
+[; ;pic18f4620.h: 193: extern volatile near bit NEGATIVE @ ((unsigned)&STATUS*8)+4;
+[; ;pic18f4620.h: 196: extern near bit T0PS0 @ ((unsigned)&T0CON*8)+0;
+[; ;pic18f4620.h: 197: extern near bit T0PS1 @ ((unsigned)&T0CON*8)+1;
+[; ;pic18f4620.h: 198: extern near bit T0PS2 @ ((unsigned)&T0CON*8)+2;
+[; ;pic18f4620.h: 199: extern near bit PSA @ ((unsigned)&T0CON*8)+3;
+[; ;pic18f4620.h: 200: extern near bit T0SE @ ((unsigned)&T0CON*8)+4;
+[; ;pic18f4620.h: 201: extern near bit T0CS @ ((unsigned)&T0CON*8)+5;
+[; ;pic18f4620.h: 202: extern near bit T08BIT @ ((unsigned)&T0CON*8)+6;
+[; ;pic18f4620.h: 203: extern near bit TMR0ON @ ((unsigned)&T0CON*8)+7;
+[; ;pic18f4620.h: 206: extern near bit SCS0 @ ((unsigned)&OSCCON*8)+0;
+[; ;pic18f4620.h: 207: extern near bit SCS1 @ ((unsigned)&OSCCON*8)+1;
+[; ;pic18f4620.h: 208: extern volatile near bit IOFS @ ((unsigned)&OSCCON*8)+2;
+[; ;pic18f4620.h: 209: extern volatile near bit OSTS @ ((unsigned)&OSCCON*8)+3;
+[; ;pic18f4620.h: 210: extern near bit IRCF0 @ ((unsigned)&OSCCON*8)+4;
+[; ;pic18f4620.h: 211: extern near bit IRCF1 @ ((unsigned)&OSCCON*8)+5;
+[; ;pic18f4620.h: 212: extern near bit IRCF2 @ ((unsigned)&OSCCON*8)+6;
+[; ;pic18f4620.h: 213: extern near bit IDLEN @ ((unsigned)&OSCCON*8)+7;
+[; ;pic18f4620.h: 216: extern near bit HLVDL0 @ ((unsigned)&HLVDCON*8)+0;
+[; ;pic18f4620.h: 217: extern near bit HLVDL1 @ ((unsigned)&HLVDCON*8)+1;
+[; ;pic18f4620.h: 218: extern near bit HLVDL2 @ ((unsigned)&HLVDCON*8)+2;
+[; ;pic18f4620.h: 219: extern near bit HLVDL3 @ ((unsigned)&HLVDCON*8)+3;
+[; ;pic18f4620.h: 220: extern near bit HLVDEN @ ((unsigned)&HLVDCON*8)+4;
+[; ;pic18f4620.h: 221: extern volatile near bit IRVST @ ((unsigned)&HLVDCON*8)+5;
+[; ;pic18f4620.h: 223: extern near bit LVDL0 @ ((unsigned)&HLVDCON*8)+0;
+[; ;pic18f4620.h: 224: extern near bit LVDL1 @ ((unsigned)&HLVDCON*8)+1;
+[; ;pic18f4620.h: 225: extern near bit LVDL2 @ ((unsigned)&HLVDCON*8)+2;
+[; ;pic18f4620.h: 226: extern near bit LVDL3 @ ((unsigned)&HLVDCON*8)+3;
+[; ;pic18f4620.h: 227: extern near bit LVDEN @ ((unsigned)&HLVDCON*8)+4;
+[; ;pic18f4620.h: 230: extern near bit SWDTEN @ ((unsigned)&WDTCON*8)+0;
+[; ;pic18f4620.h: 233: extern volatile near bit BOR @ ((unsigned)&RCON*8)+0;
+[; ;pic18f4620.h: 234: extern volatile near bit POR @ ((unsigned)&RCON*8)+1;
+[; ;pic18f4620.h: 235: extern volatile near bit PD @ ((unsigned)&RCON*8)+2;
+[; ;pic18f4620.h: 236: extern volatile near bit TO @ ((unsigned)&RCON*8)+3;
+[; ;pic18f4620.h: 237: extern volatile near bit RI @ ((unsigned)&RCON*8)+4;
+[; ;pic18f4620.h: 238: extern near bit SBOREN @ ((unsigned)&RCON*8)+6;
+[; ;pic18f4620.h: 239: extern near bit IPEN @ ((unsigned)&RCON*8)+7;
+[; ;pic18f4620.h: 242: extern near bit TMR1ON @ ((unsigned)&T1CON*8)+0;
+[; ;pic18f4620.h: 243: extern near bit TMR1CS @ ((unsigned)&T1CON*8)+1;
+[; ;pic18f4620.h: 244: extern near bit T1SYNC @ ((unsigned)&T1CON*8)+2;
+[; ;pic18f4620.h: 245: extern near bit T1OSCEN @ ((unsigned)&T1CON*8)+3;
+[; ;pic18f4620.h: 246: extern near bit T1CKPS0 @ ((unsigned)&T1CON*8)+4;
+[; ;pic18f4620.h: 247: extern near bit T1CKPS1 @ ((unsigned)&T1CON*8)+5;
+[; ;pic18f4620.h: 248: extern near bit T1RUN @ ((unsigned)&T1CON*8)+6;
+[; ;pic18f4620.h: 249: extern near bit T1RD16 @ ((unsigned)&T1CON*8)+7;
+[; ;pic18f4620.h: 252: extern near bit T2CKPS0 @ ((unsigned)&T2CON*8)+0;
+[; ;pic18f4620.h: 253: extern near bit T2CKPS1 @ ((unsigned)&T2CON*8)+1;
+[; ;pic18f4620.h: 254: extern near bit TMR2ON @ ((unsigned)&T2CON*8)+2;
+[; ;pic18f4620.h: 255: extern near bit T2OUTPS0 @ ((unsigned)&T2CON*8)+3;
+[; ;pic18f4620.h: 256: extern near bit T2OUTPS1 @ ((unsigned)&T2CON*8)+4;
+[; ;pic18f4620.h: 257: extern near bit T2OUTPS2 @ ((unsigned)&T2CON*8)+5;
+[; ;pic18f4620.h: 258: extern near bit T2OUTPS3 @ ((unsigned)&T2CON*8)+6;
+[; ;pic18f4620.h: 261: extern volatile near bit BF @ ((unsigned)&SSPSTAT*8)+0;
+[; ;pic18f4620.h: 262: extern volatile near bit UA @ ((unsigned)&SSPSTAT*8)+1;
+[; ;pic18f4620.h: 263: extern volatile near bit RW @ ((unsigned)&SSPSTAT*8)+2;
+[; ;pic18f4620.h: 264: extern volatile near bit START @ ((unsigned)&SSPSTAT*8)+3;
+[; ;pic18f4620.h: 265: extern volatile near bit STOP @ ((unsigned)&SSPSTAT*8)+4;
+[; ;pic18f4620.h: 266: extern volatile near bit DA @ ((unsigned)&SSPSTAT*8)+5;
+[; ;pic18f4620.h: 267: extern near bit CKE @ ((unsigned)&SSPSTAT*8)+6;
+[; ;pic18f4620.h: 268: extern near bit SMP @ ((unsigned)&SSPSTAT*8)+7;
+[; ;pic18f4620.h: 271: extern near bit SSPM0 @ ((unsigned)&SSPCON1*8)+0;
+[; ;pic18f4620.h: 272: extern near bit SSPM1 @ ((unsigned)&SSPCON1*8)+1;
+[; ;pic18f4620.h: 273: extern near bit SSPM2 @ ((unsigned)&SSPCON1*8)+2;
+[; ;pic18f4620.h: 274: extern near bit SSPM3 @ ((unsigned)&SSPCON1*8)+3;
+[; ;pic18f4620.h: 275: extern volatile near bit CKP @ ((unsigned)&SSPCON1*8)+4;
+[; ;pic18f4620.h: 276: extern near bit SSPEN @ ((unsigned)&SSPCON1*8)+5;
+[; ;pic18f4620.h: 277: extern volatile near bit SSPOV @ ((unsigned)&SSPCON1*8)+6;
+[; ;pic18f4620.h: 278: extern volatile near bit WCOL @ ((unsigned)&SSPCON1*8)+7;
+[; ;pic18f4620.h: 281: extern near bit SEN @ ((unsigned)&SSPCON2*8)+0;
+[; ;pic18f4620.h: 282: extern volatile near bit RSEN @ ((unsigned)&SSPCON2*8)+1;
+[; ;pic18f4620.h: 283: extern volatile near bit PEN @ ((unsigned)&SSPCON2*8)+2;
+[; ;pic18f4620.h: 284: extern volatile near bit RCEN @ ((unsigned)&SSPCON2*8)+3;
+[; ;pic18f4620.h: 285: extern volatile near bit ACKEN @ ((unsigned)&SSPCON2*8)+4;
+[; ;pic18f4620.h: 286: extern volatile near bit ACKDT @ ((unsigned)&SSPCON2*8)+5;
+[; ;pic18f4620.h: 287: extern volatile near bit ACKSTAT @ ((unsigned)&SSPCON2*8)+6;
+[; ;pic18f4620.h: 288: extern near bit GCEN @ ((unsigned)&SSPCON2*8)+7;
+[; ;pic18f4620.h: 291: extern near bit ADON @ ((unsigned)&ADCON0*8)+0;
+[; ;pic18f4620.h: 292: extern volatile near bit GODONE @ ((unsigned)&ADCON0*8)+1;
+[; ;pic18f4620.h: 293: extern near bit CHS0 @ ((unsigned)&ADCON0*8)+2;
+[; ;pic18f4620.h: 294: extern near bit CHS1 @ ((unsigned)&ADCON0*8)+3;
+[; ;pic18f4620.h: 295: extern near bit CHS2 @ ((unsigned)&ADCON0*8)+4;
+[; ;pic18f4620.h: 296: extern near bit CHS3 @ ((unsigned)&ADCON0*8)+5;
+[; ;pic18f4620.h: 299: extern near bit PCFG0 @ ((unsigned)&ADCON1*8)+0;
+[; ;pic18f4620.h: 300: extern near bit PCFG1 @ ((unsigned)&ADCON1*8)+1;
+[; ;pic18f4620.h: 301: extern near bit PCFG2 @ ((unsigned)&ADCON1*8)+2;
+[; ;pic18f4620.h: 302: extern near bit PCFG3 @ ((unsigned)&ADCON1*8)+3;
+[; ;pic18f4620.h: 303: extern near bit VCFG0 @ ((unsigned)&ADCON1*8)+4;
+[; ;pic18f4620.h: 304: extern near bit VCFG1 @ ((unsigned)&ADCON1*8)+5;
+[; ;pic18f4620.h: 307: extern near bit ADCS0 @ ((unsigned)&ADCON2*8)+0;
+[; ;pic18f4620.h: 308: extern near bit ADCS1 @ ((unsigned)&ADCON2*8)+1;
+[; ;pic18f4620.h: 309: extern near bit ADCS2 @ ((unsigned)&ADCON2*8)+2;
+[; ;pic18f4620.h: 310: extern near bit ACQT0 @ ((unsigned)&ADCON2*8)+3;
+[; ;pic18f4620.h: 311: extern near bit ACQT1 @ ((unsigned)&ADCON2*8)+4;
+[; ;pic18f4620.h: 312: extern near bit ACQT2 @ ((unsigned)&ADCON2*8)+5;
+[; ;pic18f4620.h: 313: extern near bit ADFM @ ((unsigned)&ADCON2*8)+7;
+[; ;pic18f4620.h: 316: extern near bit CCP1M0 @ ((unsigned)&CCP1CON*8)+0;
+[; ;pic18f4620.h: 317: extern near bit CCP1M1 @ ((unsigned)&CCP1CON*8)+1;
+[; ;pic18f4620.h: 318: extern near bit CCP1M2 @ ((unsigned)&CCP1CON*8)+2;
+[; ;pic18f4620.h: 319: extern near bit CCP1M3 @ ((unsigned)&CCP1CON*8)+3;
+[; ;pic18f4620.h: 320: extern near bit DC1B0 @ ((unsigned)&CCP1CON*8)+4;
+[; ;pic18f4620.h: 321: extern near bit DC1B1 @ ((unsigned)&CCP1CON*8)+5;
+[; ;pic18f4620.h: 323: extern near bit P1M0 @ ((unsigned)&CCP1CON*8)+6;
+[; ;pic18f4620.h: 324: extern near bit P1M1 @ ((unsigned)&CCP1CON*8)+7;
+[; ;pic18f4620.h: 328: extern near bit CCP2M0 @ ((unsigned)&CCP2CON*8)+0;
+[; ;pic18f4620.h: 329: extern near bit CCP2M1 @ ((unsigned)&CCP2CON*8)+1;
+[; ;pic18f4620.h: 330: extern near bit CCP2M2 @ ((unsigned)&CCP2CON*8)+2;
+[; ;pic18f4620.h: 331: extern near bit CCP2M3 @ ((unsigned)&CCP2CON*8)+3;
+[; ;pic18f4620.h: 332: extern near bit DC2B0 @ ((unsigned)&CCP2CON*8)+4;
+[; ;pic18f4620.h: 333: extern near bit DC2B1 @ ((unsigned)&CCP2CON*8)+5;
+[; ;pic18f4620.h: 336: extern volatile near bit ABDEN @ ((unsigned)&BAUDCON*8)+0;
+[; ;pic18f4620.h: 337: extern volatile near bit WUE @ ((unsigned)&BAUDCON*8)+1;
+[; ;pic18f4620.h: 338: extern near bit BRG16 @ ((unsigned)&BAUDCON*8)+3;
+[; ;pic18f4620.h: 339: extern volatile near bit SCKP @ ((unsigned)&BAUDCON*8)+4;
+[; ;pic18f4620.h: 341: extern near bit TXCKP @ ((unsigned)&BAUDCON*8)+4;
+[; ;pic18f4620.h: 342: extern near bit RXDTP @ ((unsigned)&BAUDCON*8)+5;
+[; ;pic18f4620.h: 344: extern near bit RXCKP @ ((unsigned)&BAUDCON*8)+5;
+[; ;pic18f4620.h: 345: extern volatile near bit RCIDL @ ((unsigned)&BAUDCON*8)+6;
+[; ;pic18f4620.h: 346: extern volatile near bit ABDOVF @ ((unsigned)&BAUDCON*8)+7;
+[; ;pic18f4620.h: 350: extern volatile near bit PDC0 @ ((unsigned)&PWM1CON*8)+0;
+[; ;pic18f4620.h: 351: extern volatile near bit PDC1 @ ((unsigned)&PWM1CON*8)+1;
+[; ;pic18f4620.h: 352: extern volatile near bit PDC2 @ ((unsigned)&PWM1CON*8)+2;
+[; ;pic18f4620.h: 353: extern volatile near bit PDC3 @ ((unsigned)&PWM1CON*8)+3;
+[; ;pic18f4620.h: 354: extern volatile near bit PDC4 @ ((unsigned)&PWM1CON*8)+4;
+[; ;pic18f4620.h: 355: extern volatile near bit PDC5 @ ((unsigned)&PWM1CON*8)+5;
+[; ;pic18f4620.h: 356: extern volatile near bit PDC6 @ ((unsigned)&PWM1CON*8)+6;
+[; ;pic18f4620.h: 357: extern volatile near bit PRSEN @ ((unsigned)&PWM1CON*8)+7;
+[; ;pic18f4620.h: 360: extern near bit PSSBD0 @ ((unsigned)&ECCP1AS*8)+0;
+[; ;pic18f4620.h: 361: extern near bit PSSBD1 @ ((unsigned)&ECCP1AS*8)+1;
+[; ;pic18f4620.h: 362: extern near bit PSSAC0 @ ((unsigned)&ECCP1AS*8)+2;
+[; ;pic18f4620.h: 363: extern near bit PSSAC1 @ ((unsigned)&ECCP1AS*8)+3;
+[; ;pic18f4620.h: 364: extern near bit ECCPAS0 @ ((unsigned)&ECCP1AS*8)+4;
+[; ;pic18f4620.h: 365: extern near bit ECCPAS1 @ ((unsigned)&ECCP1AS*8)+5;
+[; ;pic18f4620.h: 366: extern near bit ECCPAS2 @ ((unsigned)&ECCP1AS*8)+6;
+[; ;pic18f4620.h: 367: extern volatile near bit ECCPASE @ ((unsigned)&ECCP1AS*8)+7;
+[; ;pic18f4620.h: 371: extern near bit CVR0 @ ((unsigned)&CVRCON*8)+0;
+[; ;pic18f4620.h: 372: extern near bit CVR1 @ ((unsigned)&CVRCON*8)+1;
+[; ;pic18f4620.h: 373: extern near bit CVR2 @ ((unsigned)&CVRCON*8)+2;
+[; ;pic18f4620.h: 374: extern near bit CVR3 @ ((unsigned)&CVRCON*8)+3;
+[; ;pic18f4620.h: 375: extern near bit CVRSS @ ((unsigned)&CVRCON*8)+4;
+[; ;pic18f4620.h: 376: extern near bit CVRR @ ((unsigned)&CVRCON*8)+5;
+[; ;pic18f4620.h: 377: extern near bit CVROE @ ((unsigned)&CVRCON*8)+6;
+[; ;pic18f4620.h: 378: extern near bit CVREN @ ((unsigned)&CVRCON*8)+7;
+[; ;pic18f4620.h: 381: extern near bit CM0 @ ((unsigned)&CMCON*8)+0;
+[; ;pic18f4620.h: 382: extern near bit CM1 @ ((unsigned)&CMCON*8)+1;
+[; ;pic18f4620.h: 383: extern near bit CM2 @ ((unsigned)&CMCON*8)+2;
+[; ;pic18f4620.h: 384: extern near bit CIS @ ((unsigned)&CMCON*8)+3;
+[; ;pic18f4620.h: 385: extern near bit C1INV @ ((unsigned)&CMCON*8)+4;
+[; ;pic18f4620.h: 386: extern near bit C2INV @ ((unsigned)&CMCON*8)+5;
+[; ;pic18f4620.h: 387: extern volatile near bit C1OUT @ ((unsigned)&CMCON*8)+6;
+[; ;pic18f4620.h: 388: extern volatile near bit C2OUT @ ((unsigned)&CMCON*8)+7;
+[; ;pic18f4620.h: 391: extern near bit TMR3ON @ ((unsigned)&T3CON*8)+0;
+[; ;pic18f4620.h: 392: extern near bit TMR3CS @ ((unsigned)&T3CON*8)+1;
+[; ;pic18f4620.h: 393: extern near bit T3SYNC @ ((unsigned)&T3CON*8)+2;
+[; ;pic18f4620.h: 394: extern near bit T3CCP1 @ ((unsigned)&T3CON*8)+3;
+[; ;pic18f4620.h: 395: extern near bit T3CKPS0 @ ((unsigned)&T3CON*8)+4;
+[; ;pic18f4620.h: 396: extern near bit T3CKPS1 @ ((unsigned)&T3CON*8)+5;
+[; ;pic18f4620.h: 397: extern near bit T3CCP2 @ ((unsigned)&T3CON*8)+6;
+[; ;pic18f4620.h: 398: extern near bit T3RD16 @ ((unsigned)&T3CON*8)+7;
+[; ;pic18f4620.h: 401: extern volatile near bit TX9D @ ((unsigned)&TXSTA*8)+0;
+[; ;pic18f4620.h: 402: extern volatile near bit TRMT @ ((unsigned)&TXSTA*8)+1;
+[; ;pic18f4620.h: 403: extern near bit BRGH @ ((unsigned)&TXSTA*8)+2;
+[; ;pic18f4620.h: 404: extern near bit SENDB @ ((unsigned)&TXSTA*8)+3;
+[; ;pic18f4620.h: 405: extern near bit SYNC @ ((unsigned)&TXSTA*8)+4;
+[; ;pic18f4620.h: 406: extern near bit TXEN @ ((unsigned)&TXSTA*8)+5;
+[; ;pic18f4620.h: 407: extern near bit TX9 @ ((unsigned)&TXSTA*8)+6;
+[; ;pic18f4620.h: 408: extern near bit CSRC @ ((unsigned)&TXSTA*8)+7;
+[; ;pic18f4620.h: 411: extern volatile near bit RX9D @ ((unsigned)&RCSTA*8)+0;
+[; ;pic18f4620.h: 412: extern volatile near bit OERR @ ((unsigned)&RCSTA*8)+1;
+[; ;pic18f4620.h: 413: extern volatile near bit FERR @ ((unsigned)&RCSTA*8)+2;
+[; ;pic18f4620.h: 414: extern near bit ADDEN @ ((unsigned)&RCSTA*8)+3;
+[; ;pic18f4620.h: 415: extern near bit CREN @ ((unsigned)&RCSTA*8)+4;
+[; ;pic18f4620.h: 416: extern near bit SREN @ ((unsigned)&RCSTA*8)+5;
+[; ;pic18f4620.h: 417: extern near bit RX9 @ ((unsigned)&RCSTA*8)+6;
+[; ;pic18f4620.h: 418: extern near bit SPEN @ ((unsigned)&RCSTA*8)+7;
+[; ;pic18f4620.h: 421: extern volatile near bit RD @ ((unsigned)&EECON1*8)+0;
+[; ;pic18f4620.h: 422: extern volatile near bit WR @ ((unsigned)&EECON1*8)+1;
+[; ;pic18f4620.h: 423: extern near bit WREN @ ((unsigned)&EECON1*8)+2;
+[; ;pic18f4620.h: 424: extern volatile near bit WRERR @ ((unsigned)&EECON1*8)+3;
+[; ;pic18f4620.h: 425: extern volatile near bit FREE @ ((unsigned)&EECON1*8)+4;
+[; ;pic18f4620.h: 426: extern near bit CFGS @ ((unsigned)&EECON1*8)+6;
+[; ;pic18f4620.h: 427: extern near bit EEPGD @ ((unsigned)&EECON1*8)+7;
+[; ;pic18f4620.h: 430: extern near bit CCP2IP @ ((unsigned)&IPR2*8)+0;
+[; ;pic18f4620.h: 431: extern near bit TMR3IP @ ((unsigned)&IPR2*8)+1;
+[; ;pic18f4620.h: 432: extern near bit HLVDIP @ ((unsigned)&IPR2*8)+2;
+[; ;pic18f4620.h: 433: extern near bit BCLIP @ ((unsigned)&IPR2*8)+3;
+[; ;pic18f4620.h: 434: extern near bit EEIP @ ((unsigned)&IPR2*8)+4;
+[; ;pic18f4620.h: 435: extern near bit CMIP @ ((unsigned)&IPR2*8)+6;
+[; ;pic18f4620.h: 436: extern near bit OSCFIP @ ((unsigned)&IPR2*8)+7;
+[; ;pic18f4620.h: 438: extern near bit LVDIP @ ((unsigned)&IPR2*8)+2;
+[; ;pic18f4620.h: 441: extern volatile near bit CCP2IF @ ((unsigned)&PIR2*8)+0;
+[; ;pic18f4620.h: 442: extern volatile near bit TMR3IF @ ((unsigned)&PIR2*8)+1;
+[; ;pic18f4620.h: 443: extern volatile near bit HLVDIF @ ((unsigned)&PIR2*8)+2;
+[; ;pic18f4620.h: 444: extern volatile near bit BCLIF @ ((unsigned)&PIR2*8)+3;
+[; ;pic18f4620.h: 445: extern volatile near bit EEIF @ ((unsigned)&PIR2*8)+4;
+[; ;pic18f4620.h: 446: extern volatile near bit CMIF @ ((unsigned)&PIR2*8)+6;
+[; ;pic18f4620.h: 447: extern volatile near bit OSCFIF @ ((unsigned)&PIR2*8)+7;
+[; ;pic18f4620.h: 449: extern volatile near bit LVDIF @ ((unsigned)&PIR2*8)+2;
+[; ;pic18f4620.h: 452: extern near bit CCP2IE @ ((unsigned)&PIE2*8)+0;
+[; ;pic18f4620.h: 453: extern near bit TMR3IE @ ((unsigned)&PIE2*8)+1;
+[; ;pic18f4620.h: 454: extern near bit HLVDIE @ ((unsigned)&PIE2*8)+2;
+[; ;pic18f4620.h: 455: extern near bit BCLIE @ ((unsigned)&PIE2*8)+3;
+[; ;pic18f4620.h: 456: extern near bit EEIE @ ((unsigned)&PIE2*8)+4;
+[; ;pic18f4620.h: 457: extern near bit CMIE @ ((unsigned)&PIE2*8)+6;
+[; ;pic18f4620.h: 458: extern near bit OSCFIE @ ((unsigned)&PIE2*8)+7;
+[; ;pic18f4620.h: 460: extern near bit LVDIE @ ((unsigned)&PIE2*8)+2;
+[; ;pic18f4620.h: 463: extern near bit TMR1IP @ ((unsigned)&IPR1*8)+0;
+[; ;pic18f4620.h: 464: extern near bit TMR2IP @ ((unsigned)&IPR1*8)+1;
+[; ;pic18f4620.h: 465: extern near bit CCP1IP @ ((unsigned)&IPR1*8)+2;
+[; ;pic18f4620.h: 466: extern near bit SSPIP @ ((unsigned)&IPR1*8)+3;
+[; ;pic18f4620.h: 467: extern near bit TXIP @ ((unsigned)&IPR1*8)+4;
+[; ;pic18f4620.h: 468: extern near bit RCIP @ ((unsigned)&IPR1*8)+5;
+[; ;pic18f4620.h: 469: extern near bit ADIP @ ((unsigned)&IPR1*8)+6;
+[; ;pic18f4620.h: 471: extern near bit PSPIP @ ((unsigned)&IPR1*8)+7;
+[; ;pic18f4620.h: 475: extern volatile near bit TMR1IF @ ((unsigned)&PIR1*8)+0;
+[; ;pic18f4620.h: 476: extern volatile near bit TMR2IF @ ((unsigned)&PIR1*8)+1;
+[; ;pic18f4620.h: 477: extern volatile near bit CCP1IF @ ((unsigned)&PIR1*8)+2;
+[; ;pic18f4620.h: 478: extern volatile near bit SSPIF @ ((unsigned)&PIR1*8)+3;
+[; ;pic18f4620.h: 479: extern volatile near bit TXIF @ ((unsigned)&PIR1*8)+4;
+[; ;pic18f4620.h: 480: extern volatile near bit RCIF @ ((unsigned)&PIR1*8)+5;
+[; ;pic18f4620.h: 481: extern volatile near bit ADIF @ ((unsigned)&PIR1*8)+6;
+[; ;pic18f4620.h: 483: extern volatile near bit PSPIF @ ((unsigned)&PIR1*8)+7;
+[; ;pic18f4620.h: 487: extern near bit TMR1IE @ ((unsigned)&PIE1*8)+0;
+[; ;pic18f4620.h: 488: extern near bit TMR2IE @ ((unsigned)&PIE1*8)+1;
+[; ;pic18f4620.h: 489: extern near bit CCP1IE @ ((unsigned)&PIE1*8)+2;
+[; ;pic18f4620.h: 490: extern near bit SSPIE @ ((unsigned)&PIE1*8)+3;
+[; ;pic18f4620.h: 491: extern near bit TXIE @ ((unsigned)&PIE1*8)+4;
+[; ;pic18f4620.h: 492: extern near bit RCIE @ ((unsigned)&PIE1*8)+5;
+[; ;pic18f4620.h: 493: extern near bit ADIE @ ((unsigned)&PIE1*8)+6;
+[; ;pic18f4620.h: 495: extern near bit PSPIE @ ((unsigned)&PIE1*8)+7;
+[; ;pic18f4620.h: 499: extern near bit TUN0 @ ((unsigned)&OSCTUNE*8)+0;
+[; ;pic18f4620.h: 500: extern near bit TUN1 @ ((unsigned)&OSCTUNE*8)+1;
+[; ;pic18f4620.h: 501: extern near bit TUN2 @ ((unsigned)&OSCTUNE*8)+2;
+[; ;pic18f4620.h: 502: extern near bit TUN3 @ ((unsigned)&OSCTUNE*8)+3;
+[; ;pic18f4620.h: 503: extern near bit TUN4 @ ((unsigned)&OSCTUNE*8)+4;
+[; ;pic18f4620.h: 504: extern near bit PLLEN @ ((unsigned)&OSCTUNE*8)+6;
+[; ;pic18f4620.h: 505: extern near bit INTSRC @ ((unsigned)&OSCTUNE*8)+7;
+[; ;pic18f4620.h: 509: extern volatile near bit TRISE0 @ ((unsigned)&TRISE*8)+0;
+[; ;pic18f4620.h: 510: extern volatile near bit TRISE1 @ ((unsigned)&TRISE*8)+1;
+[; ;pic18f4620.h: 511: extern volatile near bit TRISE2 @ ((unsigned)&TRISE*8)+2;
+[; ;pic18f4620.h: 512: extern near bit PSPMODE @ ((unsigned)&TRISE*8)+4;
+[; ;pic18f4620.h: 513: extern volatile near bit IBOV @ ((unsigned)&TRISE*8)+5;
+[; ;pic18f4620.h: 514: extern volatile near bit OBF @ ((unsigned)&TRISE*8)+6;
+[; ;pic18f4620.h: 515: extern volatile near bit IBF @ ((unsigned)&TRISE*8)+7;
+[; ;pic18f4620.h: 518: extern volatile near bit TRISD0 @ ((unsigned)&TRISD*8)+0;
+[; ;pic18f4620.h: 519: extern volatile near bit TRISD1 @ ((unsigned)&TRISD*8)+1;
+[; ;pic18f4620.h: 520: extern volatile near bit TRISD2 @ ((unsigned)&TRISD*8)+2;
+[; ;pic18f4620.h: 521: extern volatile near bit TRISD3 @ ((unsigned)&TRISD*8)+3;
+[; ;pic18f4620.h: 522: extern volatile near bit TRISD4 @ ((unsigned)&TRISD*8)+4;
+[; ;pic18f4620.h: 523: extern volatile near bit TRISD5 @ ((unsigned)&TRISD*8)+5;
+[; ;pic18f4620.h: 524: extern volatile near bit TRISD6 @ ((unsigned)&TRISD*8)+6;
+[; ;pic18f4620.h: 525: extern volatile near bit TRISD7 @ ((unsigned)&TRISD*8)+7;
+[; ;pic18f4620.h: 529: extern volatile near bit TRISC0 @ ((unsigned)&TRISC*8)+0;
+[; ;pic18f4620.h: 530: extern volatile near bit TRISC1 @ ((unsigned)&TRISC*8)+1;
+[; ;pic18f4620.h: 531: extern volatile near bit TRISC2 @ ((unsigned)&TRISC*8)+2;
+[; ;pic18f4620.h: 532: extern volatile near bit TRISC3 @ ((unsigned)&TRISC*8)+3;
+[; ;pic18f4620.h: 533: extern volatile near bit TRISC4 @ ((unsigned)&TRISC*8)+4;
+[; ;pic18f4620.h: 534: extern volatile near bit TRISC5 @ ((unsigned)&TRISC*8)+5;
+[; ;pic18f4620.h: 535: extern volatile near bit TRISC6 @ ((unsigned)&TRISC*8)+6;
+[; ;pic18f4620.h: 536: extern volatile near bit TRISC7 @ ((unsigned)&TRISC*8)+7;
+[; ;pic18f4620.h: 539: extern volatile near bit TRISB0 @ ((unsigned)&TRISB*8)+0;
+[; ;pic18f4620.h: 540: extern volatile near bit TRISB1 @ ((unsigned)&TRISB*8)+1;
+[; ;pic18f4620.h: 541: extern volatile near bit TRISB2 @ ((unsigned)&TRISB*8)+2;
+[; ;pic18f4620.h: 542: extern volatile near bit TRISB3 @ ((unsigned)&TRISB*8)+3;
+[; ;pic18f4620.h: 543: extern volatile near bit TRISB4 @ ((unsigned)&TRISB*8)+4;
+[; ;pic18f4620.h: 544: extern volatile near bit TRISB5 @ ((unsigned)&TRISB*8)+5;
+[; ;pic18f4620.h: 545: extern volatile near bit TRISB6 @ ((unsigned)&TRISB*8)+6;
+[; ;pic18f4620.h: 546: extern volatile near bit TRISB7 @ ((unsigned)&TRISB*8)+7;
+[; ;pic18f4620.h: 549: extern volatile near bit TRISA0 @ ((unsigned)&TRISA*8)+0;
+[; ;pic18f4620.h: 550: extern volatile near bit TRISA1 @ ((unsigned)&TRISA*8)+1;
+[; ;pic18f4620.h: 551: extern volatile near bit TRISA2 @ ((unsigned)&TRISA*8)+2;
+[; ;pic18f4620.h: 552: extern volatile near bit TRISA3 @ ((unsigned)&TRISA*8)+3;
+[; ;pic18f4620.h: 553: extern volatile near bit TRISA4 @ ((unsigned)&TRISA*8)+4;
+[; ;pic18f4620.h: 554: extern volatile near bit TRISA5 @ ((unsigned)&TRISA*8)+5;
+[; ;pic18f4620.h: 555: extern volatile near bit TRISA6 @ ((unsigned)&TRISA*8)+6;
+[; ;pic18f4620.h: 556: extern volatile near bit TRISA7 @ ((unsigned)&TRISA*8)+7;
+[; ;pic18f4620.h: 560: extern volatile near bit LATE0 @ ((unsigned)&LATE*8)+0;
+[; ;pic18f4620.h: 561: extern volatile near bit LATE1 @ ((unsigned)&LATE*8)+1;
+[; ;pic18f4620.h: 562: extern volatile near bit LATE2 @ ((unsigned)&LATE*8)+2;
+[; ;pic18f4620.h: 563: extern volatile near bit LATE3 @ ((unsigned)&LATE*8)+3;
+[; ;pic18f4620.h: 566: extern volatile near bit LATD0 @ ((unsigned)&LATD*8)+0;
+[; ;pic18f4620.h: 567: extern volatile near bit LATD1 @ ((unsigned)&LATD*8)+1;
+[; ;pic18f4620.h: 568: extern volatile near bit LATD2 @ ((unsigned)&LATD*8)+2;
+[; ;pic18f4620.h: 569: extern volatile near bit LATD3 @ ((unsigned)&LATD*8)+3;
+[; ;pic18f4620.h: 570: extern volatile near bit LATD4 @ ((unsigned)&LATD*8)+4;
+[; ;pic18f4620.h: 571: extern volatile near bit LATD5 @ ((unsigned)&LATD*8)+5;
+[; ;pic18f4620.h: 572: extern volatile near bit LATD6 @ ((unsigned)&LATD*8)+6;
+[; ;pic18f4620.h: 573: extern volatile near bit LATD7 @ ((unsigned)&LATD*8)+7;
+[; ;pic18f4620.h: 577: extern volatile near bit LATC0 @ ((unsigned)&LATC*8)+0;
+[; ;pic18f4620.h: 578: extern volatile near bit LATC1 @ ((unsigned)&LATC*8)+1;
+[; ;pic18f4620.h: 579: extern volatile near bit LATC2 @ ((unsigned)&LATC*8)+2;
+[; ;pic18f4620.h: 580: extern volatile near bit LATC3 @ ((unsigned)&LATC*8)+3;
+[; ;pic18f4620.h: 581: extern volatile near bit LATC4 @ ((unsigned)&LATC*8)+4;
+[; ;pic18f4620.h: 582: extern volatile near bit LATC5 @ ((unsigned)&LATC*8)+5;
+[; ;pic18f4620.h: 583: extern volatile near bit LATC6 @ ((unsigned)&LATC*8)+6;
+[; ;pic18f4620.h: 584: extern volatile near bit LATC7 @ ((unsigned)&LATC*8)+7;
+[; ;pic18f4620.h: 587: extern volatile near bit LATB0 @ ((unsigned)&LATB*8)+0;
+[; ;pic18f4620.h: 588: extern volatile near bit LATB1 @ ((unsigned)&LATB*8)+1;
+[; ;pic18f4620.h: 589: extern volatile near bit LATB2 @ ((unsigned)&LATB*8)+2;
+[; ;pic18f4620.h: 590: extern volatile near bit LATB3 @ ((unsigned)&LATB*8)+3;
+[; ;pic18f4620.h: 591: extern volatile near bit LATB4 @ ((unsigned)&LATB*8)+4;
+[; ;pic18f4620.h: 592: extern volatile near bit LATB5 @ ((unsigned)&LATB*8)+5;
+[; ;pic18f4620.h: 593: extern volatile near bit LATB6 @ ((unsigned)&LATB*8)+6;
+[; ;pic18f4620.h: 594: extern volatile near bit LATB7 @ ((unsigned)&LATB*8)+7;
+[; ;pic18f4620.h: 597: extern volatile near bit LATA0 @ ((unsigned)&LATA*8)+0;
+[; ;pic18f4620.h: 598: extern volatile near bit LATA1 @ ((unsigned)&LATA*8)+1;
+[; ;pic18f4620.h: 599: extern volatile near bit LATA2 @ ((unsigned)&LATA*8)+2;
+[; ;pic18f4620.h: 600: extern volatile near bit LATA3 @ ((unsigned)&LATA*8)+3;
+[; ;pic18f4620.h: 601: extern volatile near bit LATA4 @ ((unsigned)&LATA*8)+4;
+[; ;pic18f4620.h: 602: extern volatile near bit LATA5 @ ((unsigned)&LATA*8)+5;
+[; ;pic18f4620.h: 603: extern volatile near bit LATA6 @ ((unsigned)&LATA*8)+6;
+[; ;pic18f4620.h: 604: extern volatile near bit LATA7 @ ((unsigned)&LATA*8)+7;
+[; ;pic18f4620.h: 608: extern volatile near bit RE0 @ ((unsigned)&PORTE*8)+0;
+[; ;pic18f4620.h: 609: extern volatile near bit RE1 @ ((unsigned)&PORTE*8)+1;
+[; ;pic18f4620.h: 610: extern volatile near bit RE2 @ ((unsigned)&PORTE*8)+2;
+[; ;pic18f4620.h: 612: extern volatile near bit RE3 @ ((unsigned)&PORTE*8)+3;
+[; ;pic18f4620.h: 616: extern volatile near bit RD0 @ ((unsigned)&PORTD*8)+0;
+[; ;pic18f4620.h: 617: extern volatile near bit RD1 @ ((unsigned)&PORTD*8)+1;
+[; ;pic18f4620.h: 618: extern volatile near bit RD2 @ ((unsigned)&PORTD*8)+2;
+[; ;pic18f4620.h: 619: extern volatile near bit RD3 @ ((unsigned)&PORTD*8)+3;
+[; ;pic18f4620.h: 620: extern volatile near bit RD4 @ ((unsigned)&PORTD*8)+4;
+[; ;pic18f4620.h: 621: extern volatile near bit RD5 @ ((unsigned)&PORTD*8)+5;
+[; ;pic18f4620.h: 622: extern volatile near bit RD6 @ ((unsigned)&PORTD*8)+6;
+[; ;pic18f4620.h: 623: extern volatile near bit RD7 @ ((unsigned)&PORTD*8)+7;
+[; ;pic18f4620.h: 627: extern volatile near bit RC0 @ ((unsigned)&PORTC*8)+0;
+[; ;pic18f4620.h: 628: extern volatile near bit RC1 @ ((unsigned)&PORTC*8)+1;
+[; ;pic18f4620.h: 629: extern volatile near bit RC2 @ ((unsigned)&PORTC*8)+2;
+[; ;pic18f4620.h: 630: extern volatile near bit RC3 @ ((unsigned)&PORTC*8)+3;
+[; ;pic18f4620.h: 631: extern volatile near bit RC4 @ ((unsigned)&PORTC*8)+4;
+[; ;pic18f4620.h: 632: extern volatile near bit RC5 @ ((unsigned)&PORTC*8)+5;
+[; ;pic18f4620.h: 633: extern volatile near bit RC6 @ ((unsigned)&PORTC*8)+6;
+[; ;pic18f4620.h: 634: extern volatile near bit RC7 @ ((unsigned)&PORTC*8)+7;
+[; ;pic18f4620.h: 637: extern volatile near bit RB0 @ ((unsigned)&PORTB*8)+0;
+[; ;pic18f4620.h: 638: extern volatile near bit RB1 @ ((unsigned)&PORTB*8)+1;
+[; ;pic18f4620.h: 639: extern volatile near bit RB2 @ ((unsigned)&PORTB*8)+2;
+[; ;pic18f4620.h: 640: extern volatile near bit RB3 @ ((unsigned)&PORTB*8)+3;
+[; ;pic18f4620.h: 641: extern volatile near bit RB4 @ ((unsigned)&PORTB*8)+4;
+[; ;pic18f4620.h: 642: extern volatile near bit RB5 @ ((unsigned)&PORTB*8)+5;
+[; ;pic18f4620.h: 643: extern volatile near bit RB6 @ ((unsigned)&PORTB*8)+6;
+[; ;pic18f4620.h: 644: extern volatile near bit RB7 @ ((unsigned)&PORTB*8)+7;
+[; ;pic18f4620.h: 647: extern volatile near bit RA0 @ ((unsigned)&PORTA*8)+0;
+[; ;pic18f4620.h: 648: extern volatile near bit RA1 @ ((unsigned)&PORTA*8)+1;
+[; ;pic18f4620.h: 649: extern volatile near bit RA2 @ ((unsigned)&PORTA*8)+2;
+[; ;pic18f4620.h: 650: extern volatile near bit RA3 @ ((unsigned)&PORTA*8)+3;
+[; ;pic18f4620.h: 651: extern volatile near bit RA4 @ ((unsigned)&PORTA*8)+4;
+[; ;pic18f4620.h: 652: extern volatile near bit RA5 @ ((unsigned)&PORTA*8)+5;
+[; ;pic18f4620.h: 653: extern volatile near bit RA6 @ ((unsigned)&PORTA*8)+6;
+[; ;pic18f4620.h: 654: extern volatile near bit RA7 @ ((unsigned)&PORTA*8)+7;
+[; ;pic18.h: 414: extern unsigned char idloc_read(unsigned char reg_no);
+[; ;pic18.h: 415: extern void idloc_write(unsigned char reg_no,unsigned char data);
+[; ;pic18.h: 535: extern unsigned char eeprom_read(unsigned int address);
+[; ;pic18.h: 536: extern void eeprom_write(unsigned int address,unsigned char data);
+[; ;pic18.h: 540: extern unsigned char flash_read(unsigned long addr);
+[; ;pic18.h: 544: extern void flash_write(const unsigned char *,unsigned int,far unsigned char *);
+[; ;pic18.h: 547: extern void flash_erase(unsigned long addr);
+[; ;pic18.h: 565: extern unsigned int config_read(unsigned char reg_no);
+[; ;pic18.h: 566: extern void config_write(unsigned char reg_no, unsigned int dataword);
+[; ;pic18.h: 569: extern unsigned int device_id_read(void);
+[; ;pic18.h: 572: extern void initiate_write(void);
+[; ;pic18.h: 591: extern unsigned char checksum8(unsigned long startAddr, unsigned long length);
+[; ;pic18.h: 592: extern unsigned int checksum16(unsigned long startAddr, unsigned long length);
+[; ;pic18.h: 593: extern unsigned long checksum32(unsigned long startAddr, unsigned long length);
+[; ;pic18.h: 606: extern void _delay(unsigned long);
+[; ;pic18.h: 608: extern void _delay3(unsigned char);
+[; ;math.h: 1: extern double fabs(double);
+[; ;math.h: 2: extern double floor(double);
+[; ;math.h: 3: extern double ceil(double);
+[; ;math.h: 4: extern double modf(double, double *);
+[; ;math.h: 5: extern double sqrt(double);
+[; ;math.h: 6: extern double atof(const char *);
+[; ;math.h: 7: extern double sin(double);
+[; ;math.h: 8: extern double cos(double);
+[; ;math.h: 9: extern double tan(double);
+[; ;math.h: 10: extern double asin(double);
+[; ;math.h: 11: extern double acos(double);
+[; ;math.h: 12: extern double atan(double);
+[; ;math.h: 13: extern double atan2(double, double);
+[; ;math.h: 14: extern double log(double);
+[; ;math.h: 15: extern double log10(double);
+[; ;math.h: 16: extern double pow(double, double);
+[; ;math.h: 17: extern double exp(double);
+[; ;math.h: 18: extern double sinh(double);
+[; ;math.h: 19: extern double cosh(double);
+[; ;math.h: 20: extern double tanh(double);
+[; ;math.h: 21: extern double eval_poly(double, const double *, int);
+[; ;math.h: 22: extern double frexp(double, int *);
+[; ;math.h: 23: extern double ldexp(double, int);
+[; ;math.h: 24: extern double fmod(double, double);
+[; ;math.h: 25: extern double trunc(double);
+[; ;math.h: 26: extern double round(double);
+[; ;function.h: 3: void Wait_ms(unsigned int X);
+[; ;function.h: 4: void hex2dec(unsigned int X, unsigned char *A[5]);
+[; ;function.h: 5: unsigned char ascii(unsigned char Data);
+[; ;lcd_portd.h: 1: void lcd_inst(unsigned char c);
+[; ;lcd_portd.h: 2: void lcd_data(unsigned char c);
+[; ;lcd_portd.h: 3: void lcd_init(void);
+[; ;lcd_portd.h: 4: void lcd_hello(void);
+[; ;lcd_portd.h: 5: void lcd_row(unsigned c);
+[; ;lcd_portd.h: 6: void lcd_clear(void);
+[; ;lcd_portd.h: 7: unsigned char bin2hex(unsigned char c);
+"14 Z:\Final_Code\function.c
+[v _hex2dec `(v 1 ef2`ui`**uc ]
+{
+[; ;function.c: 13: void hex2dec(unsigned int X, unsigned char *A[5])
+[; ;function.c: 14: {
+[e :U _hex2dec ]
+[v _X `ui 1 r1 ]
+[v _A `**uc 1 r2 ]
+[f ]
+"15
+[v _Y `ui 1 a ]
+"16
+[v _a4 `uc 1 a ]
+[v _a3 `uc 1 a ]
+[v _a2 `uc 1 a ]
+[v _a1 `uc 1 a ]
+[v _a0 `uc 1 a ]
+[; ;function.c: 15: unsigned int Y;
+[; ;function.c: 16: unsigned char a4, a3, a2, a1, a0;
+[; ;function.c: 18: a4 = X / 10000;
+"18
+[e = _a4 -> / _X -> -> 10000 `i `ui `uc ]
+[; ;function.c: 19: Y = a4;
+"19
+[e = _Y -> _a4 `ui ]
+[; ;function.c: 20: X -= 10000 * Y;
+"20
+[e =- _X * -> -> 10000 `i `ui _Y ]
+[; ;function.c: 22: a3 = X / 1000;
+"22
+[e = _a3 -> / _X -> -> 1000 `i `ui `uc ]
+[; ;function.c: 23: Y = a3;
+"23
+[e = _Y -> _a3 `ui ]
+[; ;function.c: 24: X -= 1000 * Y;
+"24
+[e =- _X * -> -> 1000 `i `ui _Y ]
+[; ;function.c: 26: a2 = X / 100;
+"26
+[e = _a2 -> / _X -> -> 100 `i `ui `uc ]
+[; ;function.c: 27: Y = a2;
+"27
+[e = _Y -> _a2 `ui ]
+[; ;function.c: 28: X -= 100 * Y;
+"28
+[e =- _X * -> -> 100 `i `ui _Y ]
+[; ;function.c: 30: a1 = X / 10;
+"30
+[e = _a1 -> / _X -> -> 10 `i `ui `uc ]
+[; ;function.c: 31: Y = a1;
+"31
+[e = _Y -> _a1 `ui ]
+[; ;function.c: 32: X -= 10 * Y;
+"32
+[e =- _X * -> -> 10 `i `ui _Y ]
+[; ;function.c: 34: a0 = X;
+"34
+[e = _a0 -> _X `uc ]
+[; ;function.c: 36: A[4] = a4;
+"36
+[e = *U + _A * -> -> 4 `i `x -> -> # *U _A `i `x -> _a4 `*uc ]
+[; ;function.c: 37: A[3] = a3;
+"37
+[e = *U + _A * -> -> 3 `i `x -> -> # *U _A `i `x -> _a3 `*uc ]
+[; ;function.c: 38: A[2] = a2;
+"38
+[e = *U + _A * -> -> 2 `i `x -> -> # *U _A `i `x -> _a2 `*uc ]
+[; ;function.c: 39: A[1] = a1;
+"39
+[e = *U + _A * -> -> 1 `i `x -> -> # *U _A `i `x -> _a1 `*uc ]
+[; ;function.c: 40: A[0] = a0;
+"40
+[e = *U + _A * -> -> 0 `i `x -> -> # *U _A `i `x -> _a0 `*uc ]
+[; ;function.c: 41: }
+"41
+[e :UE 109 ]
+}
+"46
+[v _Wait_ms `(v 1 ef1`ui ]
+{
+[; ;function.c: 45: void Wait_ms(unsigned int X)
+[; ;function.c: 46: {
+[e :U _Wait_ms ]
+[v _X `ui 1 r1 ]
+[f ]
+"47
+[v _Y `ui 1 a ]
+[; ;function.c: 47: unsigned int Y;
+[; ;function.c: 49: do {
+"49
+[e :U 113 ]
+{
+[; ;function.c: 50: Y = 500;
+"50
+[e = _Y -> -> 500 `i `ui ]
+[; ;function.c: 51: do {
+"51
+[e :U 116 ]
+{
+[; ;function.c: 52: Y -= 1;
+"52
+[e =- _Y -> -> 1 `i `ui ]
+"53
+}
+[; ;function.c: 53: } while (Y > 0);
+[e $ > _Y -> -> 0 `i `ui 116  ]
+[e :U 115 ]
+[; ;function.c: 54: X -= 1;
+"54
+[e =- _X -> -> 1 `i `ui ]
+"55
+}
+[; ;function.c: 55: } while (X > 0);
+[e $ > _X -> -> 0 `i `ui 113  ]
+[e :U 112 ]
+[; ;function.c: 56: }
+"56
+[e :UE 110 ]
+}
+"61
+[v _ascii `(uc 1 ef1`uc ]
+{
+[; ;function.c: 60: unsigned char ascii(unsigned char c)
+[; ;function.c: 61: {
+[e :U _ascii ]
+[v _c `uc 1 r1 ]
+[f ]
+[; ;function.c: 62: c = c & 0x0F;
+"62
+[e = _c -> & -> _c `i -> 15 `i `uc ]
+[; ;function.c: 63: if (c < 10) return (c+48);
+"63
+[e $ ! < -> _c `i -> 10 `i 118  ]
+[e ) -> + -> _c `i -> 48 `i `uc ]
+[e $UE 117  ]
+[e $U 119  ]
+"64
+[e :U 118 ]
+[; ;function.c: 64: else return(c + 55);
+[e ) -> + -> _c `i -> 55 `i `uc ]
+[e $UE 117  ]
+[e :U 119 ]
+[; ;function.c: 65: }
+"65
+[e :UE 117 ]
+}
+[; ;lcd_portd.c: 14: extern volatile near unsigned char PORTF @ 0xF7F;
+[; ;lcd_portd.c: 15: extern volatile near bit RF0 @ ((unsigned)&PORTF*8)+0;
+[; ;lcd_portd.c: 16: extern volatile near bit RF1 @ ((unsigned)&PORTF*8)+1;
+[; ;lcd_portd.c: 17: extern volatile near bit RF2 @ ((unsigned)&PORTF*8)+2;
+[; ;lcd_portd.c: 18: extern volatile near bit RF3 @ ((unsigned)&PORTF*8)+3;
+[; ;lcd_portd.c: 19: extern volatile near bit RF4 @ ((unsigned)&PORTF*8)+4;
+[; ;lcd_portd.c: 20: extern volatile near bit RF5 @ ((unsigned)&PORTF*8)+5;
+[; ;lcd_portd.c: 21: extern volatile near bit RF6 @ ((unsigned)&PORTF*8)+6;
+[; ;lcd_portd.c: 22: extern volatile near bit RF7 @ ((unsigned)&PORTF*8)+7;
+"26 Z:\Final_Code\lcd_portd.c
+[v _LCD_Pause `(v 1 ef ]
+{
+[; ;lcd_portd.c: 25: void LCD_Pause(void)
+[; ;lcd_portd.c: 26: {
+[e :U _LCD_Pause ]
+[f ]
+"27
+[v _x `uc 1 a ]
+[; ;lcd_portd.c: 27: unsigned char x;
+[; ;lcd_portd.c: 28: for (x=0; x<20; x++);
+"28
+{
+[e = _x -> -> 0 `i `uc ]
+[e $ < -> _x `i -> 20 `i 121  ]
+[e $U 122  ]
+[e :U 121 ]
+[e ++ _x -> -> 1 `i `uc ]
+[e $ < -> _x `i -> 20 `i 121  ]
+[e :U 122 ]
+}
+[; ;lcd_portd.c: 29: }
+"29
+[e :UE 120 ]
+}
+"33
+[v _LCD_Strobe `(v 1 ef ]
+{
+[; ;lcd_portd.c: 32: void LCD_Strobe(void)
+[; ;lcd_portd.c: 33: {
+[e :U _LCD_Strobe ]
+[f ]
+[; ;lcd_portd.c: 34: RF3 = 0;
+"34
+[e = _RF3 -> -> 0 `i `b ]
+[; ;lcd_portd.c: 35: PORTD = PORTF;
+"35
+[e = _PORTD _PORTF ]
+[; ;lcd_portd.c: 36: LCD_Pause();
+"36
+[e ( _LCD_Pause ..  ]
+[; ;lcd_portd.c: 37: RF3 = 1;
+"37
+[e = _RF3 -> -> 1 `i `b ]
+[; ;lcd_portd.c: 38: PORTD = PORTF;
+"38
+[e = _PORTD _PORTF ]
+[; ;lcd_portd.c: 39: LCD_Pause();
+"39
+[e ( _LCD_Pause ..  ]
+[; ;lcd_portd.c: 40: RF3 = 0;
+"40
+[e = _RF3 -> -> 0 `i `b ]
+[; ;lcd_portd.c: 41: PORTD = PORTF;
+"41
+[e = _PORTD _PORTF ]
+[; ;lcd_portd.c: 42: LCD_Pause();
+"42
+[e ( _LCD_Pause ..  ]
+[; ;lcd_portd.c: 43: }
+"43
+[e :UE 124 ]
+}
+"48
+[v _LCD_Inst `(v 1 ef1`uc ]
+{
+[; ;lcd_portd.c: 47: void LCD_Inst(unsigned char c)
+[; ;lcd_portd.c: 48: {
+[e :U _LCD_Inst ]
+[v _c `uc 1 r1 ]
+[f ]
+[; ;lcd_portd.c: 49: RF2 = 0;
+"49
+[e = _RF2 -> -> 0 `i `b ]
+[; ;lcd_portd.c: 50: PORTF = (PORTF & 0x0F) | (c & 0xF0);
+"50
+[e = _PORTF -> | & -> _PORTF `i -> 15 `i & -> _c `i -> 240 `i `uc ]
+[; ;lcd_portd.c: 51: LCD_Strobe();
+"51
+[e ( _LCD_Strobe ..  ]
+[; ;lcd_portd.c: 52: PORTF = (PORTF & 0x0F) | ((c<<4) & 0xF0);
+"52
+[e = _PORTF -> | & -> _PORTF `i -> 15 `i & << -> _c `i -> 4 `i -> 240 `i `uc ]
+[; ;lcd_portd.c: 53: LCD_Strobe();
+"53
+[e ( _LCD_Strobe ..  ]
+[; ;lcd_portd.c: 54: Wait_ms(100);
+"54
+[e ( _Wait_ms (1 -> -> 100 `i `ui ]
+[; ;lcd_portd.c: 55: }
+"55
+[e :UE 125 ]
+}
+"58
+[v _LCD_Move `(v 1 ef2`uc`uc ]
+{
+[; ;lcd_portd.c: 57: void LCD_Move(unsigned char Row, unsigned char Col)
+[; ;lcd_portd.c: 58: {
+[e :U _LCD_Move ]
+[v _Row `uc 1 r1 ]
+[v _Col `uc 1 r2 ]
+[f ]
+[; ;lcd_portd.c: 59: if (Row == 0) LCD_Inst(0x80 + Col);
+"59
+[e $ ! == -> _Row `i -> 0 `i 127  ]
+[e ( _LCD_Inst (1 -> + -> 128 `i -> _Col `i `uc ]
+[e :U 127 ]
+[; ;lcd_portd.c: 60: if (Row == 1) LCD_Inst(0xC0 + Col);
+"60
+[e $ ! == -> _Row `i -> 1 `i 128  ]
+[e ( _LCD_Inst (1 -> + -> 192 `i -> _Col `i `uc ]
+[e :U 128 ]
+[; ;lcd_portd.c: 61: if (Row == 2) LCD_Inst(0x94 + Col);
+"61
+[e $ ! == -> _Row `i -> 2 `i 129  ]
+[e ( _LCD_Inst (1 -> + -> 148 `i -> _Col `i `uc ]
+[e :U 129 ]
+[; ;lcd_portd.c: 62: if (Row == 3) LCD_Inst(0xD4 + Col);
+"62
+[e $ ! == -> _Row `i -> 3 `i 130  ]
+[e ( _LCD_Inst (1 -> + -> 212 `i -> _Col `i `uc ]
+[e :U 130 ]
+[; ;lcd_portd.c: 63: }
+"63
+[e :UE 126 ]
+}
+"66
+[v _LCD_Write `(v 1 ef1`uc ]
+{
+[; ;lcd_portd.c: 65: void LCD_Write(unsigned char c)
+[; ;lcd_portd.c: 66: {
+[e :U _LCD_Write ]
+[v _c `uc 1 r1 ]
+[f ]
+[; ;lcd_portd.c: 67: RF2 = 1;
+"67
+[e = _RF2 -> -> 1 `i `b ]
+[; ;lcd_portd.c: 68: PORTF = (PORTF & 0x0F) | (c & 0xF0);
+"68
+[e = _PORTF -> | & -> _PORTF `i -> 15 `i & -> _c `i -> 240 `i `uc ]
+[; ;lcd_portd.c: 69: LCD_Strobe();
+"69
+[e ( _LCD_Strobe ..  ]
+[; ;lcd_portd.c: 70: PORTF = (PORTF & 0x0F) | ((c<<4) & 0xF0);
+"70
+[e = _PORTF -> | & -> _PORTF `i -> 15 `i & << -> _c `i -> 4 `i -> 240 `i `uc ]
+[; ;lcd_portd.c: 71: LCD_Strobe();
+"71
+[e ( _LCD_Strobe ..  ]
+[; ;lcd_portd.c: 73: }
+"73
+[e :UE 131 ]
+}
+"77
+[v _LCD_Init `(v 1 ef ]
+{
+[; ;lcd_portd.c: 76: void LCD_Init(void)
+[; ;lcd_portd.c: 77: {
+[e :U _LCD_Init ]
+[f ]
+[; ;lcd_portd.c: 78: TRISD = 0x03;
+"78
+[e = _TRISD -> -> 3 `i `uc ]
+[; ;lcd_portd.c: 80: LCD_Inst(0x33);
+"80
+[e ( _LCD_Inst (1 -> -> 51 `i `uc ]
+[; ;lcd_portd.c: 81: LCD_Inst(0x32);
+"81
+[e ( _LCD_Inst (1 -> -> 50 `i `uc ]
+[; ;lcd_portd.c: 82: LCD_Inst(0x28);
+"82
+[e ( _LCD_Inst (1 -> -> 40 `i `uc ]
+[; ;lcd_portd.c: 83: LCD_Inst(0x0E);
+"83
+[e ( _LCD_Inst (1 -> -> 14 `i `uc ]
+[; ;lcd_portd.c: 84: LCD_Inst(0x01);
+"84
+[e ( _LCD_Inst (1 -> -> 1 `i `uc ]
+[; ;lcd_portd.c: 85: LCD_Inst(0x06);
+"85
+[e ( _LCD_Inst (1 -> -> 6 `i `uc ]
+[; ;lcd_portd.c: 86: }
+"86
+[e :UE 132 ]
+}
+[; ;FinalV3.C: 67: unsigned char x, Break;
+[; ;FinalV3.C: 68: unsigned int IR_program[120];
+[; ;FinalV3.C: 72: unsigned int A1, A2, A3, A4, A5;
+[i _A_1_8
+:U ..
+"73 Z:\Final_Code\FinalV3.C
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 7 `i `ui
+-> -> 11 `i `ui
+-> -> 13 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 21 `i `ui
+-> -> 25 `i `ui
+-> -> 27 `i `ui
+-> -> 29 `i `ui
+-> -> 33 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+..
+]
+[; ;FinalV3.C: 73: unsigned int A_1_8[16] = {1, 3, 7, 11, 13, 15, 17, 19, 21, 25, 27, 29, 33, 37, 41, 45};
+[i _A1_ON
+:U ..
+"74
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 5 `i `ui
+-> -> 7 `i `ui
+-> -> 9 `i `ui
+-> -> 11 `i `ui
+-> -> 13 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 21 `i `ui
+-> -> 25 `i `ui
+-> -> 29 `i `ui
+-> -> 33 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 74: unsigned int A1_ON[18] = {1, 3, 5, 7, 9, 11, 13, 15, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53};
+[i _A1_OFF
+:U ..
+"75
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 5 `i `ui
+-> -> 9 `i `ui
+-> -> 11 `i `ui
+-> -> 13 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 23 `i `ui
+-> -> 27 `i `ui
+-> -> 29 `i `ui
+-> -> 33 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 75: unsigned int A1_OFF[18] = {1, 3, 5, 9, 11, 13, 15, 17, 19, 23, 27, 29, 33, 37, 41, 45, 49, 53};
+[i _A2_ON
+:U ..
+"76
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 5 `i `ui
+-> -> 7 `i `ui
+-> -> 11 `i `ui
+-> -> 13 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 23 `i `ui
+-> -> 27 `i `ui
+-> -> 31 `i `ui
+-> -> 33 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 76: unsigned int A2_ON[18] = {1, 3, 5, 7, 11, 13, 15, 17, 19, 23, 27, 31, 33, 37, 41, 45, 49, 53};
+[i _A2_OFF
+:U ..
+"77
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 5 `i `ui
+-> -> 9 `i `ui
+-> -> 13 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 21 `i `ui
+-> -> 25 `i `ui
+-> -> 29 `i `ui
+-> -> 31 `i `ui
+-> -> 33 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 77: unsigned int A2_OFF[18] ={1, 3, 5, 9, 13, 15, 17, 19, 21, 25, 29, 31, 33, 37, 41, 45, 49, 53};
+[i _A3_ON
+:U ..
+"78
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 5 `i `ui
+-> -> 7 `i `ui
+-> -> 9 `i `ui
+-> -> 13 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 23 `i `ui
+-> -> 27 `i `ui
+-> -> 31 `i `ui
+-> -> 35 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 78: unsigned int A3_ON[18] = {1, 3, 5, 7, 9, 13, 15, 17, 19, 23, 27, 31, 35, 37, 41, 45, 49, 53};
+[i _A3_OFF
+:U ..
+"79
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 5 `i `ui
+-> -> 9 `i `ui
+-> -> 11 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 21 `i `ui
+-> -> 25 `i `ui
+-> -> 29 `i `ui
+-> -> 31 `i `ui
+-> -> 35 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 79: unsigned int A3_OFF[18] ={1, 3, 5, 9, 11, 15, 17, 19, 21, 25, 29, 31, 35, 37, 41, 45, 49, 53};
+[i _A4_ON
+:U ..
+"80
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 5 `i `ui
+-> -> 7 `i `ui
+-> -> 11 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 21 `i `ui
+-> -> 25 `i `ui
+-> -> 29 `i `ui
+-> -> 33 `i `ui
+-> -> 35 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 80: unsigned int A4_ON[18] = {1, 3, 5, 7, 11, 15, 17, 19, 21, 25, 29, 33, 35, 37, 41, 45, 49, 53};
+[i _A4_OFF
+:U ..
+"81
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 5 `i `ui
+-> -> 9 `i `ui
+-> -> 13 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 21 `i `ui
+-> -> 23 `i `ui
+-> -> 27 `i `ui
+-> -> 31 `i `ui
+-> -> 33 `i `ui
+-> -> 35 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 81: unsigned int A4_OFF[18] ={1, 3, 5, 9, 13, 17, 19, 21, 23, 27, 31, 33, 35, 37, 41, 45, 49, 53};
+[i _A5_ON
+:U ..
+"82
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 7 `i `ui
+-> -> 9 `i `ui
+-> -> 11 `i `ui
+-> -> 13 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 23 `i `ui
+-> -> 25 `i `ui
+-> -> 29 `i `ui
+-> -> 33 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 82: unsigned int A5_ON[18] = {1, 3, 7, 9, 11, 13, 15, 17, 19, 23, 25, 29, 33, 37, 41, 45, 49, 53};
+[i _A5_OFF
+:U ..
+"83
+-> -> 1 `i `ui
+-> -> 3 `i `ui
+-> -> 7 `i `ui
+-> -> 11 `i `ui
+-> -> 13 `i `ui
+-> -> 15 `i `ui
+-> -> 17 `i `ui
+-> -> 19 `i `ui
+-> -> 21 `i `ui
+-> -> 25 `i `ui
+-> -> 27 `i `ui
+-> -> 29 `i `ui
+-> -> 33 `i `ui
+-> -> 37 `i `ui
+-> -> 41 `i `ui
+-> -> 45 `i `ui
+-> -> 49 `i `ui
+-> -> 53 `i `ui
+..
+]
+[; ;FinalV3.C: 83: unsigned int A5_OFF[18] ={1, 3, 7, 11, 13, 15, 17, 19, 21, 25, 27, 29, 33, 37, 41, 45, 49, 53};
+[; ;FinalV3.C: 84: unsigned int RF_signal_toggle[18];
+[; ;FinalV3.C: 85: unsigned int y, f;
+[; ;FinalV3.C: 86: unsigned int Time;
+[; ;FinalV3.C: 88: unsigned int Color, RED, BLUE, GREEN;
+[; ;FinalV3.C: 89: unsigned int Count;
+[; ;FinalV3.C: 90: unsigned char R, B, G, Dnr, Dnb, Dng;
+[; ;FinalV3.C: 91: unsigned char soothing, glower, LED;
+[; ;FinalV3.C: 93: unsigned int i, Module;
+[; ;FinalV3.C: 94: unsigned char z0, z1, Move, Menu, Sub, Cat, Com;
+[; ;FinalV3.C: 95: unsigned long T;
+[i _A
+:U ..
+"97
+-> -> 16 `i `uc
+-> -> 27 `i `uc
+-> -> 40 `i `uc
+-> -> 52 `i `uc
+-> -> 64 `i `uc
+-> -> 75 `i `uc
+-> -> 88 `i `uc
+-> -> 100 `i `uc
+-> -> 114 `i `uc
+-> -> 127 `i `uc
+-> -> 143 `i `uc
+-> -> 160 `i `uc
+-> -> 174 `i `uc
+..
+]
+[; ;FinalV3.C: 97: unsigned char A[]={0x10,0x1B,0x28,0x34,0x40,0x4B,0x58,0x64,0x72,0x7F,0x8F,0xA0,0xAE};
+"103
+[v F1594 `(v 1 tf ]
+[v _IntServe `IF1594 1 e ]
+{
+[; ;FinalV3.C: 103: void interrupt IntServe(void){
+[e :U _IntServe ]
+[f ]
+[; ;FinalV3.C: 106: if (TMR0IF)
+"106
+[e $ ! _TMR0IF 134  ]
+[; ;FinalV3.C: 107: {
+"107
+{
+[; ;FinalV3.C: 108: Time=Time+1;
+"108
+[e = _Time + _Time -> -> 1 `i `ui ]
+[; ;FinalV3.C: 109: if(TMR1>65000){Break=1; IR_program[119]=x;}
+"109
+[e $ ! > -> _TMR1 `l -> 65000 `l 135  ]
+{
+[e = _Break -> -> 1 `i `uc ]
+[e = *U + &U _IR_program * -> -> -> 119 `i `ui `ux -> -> # *U &U _IR_program `ui `ux -> _x `ui ]
+}
+[e :U 135 ]
+[; ;FinalV3.C: 110: TMR0 = -3150;
+"110
+[e = _TMR0 -> -U -> 3150 `i `ui ]
+[; ;FinalV3.C: 111: TMR0IF = 0;
+"111
+[e = _TMR0IF -> -> 0 `i `b ]
+"112
+}
+[e :U 134 ]
+[; ;FinalV3.C: 112: }
+[; ;FinalV3.C: 115: if (TMR3IF)
+"115
+[e $ ! _TMR3IF 136  ]
+[; ;FinalV3.C: 116: {
+"116
+{
+[; ;FinalV3.C: 117: Color=(Color+1)%100;
+"117
+[e = _Color % + _Color -> -> 1 `i `ui -> -> 100 `i `ui ]
+[; ;FinalV3.C: 118: if (RED>Color)RB5=1; else RB5=0;
+"118
+[e $ ! > _RED _Color 137  ]
+[e = _RB5 -> -> 1 `i `b ]
+[e $U 138  ]
+[e :U 137 ]
+[e = _RB5 -> -> 0 `i `b ]
+[e :U 138 ]
+[; ;FinalV3.C: 119: if (GREEN>Color)RB6=1; else RB6=0;
+"119
+[e $ ! > _GREEN _Color 139  ]
+[e = _RB6 -> -> 1 `i `b ]
+[e $U 140  ]
+[e :U 139 ]
+[e = _RB6 -> -> 0 `i `b ]
+[e :U 140 ]
+[; ;FinalV3.C: 120: if (BLUE>Color)RB7=1; else RB7=0;
+"120
+[e $ ! > _BLUE _Color 141  ]
+[e = _RB7 -> -> 1 `i `b ]
+[e $U 142  ]
+[e :U 141 ]
+[e = _RB7 -> -> 0 `i `b ]
+[e :U 142 ]
+[; ;FinalV3.C: 121: TMR3IF = 0;
+"121
+[e = _TMR3IF -> -> 0 `i `b ]
+[; ;FinalV3.C: 122: TMR3 = -250;
+"122
+[e = _TMR3 -> -U -> 250 `i `ui ]
+"123
+}
+[e :U 136 ]
+[; ;FinalV3.C: 123: }
+[; ;FinalV3.C: 126: if (CCP2IF)
+"126
+[e $ ! _CCP2IF 143  ]
+[; ;FinalV3.C: 127: {
+"127
+{
+[; ;FinalV3.C: 128: if(RC7){
+"128
+[e $ ! _RC7 144  ]
+{
+[; ;FinalV3.C: 129: IR_program[x] = TMR1;
+"129
+[e = *U + &U _IR_program * -> _x `ux -> -> # *U &U _IR_program `ui `ux _TMR1 ]
+[; ;FinalV3.C: 130: TMR1=0;
+"130
+[e = _TMR1 -> -> 0 `i `ui ]
+[; ;FinalV3.C: 131: x = x + 1;
+"131
+[e = _x -> + -> _x `i -> 1 `i `uc ]
+"132
+}
+[e :U 144 ]
+[; ;FinalV3.C: 132: }
+[; ;FinalV3.C: 133: CCP2IF = 0;
+"133
+[e = _CCP2IF -> -> 0 `i `b ]
+"134
+}
+[e :U 143 ]
+[; ;FinalV3.C: 134: }
+[; ;FinalV3.C: 135: if (CCP1IF)
+"135
+[e $ ! _CCP1IF 145  ]
+[; ;FinalV3.C: 136: {
+"136
+{
+[; ;FinalV3.C: 137: if(RC7){
+"137
+[e $ ! _RC7 146  ]
+{
+[; ;FinalV3.C: 138: IR_program[x] = TMR1;
+"138
+[e = *U + &U _IR_program * -> _x `ux -> -> # *U &U _IR_program `ui `ux _TMR1 ]
+[; ;FinalV3.C: 139: TMR1=0;
+"139
+[e = _TMR1 -> -> 0 `i `ui ]
+[; ;FinalV3.C: 140: x = x + 1;
+"140
+[e = _x -> + -> _x `i -> 1 `i `uc ]
+"141
+}
+[e :U 146 ]
+[; ;FinalV3.C: 141: }
+[; ;FinalV3.C: 142: CCP1IF = 0;
+"142
+[e = _CCP1IF -> -> 0 `i `b ]
+"143
+}
+[e :U 145 ]
+[; ;FinalV3.C: 143: }
+[; ;FinalV3.C: 146: if (INT0IF)
+"146
+[e $ ! _INT0IF 147  ]
+[; ;FinalV3.C: 147: {
+"147
+{
+[; ;FinalV3.C: 148: T=0;
+"148
+[e = _T -> -> -> 0 `i `l `ul ]
+[; ;FinalV3.C: 149: do{T=T+1;}while(RB0);
+"149
+[e :U 150 ]
+{
+[e = _T + _T -> -> -> 1 `i `l `ul ]
+}
+[e $ _RB0 150  ]
+[e :U 149 ]
+[; ;FinalV3.C: 150: if (T>300000){z0=2;}
+"150
+[e $ ! > _T -> -> 300000 `l `ul 151  ]
+{
+[e = _z0 -> -> 2 `i `uc ]
+}
+[e $U 152  ]
+"151
+[e :U 151 ]
+[; ;FinalV3.C: 151: else z0=1;
+[e = _z0 -> -> 1 `i `uc ]
+[e :U 152 ]
+[; ;FinalV3.C: 152: INT0IF = 0;
+"152
+[e = _INT0IF -> -> 0 `i `b ]
+"153
+}
+[e :U 147 ]
+[; ;FinalV3.C: 153: }
+[; ;FinalV3.C: 154: if (INT1IF)
+"154
+[e $ ! _INT1IF 153  ]
+[; ;FinalV3.C: 155: {
+"155
+{
+[; ;FinalV3.C: 156: T=0;
+"156
+[e = _T -> -> -> 0 `i `l `ul ]
+[; ;FinalV3.C: 157: do{T=T+1;}while(RB1);
+"157
+[e :U 156 ]
+{
+[e = _T + _T -> -> -> 1 `i `l `ul ]
+}
+[e $ _RB1 156  ]
+[e :U 155 ]
+[; ;FinalV3.C: 158: if (T>300000){z1=2;}
+"158
+[e $ ! > _T -> -> 300000 `l `ul 157  ]
+{
+[e = _z1 -> -> 2 `i `uc ]
+}
+[e $U 158  ]
+"159
+[e :U 157 ]
+[; ;FinalV3.C: 159: else z1=1;
+[e = _z1 -> -> 1 `i `uc ]
+[e :U 158 ]
+[; ;FinalV3.C: 160: INT1IF = 0;
+"160
+[e = _INT1IF -> -> 0 `i `b ]
+"161
+}
+[e :U 153 ]
+[; ;FinalV3.C: 161: }
+[; ;FinalV3.C: 163: }
+"163
+[e :UE 133 ]
+}
+"171
+[v _M_Write_Enable `(v 1 ef ]
+{
+[; ;FinalV3.C: 170: void M_Write_Enable(void)
+[; ;FinalV3.C: 171: {
+[e :U _M_Write_Enable ]
+[f ]
+[; ;FinalV3.C: 172: SSPIF = 0;
+"172
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 173: SSPBUF = 0x06;
+"173
+[e = _SSPBUF -> -> 6 `i `uc ]
+[; ;FinalV3.C: 174: while(!SSPIF);
+"174
+[e $U 160  ]
+[e :U 161 ]
+[e :U 160 ]
+[e $ ! _SSPIF 161  ]
+[e :U 162 ]
+[; ;FinalV3.C: 175: }
+"175
+[e :UE 159 ]
+}
+"178
+[v _M_Write_Address `(v 1 ef1`ul ]
+{
+[; ;FinalV3.C: 177: void M_Write_Address(unsigned long int Address)
+[; ;FinalV3.C: 178: {
+[e :U _M_Write_Address ]
+[v _Address `ul 1 r1 ]
+[f ]
+[; ;FinalV3.C: 179: SSPIF = 0;
+"179
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 180: SSPBUF = 0x02; while(!SSPIF);
+"180
+[e = _SSPBUF -> -> 2 `i `uc ]
+[e $U 164  ]
+[e :U 165 ]
+[e :U 164 ]
+[e $ ! _SSPIF 165  ]
+[e :U 166 ]
+[; ;FinalV3.C: 181: SSPIF = 0;
+"181
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 182: SSPBUF = Address >> 16; while(!SSPIF);
+"182
+[e = _SSPBUF -> >> _Address -> 16 `i `uc ]
+[e $U 167  ]
+[e :U 168 ]
+[e :U 167 ]
+[e $ ! _SSPIF 168  ]
+[e :U 169 ]
+[; ;FinalV3.C: 183: SSPIF = 0;
+"183
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 184: SSPBUF = Address >> 8; while(!SSPIF);
+"184
+[e = _SSPBUF -> >> _Address -> 8 `i `uc ]
+[e $U 170  ]
+[e :U 171 ]
+[e :U 170 ]
+[e $ ! _SSPIF 171  ]
+[e :U 172 ]
+[; ;FinalV3.C: 185: SSPIF = 0;
+"185
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 186: SSPBUF = Address; while(!SSPIF);
+"186
+[e = _SSPBUF -> _Address `uc ]
+[e $U 173  ]
+[e :U 174 ]
+[e :U 173 ]
+[e $ ! _SSPIF 174  ]
+[e :U 175 ]
+[; ;FinalV3.C: 187: }
+"187
+[e :UE 163 ]
+}
+"190
+[v _M_Read_Address `(v 1 ef1`ul ]
+{
+[; ;FinalV3.C: 189: void M_Read_Address(unsigned long int Address)
+[; ;FinalV3.C: 190: {
+[e :U _M_Read_Address ]
+[v _Address `ul 1 r1 ]
+[f ]
+[; ;FinalV3.C: 191: SSPIF = 0;
+"191
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 192: SSPBUF = 0x03; while(!SSPIF);
+"192
+[e = _SSPBUF -> -> 3 `i `uc ]
+[e $U 177  ]
+[e :U 178 ]
+[e :U 177 ]
+[e $ ! _SSPIF 178  ]
+[e :U 179 ]
+[; ;FinalV3.C: 193: SSPIF = 0;
+"193
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 194: SSPBUF = Address >> 16; while(!SSPIF);
+"194
+[e = _SSPBUF -> >> _Address -> 16 `i `uc ]
+[e $U 180  ]
+[e :U 181 ]
+[e :U 180 ]
+[e $ ! _SSPIF 181  ]
+[e :U 182 ]
+[; ;FinalV3.C: 195: SSPIF = 0;
+"195
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 196: SSPBUF = Address >> 8; while(!SSPIF);
+"196
+[e = _SSPBUF -> >> _Address -> 8 `i `uc ]
+[e $U 183  ]
+[e :U 184 ]
+[e :U 183 ]
+[e $ ! _SSPIF 184  ]
+[e :U 185 ]
+[; ;FinalV3.C: 197: SSPIF = 0;
+"197
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 198: SSPBUF = Address; while(!SSPIF);
+"198
+[e = _SSPBUF -> _Address `uc ]
+[e $U 186  ]
+[e :U 187 ]
+[e :U 186 ]
+[e $ ! _SSPIF 187  ]
+[e :U 188 ]
+[; ;FinalV3.C: 199: }
+"199
+[e :UE 176 ]
+}
+"202
+[v _M_Write_Data `(v 1 ef1`uc ]
+{
+[; ;FinalV3.C: 201: void M_Write_Data(unsigned char Data)
+[; ;FinalV3.C: 202: {
+[e :U _M_Write_Data ]
+[v _Data `uc 1 r1 ]
+[f ]
+[; ;FinalV3.C: 203: SSPIF = 0;
+"203
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 204: SSPBUF = Data; while(!SSPIF);
+"204
+[e = _SSPBUF _Data ]
+[e $U 190  ]
+[e :U 191 ]
+[e :U 190 ]
+[e $ ! _SSPIF 191  ]
+[e :U 192 ]
+[; ;FinalV3.C: 205: }
+"205
+[e :UE 189 ]
+}
+"208
+[v _M_Read_Data `(ui 1 ef ]
+{
+[; ;FinalV3.C: 207: unsigned int M_Read_Data(void)
+[; ;FinalV3.C: 208: {
+[e :U _M_Read_Data ]
+[f ]
+"209
+[v _Result `ui 1 a ]
+[; ;FinalV3.C: 209: unsigned int Result;
+[; ;FinalV3.C: 210: SSPIF = 0;
+"210
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 211: SSPBUF = 0; while(!SSPIF);
+"211
+[e = _SSPBUF -> -> 0 `i `uc ]
+[e $U 194  ]
+[e :U 195 ]
+[e :U 194 ]
+[e $ ! _SSPIF 195  ]
+[e :U 196 ]
+[; ;FinalV3.C: 212: Result = SSPBUF;
+"212
+[e = _Result -> _SSPBUF `ui ]
+[; ;FinalV3.C: 213: SSPIF = 0;
+"213
+[e = _SSPIF -> -> 0 `i `b ]
+[; ;FinalV3.C: 214: SSPBUF = 0; while(!SSPIF);
+"214
+[e = _SSPBUF -> -> 0 `i `uc ]
+[e $U 197  ]
+[e :U 198 ]
+[e :U 197 ]
+[e $ ! _SSPIF 198  ]
+[e :U 199 ]
+[; ;FinalV3.C: 215: Result = (Result << 8) + SSPBUF;
+"215
+[e = _Result + << _Result -> 8 `i -> _SSPBUF `ui ]
+[; ;FinalV3.C: 216: return(Result);
+"216
+[e ) _Result ]
+[e $UE 193  ]
+[; ;FinalV3.C: 217: }
+"217
+[e :UE 193 ]
+}
+"220
+[v _M_Write_0 `(v 1 ef2`ul`ui ]
+{
+[; ;FinalV3.C: 219: void M_Write_0(unsigned long int Address, unsigned int Data)
+[; ;FinalV3.C: 220: {
+[e :U _M_Write_0 ]
+[v _Address `ul 1 r1 ]
+[v _Data `ui 1 r2 ]
+[f ]
+[; ;FinalV3.C: 221: RC6 = 1;
+"221
+[e = _RC6 -> -> 1 `i `b ]
+[; ;FinalV3.C: 222: Wait_ms(5);
+"222
+[e ( _Wait_ms (1 -> -> 5 `i `ui ]
+[; ;FinalV3.C: 223: RC6 = 0;
+"223
+[e = _RC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 224: M_Write_Enable();
+"224
+[e ( _M_Write_Enable ..  ]
+[; ;FinalV3.C: 225: RC6 = 1;
+"225
+[e = _RC6 -> -> 1 `i `b ]
+[; ;FinalV3.C: 226: Wait_ms(5);
+"226
+[e ( _Wait_ms (1 -> -> 5 `i `ui ]
+[; ;FinalV3.C: 227: RC6 = 0;
+"227
+[e = _RC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 228: M_Write_Address(Address);
+"228
+[e ( _M_Write_Address (1 _Address ]
+[; ;FinalV3.C: 229: M_Write_Data(Data>>8);
+"229
+[e ( _M_Write_Data (1 -> >> _Data -> 8 `i `uc ]
+[; ;FinalV3.C: 230: M_Write_Data(Data);
+"230
+[e ( _M_Write_Data (1 -> _Data `uc ]
+[; ;FinalV3.C: 231: RC6 = 1;
+"231
+[e = _RC6 -> -> 1 `i `b ]
+[; ;FinalV3.C: 232: }
+"232
+[e :UE 200 ]
+}
+"235
+[v _Memory_PowerDown `(v 1 ef ]
+{
+[; ;FinalV3.C: 234: void Memory_PowerDown(void)
+[; ;FinalV3.C: 235: {
+[e :U _Memory_PowerDown ]
+[f ]
+[; ;FinalV3.C: 236: RC6 = 0;
+"236
+[e = _RC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 237: M_Write_Data(0xB9);
+"237
+[e ( _M_Write_Data (1 -> -> 185 `i `uc ]
+[; ;FinalV3.C: 238: RC6 = 1;
+"238
+[e = _RC6 -> -> 1 `i `b ]
+[; ;FinalV3.C: 239: }
+"239
+[e :UE 201 ]
+}
+"242
+[v _Memory_PowerUp `(v 1 ef ]
+{
+[; ;FinalV3.C: 241: void Memory_PowerUp(void)
+[; ;FinalV3.C: 242: {
+[e :U _Memory_PowerUp ]
+[f ]
+[; ;FinalV3.C: 243: RC6 = 0;
+"243
+[e = _RC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 244: M_Write_Data(0xAB);
+"244
+[e ( _M_Write_Data (1 -> -> 171 `i `uc ]
+[; ;FinalV3.C: 245: M_Write_Data(0x00);
+"245
+[e ( _M_Write_Data (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 246: M_Write_Data(0x00);
+"246
+[e ( _M_Write_Data (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 247: M_Write_Data(0x00);
+"247
+[e ( _M_Write_Data (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 248: M_Write_Data(0x00);
+"248
+[e ( _M_Write_Data (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 249: RC6 = 1;
+"249
+[e = _RC6 -> -> 1 `i `b ]
+[; ;FinalV3.C: 250: }
+"250
+[e :UE 202 ]
+}
+"254
+[v _IR_program_mode `(v 1 ef ]
+{
+[; ;FinalV3.C: 253: void IR_program_mode(void)
+[; ;FinalV3.C: 254: {
+[e :U _IR_program_mode ]
+[f ]
+[; ;FinalV3.C: 255: for(i=0;i<4000;i++);
+"255
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 4000 `i `ui 204  ]
+[e $U 205  ]
+[e :U 204 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 4000 `i `ui 204  ]
+[e :U 205 ]
+}
+[; ;FinalV3.C: 256: for(i=0;i<120;i++){IR_program[i]=0;}
+"256
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 120 `i `ui 207  ]
+[e $U 208  ]
+[e :U 207 ]
+{
+[e = *U + &U _IR_program * -> _i `ux -> -> # *U &U _IR_program `ui `ux -> -> 0 `i `ui ]
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 120 `i `ui 207  ]
+[e :U 208 ]
+}
+[; ;FinalV3.C: 257: RC7 = 1;
+"257
+[e = _RC7 -> -> 1 `i `b ]
+[; ;FinalV3.C: 258: x=0;
+"258
+[e = _x -> -> 0 `i `uc ]
+[; ;FinalV3.C: 259: Break=0;
+"259
+[e = _Break -> -> 0 `i `uc ]
+[; ;FinalV3.C: 260: do{TMR1=10000;}while((RC1));
+"260
+[e :U 212 ]
+{
+[e = _TMR1 -> -> 10000 `i `ui ]
+}
+[e $ _RC1 212  ]
+[e :U 211 ]
+[; ;FinalV3.C: 261: do {for(i=0;i<5;i++);}while(Break==0);
+"261
+[e :U 215 ]
+{
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 5 `i `ui 216  ]
+[e $U 217  ]
+[e :U 216 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 5 `i `ui 216  ]
+[e :U 217 ]
+}
+}
+[e $ == -> _Break `i -> 0 `i 215  ]
+[e :U 214 ]
+[; ;FinalV3.C: 262: RC7 = 0;
+"262
+[e = _RC7 -> -> 0 `i `b ]
+[; ;FinalV3.C: 263: IR_program[1]=IR_program[1]-10000;
+"263
+[e = *U + &U _IR_program * -> -> -> 1 `i `ui `ux -> -> # *U &U _IR_program `ui `ux - *U + &U _IR_program * -> -> -> 1 `i `ui `ux -> -> # *U &U _IR_program `ui `ux -> -> 10000 `i `ui ]
+[; ;FinalV3.C: 264: Break=0;
+"264
+[e = _Break -> -> 0 `i `uc ]
+[; ;FinalV3.C: 265: }
+"265
+[e :UE 203 ]
+}
+"268
+[v _IR_Program `(v 1 ef1`ul ]
+{
+[; ;FinalV3.C: 267: void IR_Program(unsigned long int Address)
+[; ;FinalV3.C: 268: {
+[e :U _IR_Program ]
+[v _Address `ul 1 r1 ]
+[f ]
+[; ;FinalV3.C: 269: TMR3IE = 0;
+"269
+[e = _TMR3IE -> -> 0 `i `b ]
+[; ;FinalV3.C: 270: TMR3ON = 0;
+"270
+[e = _TMR3ON -> -> 0 `i `b ]
+[; ;FinalV3.C: 271: IR_program_mode();
+"271
+[e ( _IR_program_mode ..  ]
+[; ;FinalV3.C: 272: RC6 = 1;
+"272
+[e = _RC6 -> -> 1 `i `b ]
+[; ;FinalV3.C: 273: Wait_ms(100);
+"273
+[e ( _Wait_ms (1 -> -> 100 `i `ui ]
+[; ;FinalV3.C: 274: RC6 = 0;
+"274
+[e = _RC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 275: M_Write_Enable();
+"275
+[e ( _M_Write_Enable ..  ]
+[; ;FinalV3.C: 276: RC6 = 1;
+"276
+[e = _RC6 -> -> 1 `i `b ]
+[; ;FinalV3.C: 277: RC6 = 0;
+"277
+[e = _RC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 278: for(i=0;i<120;i++){M_Write_0((Address+2*i), IR_program[i]);}
+"278
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 120 `i `ui 220  ]
+[e $U 221  ]
+[e :U 220 ]
+{
+[e ( _M_Write_0 (2 , + _Address -> * -> -> 2 `i `ui _i `ul *U + &U _IR_program * -> _i `ux -> -> # *U &U _IR_program `ui `ux ]
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 120 `i `ui 220  ]
+[e :U 221 ]
+}
+[; ;FinalV3.C: 279: TMR3IE = 1;
+"279
+[e = _TMR3IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 280: TMR3ON = 1;
+"280
+[e = _TMR3ON -> -> 1 `i `b ]
+[; ;FinalV3.C: 281: }
+"281
+[e :UE 219 ]
+}
+"284
+[v _IR_out `(v 1 ef ]
+{
+[; ;FinalV3.C: 283: void IR_out(void)
+[; ;FinalV3.C: 284: {
+[e :U _IR_out ]
+[f ]
+[; ;FinalV3.C: 285: RA1 = 0;
+"285
+[e = _RA1 -> -> 0 `i `b ]
+[; ;FinalV3.C: 286: x = 0;
+"286
+[e = _x -> -> 0 `i `uc ]
+[; ;FinalV3.C: 287: TMR1 = 0;
+"287
+[e = _TMR1 -> -> 0 `i `ui ]
+[; ;FinalV3.C: 288: do{if(TMR1>=IR_program[x]){RA1=!RA1; x=x+1; TMR1=0;}}while(x<IR_program[119]);
+"288
+[e :U 226 ]
+{
+[e $ ! >= _TMR1 *U + &U _IR_program * -> _x `ux -> -> # *U &U _IR_program `ui `ux 227  ]
+{
+[e = _RA1 ! _RA1 ]
+[e = _x -> + -> _x `i -> 1 `i `uc ]
+[e = _TMR1 -> -> 0 `i `ui ]
+}
+[e :U 227 ]
+}
+[e $ < -> _x `ui *U + &U _IR_program * -> -> -> 119 `i `ui `ux -> -> # *U &U _IR_program `ui `ux 226  ]
+[e :U 225 ]
+[; ;FinalV3.C: 297: RA1=0;
+"297
+[e = _RA1 -> -> 0 `i `b ]
+[; ;FinalV3.C: 298: }
+"298
+[e :UE 223 ]
+}
+"301
+[v _IR_output `(v 1 ef1`uc ]
+{
+[; ;FinalV3.C: 300: void IR_output(unsigned char Address)
+[; ;FinalV3.C: 301: {
+[e :U _IR_output ]
+[v _Address `uc 1 r1 ]
+[f ]
+[; ;FinalV3.C: 302: TMR3IE = 0;
+"302
+[e = _TMR3IE -> -> 0 `i `b ]
+[; ;FinalV3.C: 303: TMR3ON = 0;
+"303
+[e = _TMR3ON -> -> 0 `i `b ]
+[; ;FinalV3.C: 304: for(i=0;i<120;i++){IR_program[i]=0;}
+"304
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 120 `i `ui 229  ]
+[e $U 230  ]
+[e :U 229 ]
+{
+[e = *U + &U _IR_program * -> _i `ux -> -> # *U &U _IR_program `ui `ux -> -> 0 `i `ui ]
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 120 `i `ui 229  ]
+[e :U 230 ]
+}
+[; ;FinalV3.C: 305: RC6 = 0;
+"305
+[e = _RC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 306: M_Read_Address(Address);
+"306
+[e ( _M_Read_Address (1 -> _Address `ul ]
+[; ;FinalV3.C: 307: for(i=0;i<120;i++){IR_program[i]=M_Read_Data();}
+"307
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 120 `i `ui 232  ]
+[e $U 233  ]
+[e :U 232 ]
+{
+[e = *U + &U _IR_program * -> _i `ux -> -> # *U &U _IR_program `ui `ux ( _M_Read_Data ..  ]
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 120 `i `ui 232  ]
+[e :U 233 ]
+}
+[; ;FinalV3.C: 308: RC6=1;
+"308
+[e = _RC6 -> -> 1 `i `b ]
+[; ;FinalV3.C: 309: IR_out();
+"309
+[e ( _IR_out ..  ]
+[; ;FinalV3.C: 310: TMR3IE = 1;
+"310
+[e = _TMR3IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 311: TMR3ON = 1;
+"311
+[e = _TMR3ON -> -> 1 `i `b ]
+[; ;FinalV3.C: 312: }
+"312
+[e :UE 228 ]
+}
+"317
+[v _wakeup `(v 1 ef ]
+{
+[; ;FinalV3.C: 316: void wakeup(void)
+[; ;FinalV3.C: 317: {
+[e :U _wakeup ]
+[f ]
+[; ;FinalV3.C: 318: Time = 0;
+"318
+[e = _Time -> -> 0 `i `ui ]
+[; ;FinalV3.C: 319: do{
+"319
+[e :U 238 ]
+{
+[; ;FinalV3.C: 320: RC0 = 1;
+"320
+[e = _RC0 -> -> 1 `i `b ]
+"321
+}
+[; ;FinalV3.C: 321: }while(Time < 17);
+[e $ < _Time -> -> 17 `i `ui 238  ]
+[e :U 237 ]
+[; ;FinalV3.C: 322: do{
+"322
+[e :U 241 ]
+{
+[; ;FinalV3.C: 323: RC0 = 0;
+"323
+[e = _RC0 -> -> 0 `i `b ]
+"324
+}
+[; ;FinalV3.C: 324: }while(Time < 24);
+[e $ < _Time -> -> 24 `i `ui 241  ]
+[e :U 240 ]
+[; ;FinalV3.C: 325: }
+"325
+[e :UE 235 ]
+}
+"328
+[v _RF_out `(v 1 ef ]
+{
+[; ;FinalV3.C: 327: void RF_out(void)
+[; ;FinalV3.C: 328: {
+[e :U _RF_out ]
+[f ]
+[; ;FinalV3.C: 329: x = 0;
+"329
+[e = _x -> -> 0 `i `uc ]
+[; ;FinalV3.C: 330: Time = 0;
+"330
+[e = _Time -> -> 0 `i `ui ]
+[; ;FinalV3.C: 331: do{
+"331
+[e :U 245 ]
+{
+[; ;FinalV3.C: 332: if(Time == A_1_8[x]){
+"332
+[e $ ! == _Time *U + &U _A_1_8 * -> _x `ux -> -> # *U &U _A_1_8 `ui `ux 246  ]
+{
+[; ;FinalV3.C: 333: RC0 = 1;
+"333
+[e = _RC0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 334: y = Time;
+"334
+[e = _y _Time ]
+[; ;FinalV3.C: 335: f = 1;
+"335
+[e = _f -> -> 1 `i `ui ]
+"336
+}
+[e :U 246 ]
+[; ;FinalV3.C: 336: }
+[; ;FinalV3.C: 337: if((y != Time) && (f == 1)){
+"337
+[e $ ! && != _y _Time == _f -> -> 1 `i `ui 247  ]
+{
+[; ;FinalV3.C: 338: x = x + 1;
+"338
+[e = _x -> + -> _x `i -> 1 `i `uc ]
+[; ;FinalV3.C: 339: f = 0;
+"339
+[e = _f -> -> 0 `i `ui ]
+"340
+}
+[e :U 247 ]
+[; ;FinalV3.C: 340: }
+[; ;FinalV3.C: 341: if(Time != A_1_8[x]){RC0 = 0;}
+"341
+[e $ ! != _Time *U + &U _A_1_8 * -> _x `ux -> -> # *U &U _A_1_8 `ui `ux 248  ]
+{
+[e = _RC0 -> -> 0 `i `b ]
+}
+[e :U 248 ]
+"342
+}
+[; ;FinalV3.C: 342: }while(Time < 47);
+[e $ < _Time -> -> 47 `i `ui 245  ]
+[e :U 244 ]
+[; ;FinalV3.C: 343: x = 0;
+"343
+[e = _x -> -> 0 `i `uc ]
+[; ;FinalV3.C: 344: Time = 0;
+"344
+[e = _Time -> -> 0 `i `ui ]
+[; ;FinalV3.C: 345: do{
+"345
+[e :U 251 ]
+{
+[; ;FinalV3.C: 346: if(Time == RF_signal_toggle[x]){
+"346
+[e $ ! == _Time *U + &U _RF_signal_toggle * -> _x `ux -> -> # *U &U _RF_signal_toggle `ui `ux 252  ]
+{
+[; ;FinalV3.C: 347: RC0 = 1;
+"347
+[e = _RC0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 348: y = Time;
+"348
+[e = _y _Time ]
+[; ;FinalV3.C: 349: f = 1;
+"349
+[e = _f -> -> 1 `i `ui ]
+"350
+}
+[e :U 252 ]
+[; ;FinalV3.C: 350: }
+[; ;FinalV3.C: 351: if((y != Time) && (f == 1)){
+"351
+[e $ ! && != _y _Time == _f -> -> 1 `i `ui 253  ]
+{
+[; ;FinalV3.C: 352: x = x + 1;
+"352
+[e = _x -> + -> _x `i -> 1 `i `uc ]
+[; ;FinalV3.C: 353: f = 0;
+"353
+[e = _f -> -> 0 `i `ui ]
+"354
+}
+[e :U 253 ]
+[; ;FinalV3.C: 354: }
+[; ;FinalV3.C: 355: if(Time != RF_signal_toggle[x]){RC0 = 0;}
+"355
+[e $ ! != _Time *U + &U _RF_signal_toggle * -> _x `ux -> -> # *U &U _RF_signal_toggle `ui `ux 254  ]
+{
+[e = _RC0 -> -> 0 `i `b ]
+}
+[e :U 254 ]
+"356
+}
+[; ;FinalV3.C: 356: }while(x<17);
+[e $ < -> _x `i -> 17 `i 251  ]
+[e :U 250 ]
+[; ;FinalV3.C: 357: RC0 = 0;
+"357
+[e = _RC0 -> -> 0 `i `b ]
+[; ;FinalV3.C: 358: }
+"358
+[e :UE 242 ]
+}
+"361
+[v _RF_output `(v 1 ef3`uc`*ui`*ui ]
+{
+[; ;FinalV3.C: 360: void RF_output(unsigned char A, unsigned int Number_ON[18], unsigned int Number_OFF[18])
+[; ;FinalV3.C: 361: {
+[e :U _RF_output ]
+[v _A `uc 1 r1 ]
+[v _Number_ON `*ui 1 r2 ]
+[v _Number_OFF `*ui 1 r3 ]
+[f ]
+[; ;FinalV3.C: 362: if(A == 1){
+"362
+[e $ ! == -> _A `i -> 1 `i 256  ]
+{
+[; ;FinalV3.C: 363: for(i=0;i<18;i++){RF_signal_toggle[i] = A2_ON[i];}
+"363
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 18 `i `ui 257  ]
+[e $U 258  ]
+[e :U 257 ]
+{
+[e = *U + &U _RF_signal_toggle * -> _i `ux -> -> # *U &U _RF_signal_toggle `ui `ux *U + &U _A2_ON * -> _i `ux -> -> # *U &U _A2_ON `ui `ux ]
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 18 `i `ui 257  ]
+[e :U 258 ]
+}
+"364
+}
+[e :U 256 ]
+[; ;FinalV3.C: 364: }
+[; ;FinalV3.C: 365: if(A == 0){
+"365
+[e $ ! == -> _A `i -> 0 `i 260  ]
+{
+[; ;FinalV3.C: 366: for(i=0;i<18;i++){RF_signal_toggle[i] = A2_OFF[i];}
+"366
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 18 `i `ui 261  ]
+[e $U 262  ]
+[e :U 261 ]
+{
+[e = *U + &U _RF_signal_toggle * -> _i `ux -> -> # *U &U _RF_signal_toggle `ui `ux *U + &U _A2_OFF * -> _i `ux -> -> # *U &U _A2_OFF `ui `ux ]
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 18 `i `ui 261  ]
+[e :U 262 ]
+}
+"367
+}
+[e :U 260 ]
+[; ;FinalV3.C: 367: }
+[; ;FinalV3.C: 368: TMR3IE = 0;
+"368
+[e = _TMR3IE -> -> 0 `i `b ]
+[; ;FinalV3.C: 369: TMR3ON = 0;
+"369
+[e = _TMR3ON -> -> 0 `i `b ]
+[; ;FinalV3.C: 370: wakeup();
+"370
+[e ( _wakeup ..  ]
+[; ;FinalV3.C: 371: RF_out();
+"371
+[e ( _RF_out ..  ]
+[; ;FinalV3.C: 372: for(i=0;i<20300;i++);
+"372
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 264  ]
+[e $U 265  ]
+[e :U 264 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 264  ]
+[e :U 265 ]
+}
+[; ;FinalV3.C: 373: wakeup();
+"373
+[e ( _wakeup ..  ]
+[; ;FinalV3.C: 374: RF_out();
+"374
+[e ( _RF_out ..  ]
+[; ;FinalV3.C: 375: for(i=0;i<20300;i++);
+"375
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 267  ]
+[e $U 268  ]
+[e :U 267 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 267  ]
+[e :U 268 ]
+}
+[; ;FinalV3.C: 376: wakeup();
+"376
+[e ( _wakeup ..  ]
+[; ;FinalV3.C: 377: RF_out();
+"377
+[e ( _RF_out ..  ]
+[; ;FinalV3.C: 378: for(i=0;i<20300;i++);
+"378
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 270  ]
+[e $U 271  ]
+[e :U 270 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 270  ]
+[e :U 271 ]
+}
+[; ;FinalV3.C: 379: wakeup();
+"379
+[e ( _wakeup ..  ]
+[; ;FinalV3.C: 380: RF_out();
+"380
+[e ( _RF_out ..  ]
+[; ;FinalV3.C: 381: for(i=0;i<20300;i++);
+"381
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 273  ]
+[e $U 274  ]
+[e :U 273 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 273  ]
+[e :U 274 ]
+}
+[; ;FinalV3.C: 382: wakeup();
+"382
+[e ( _wakeup ..  ]
+[; ;FinalV3.C: 383: RF_out();
+"383
+[e ( _RF_out ..  ]
+[; ;FinalV3.C: 384: for(i=0;i<20300;i++);
+"384
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 276  ]
+[e $U 277  ]
+[e :U 276 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 276  ]
+[e :U 277 ]
+}
+[; ;FinalV3.C: 385: wakeup();
+"385
+[e ( _wakeup ..  ]
+[; ;FinalV3.C: 386: RF_out();
+"386
+[e ( _RF_out ..  ]
+[; ;FinalV3.C: 387: for(i=0;i<20300;i++);
+"387
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 279  ]
+[e $U 280  ]
+[e :U 279 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 20300 `i `ui 279  ]
+[e :U 280 ]
+}
+[; ;FinalV3.C: 388: TMR3IE = 1;
+"388
+[e = _TMR3IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 389: TMR3ON = 1;
+"389
+[e = _TMR3ON -> -> 1 `i `b ]
+[; ;FinalV3.C: 390: }
+"390
+[e :UE 255 ]
+}
+"395
+[v _Glower `(v 1 ef ]
+{
+[; ;FinalV3.C: 394: void Glower(void)
+[; ;FinalV3.C: 395: {
+[e :U _Glower ]
+[f ]
+[; ;FinalV3.C: 396: for(i=0;i<3000;i++);
+"396
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 3000 `i `ui 283  ]
+[e $U 284  ]
+[e :U 283 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 3000 `i `ui 283  ]
+[e :U 284 ]
+}
+[; ;FinalV3.C: 397: Count=(Count+1)%300;
+"397
+[e = _Count % + _Count -> -> 1 `i `ui -> -> 300 `i `ui ]
+[; ;FinalV3.C: 398: if(Count<100){RED=Count; GREEN=100-Count; BLUE=0;}
+"398
+[e $ ! < _Count -> -> 100 `i `ui 286  ]
+{
+[e = _RED _Count ]
+[e = _GREEN - -> -> 100 `i `ui _Count ]
+[e = _BLUE -> -> 0 `i `ui ]
+}
+[e :U 286 ]
+[; ;FinalV3.C: 399: if(Count>=100&Count<200){RED=100-Count; GREEN=0; BLUE=Count;}
+"399
+[e $ ! & >= _Count -> -> 100 `i `ui < _Count -> -> 200 `i `ui 287  ]
+{
+[e = _RED - -> -> 100 `i `ui _Count ]
+[e = _GREEN -> -> 0 `i `ui ]
+[e = _BLUE _Count ]
+}
+[e :U 287 ]
+[; ;FinalV3.C: 400: if(Count>=200){RED=0; BLUE=100-Count; GREEN=Count;}
+"400
+[e $ ! >= _Count -> -> 200 `i `ui 288  ]
+{
+[e = _RED -> -> 0 `i `ui ]
+[e = _BLUE - -> -> 100 `i `ui _Count ]
+[e = _GREEN _Count ]
+}
+[e :U 288 ]
+[; ;FinalV3.C: 401: }
+"401
+[e :UE 282 ]
+}
+"404
+[v _Soothing `(v 1 ef ]
+{
+[; ;FinalV3.C: 403: void Soothing (void)
+[; ;FinalV3.C: 404: {
+[e :U _Soothing ]
+[f ]
+[; ;FinalV3.C: 405: for(i=0;i<3000;i++);
+"405
+{
+[e = _i -> -> 0 `i `ui ]
+[e $ < _i -> -> 3000 `i `ui 290  ]
+[e $U 291  ]
+[e :U 290 ]
+[e ++ _i -> -> 1 `i `ui ]
+[e $ < _i -> -> 3000 `i `ui 290  ]
+[e :U 291 ]
+}
+[; ;FinalV3.C: 406: if((R==0&G==0&B==0)|(R==0&G==1&B==1)){RED=RED+1;}
+"406
+[e $ ! | & & == -> _R `i -> 0 `i == -> _G `i -> 0 `i == -> _B `i -> 0 `i & & == -> _R `i -> 0 `i == -> _G `i -> 1 `i == -> _B `i -> 1 `i 293  ]
+{
+[e = _RED + _RED -> -> 1 `i `ui ]
+}
+[e :U 293 ]
+[; ;FinalV3.C: 407: if(R==1&G==0&B==0){GREEN=GREEN+1;}
+"407
+[e $ ! & & == -> _R `i -> 1 `i == -> _G `i -> 0 `i == -> _B `i -> 0 `i 294  ]
+{
+[e = _GREEN + _GREEN -> -> 1 `i `ui ]
+}
+[e :U 294 ]
+[; ;FinalV3.C: 408: if(R==0&G==1&B==0){BLUE=BLUE+1;}
+"408
+[e $ ! & & == -> _R `i -> 0 `i == -> _G `i -> 1 `i == -> _B `i -> 0 `i 295  ]
+{
+[e = _BLUE + _BLUE -> -> 1 `i `ui ]
+}
+[e :U 295 ]
+[; ;FinalV3.C: 409: if((R==1&G==1&B==0)|(R==1&G==0&B==1)){RED=RED-1;}
+"409
+[e $ ! | & & == -> _R `i -> 1 `i == -> _G `i -> 1 `i == -> _B `i -> 0 `i & & == -> _R `i -> 1 `i == -> _G `i -> 0 `i == -> _B `i -> 1 `i 296  ]
+{
+[e = _RED - _RED -> -> 1 `i `ui ]
+}
+[e :U 296 ]
+[; ;FinalV3.C: 410: if(R==1&G==1&B==1){GREEN=GREEN-1;}
+"410
+[e $ ! & & == -> _R `i -> 1 `i == -> _G `i -> 1 `i == -> _B `i -> 1 `i 297  ]
+{
+[e = _GREEN - _GREEN -> -> 1 `i `ui ]
+}
+[e :U 297 ]
+[; ;FinalV3.C: 411: if(R==0&G==0&B==1){BLUE=BLUE-1;}
+"411
+[e $ ! & & == -> _R `i -> 0 `i == -> _G `i -> 0 `i == -> _B `i -> 1 `i 298  ]
+{
+[e = _BLUE - _BLUE -> -> 1 `i `ui ]
+}
+[e :U 298 ]
+[; ;FinalV3.C: 412: if(RED==100){R=1;}
+"412
+[e $ ! == _RED -> -> 100 `i `ui 299  ]
+{
+[e = _R -> -> 1 `i `uc ]
+}
+[e :U 299 ]
+[; ;FinalV3.C: 413: if(GREEN==100){G=1;}
+"413
+[e $ ! == _GREEN -> -> 100 `i `ui 300  ]
+{
+[e = _G -> -> 1 `i `uc ]
+}
+[e :U 300 ]
+[; ;FinalV3.C: 414: if(BLUE==100){B=1;}
+"414
+[e $ ! == _BLUE -> -> 100 `i `ui 301  ]
+{
+[e = _B -> -> 1 `i `uc ]
+}
+[e :U 301 ]
+[; ;FinalV3.C: 415: if(RED==0){R=0;}
+"415
+[e $ ! == _RED -> -> 0 `i `ui 302  ]
+{
+[e = _R -> -> 0 `i `uc ]
+}
+[e :U 302 ]
+[; ;FinalV3.C: 416: if(GREEN==0){G=0;}
+"416
+[e $ ! == _GREEN -> -> 0 `i `ui 303  ]
+{
+[e = _G -> -> 0 `i `uc ]
+}
+[e :U 303 ]
+[; ;FinalV3.C: 417: if(BLUE==0){B=0;}
+"417
+[e $ ! == _BLUE -> -> 0 `i `ui 304  ]
+{
+[e = _B -> -> 0 `i `uc ]
+}
+[e :U 304 ]
+[; ;FinalV3.C: 418: }
+"418
+[e :UE 289 ]
+}
+"423
+[v _LCD_Out `(v 1 ef1`ui ]
+{
+[; ;FinalV3.C: 422: void LCD_Out(unsigned int DATA)
+[; ;FinalV3.C: 423: {
+[e :U _LCD_Out ]
+[v _DATA `ui 1 r1 ]
+[f ]
+"424
+[v _A `uc -> 4 `i a ]
+[v _i `uc 1 a ]
+[; ;FinalV3.C: 424: unsigned char A[4], i;
+[; ;FinalV3.C: 425: for (i=0; i<4; i++) {
+"425
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 306  ]
+[e $U 307  ]
+[e :U 306 ]
+{
+[; ;FinalV3.C: 426: A[i] = DATA % 16;
+"426
+[e = *U + &U _A * -> _i `ux -> -> # *U &U _A `ui `ux -> % _DATA -> -> 16 `i `ui `uc ]
+[; ;FinalV3.C: 427: DATA = DATA / 16;
+"427
+[e = _DATA / _DATA -> -> 16 `i `ui ]
+"428
+}
+"425
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 4 `i 306  ]
+[e :U 307 ]
+"428
+}
+[; ;FinalV3.C: 428: }
+[; ;FinalV3.C: 429: LCD_Write(ascii(A[3]));
+"429
+[e ( _LCD_Write (1 ( _ascii (1 *U + &U _A * -> -> -> 3 `i `ui `ux -> -> # *U &U _A `ui `ux ]
+[; ;FinalV3.C: 430: LCD_Write(ascii(A[2]));
+"430
+[e ( _LCD_Write (1 ( _ascii (1 *U + &U _A * -> -> -> 2 `i `ui `ux -> -> # *U &U _A `ui `ux ]
+[; ;FinalV3.C: 431: LCD_Write(ascii(A[1]));
+"431
+[e ( _LCD_Write (1 ( _ascii (1 *U + &U _A * -> -> -> 1 `i `ui `ux -> -> # *U &U _A `ui `ux ]
+[; ;FinalV3.C: 432: LCD_Write(ascii(A[0]));
+"432
+[e ( _LCD_Write (1 ( _ascii (1 *U + &U _A * -> -> -> 0 `i `ui `ux -> -> # *U &U _A `ui `ux ]
+[; ;FinalV3.C: 433: }
+"433
+[e :UE 305 ]
+}
+"437
+[v _ISD_Out `(uc 1 ef1`uc ]
+{
+[; ;FinalV3.C: 436: unsigned char ISD_Out(unsigned char DATA)
+[; ;FinalV3.C: 437: {
+[e :U _ISD_Out ]
+[v _DATA `uc 1 r1 ]
+[f ]
+"438
+[v _RESULT `uc 1 a ]
+"439
+[v _i `uc 1 a ]
+[; ;FinalV3.C: 438: unsigned char RESULT;
+[; ;FinalV3.C: 439: unsigned char i;
+[; ;FinalV3.C: 440: RA2=1;
+"440
+[e = _RA2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 441: RESULT=0;
+"441
+[e = _RESULT -> -> 0 `i `uc ]
+[; ;FinalV3.C: 442: for(i=0;i<8; i++)
+"442
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 310  ]
+[e $U 311  ]
+"443
+[e :U 310 ]
+[; ;FinalV3.C: 443: {
+{
+[; ;FinalV3.C: 444: if(DATA&1)
+"444
+[e $ ! != & -> _DATA `i -> 1 `i -> 0 `i 313  ]
+[; ;FinalV3.C: 445: {
+"445
+{
+[; ;FinalV3.C: 446: RA3=1;
+"446
+[e = _RA3 -> -> 1 `i `b ]
+"447
+}
+[; ;FinalV3.C: 447: }
+[e $U 314  ]
+"448
+[e :U 313 ]
+[; ;FinalV3.C: 448: else
+[; ;FinalV3.C: 449: {
+"449
+{
+[; ;FinalV3.C: 450: RA3=0;
+"450
+[e = _RA3 -> -> 0 `i `b ]
+"451
+}
+[e :U 314 ]
+[; ;FinalV3.C: 451: }
+[; ;FinalV3.C: 452: RA2=0;
+"452
+[e = _RA2 -> -> 0 `i `b ]
+[; ;FinalV3.C: 453: Wait_ms(1);
+"453
+[e ( _Wait_ms (1 -> -> 1 `i `ui ]
+[; ;FinalV3.C: 454: RA2=1;
+"454
+[e = _RA2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 455: Wait_ms(1);
+"455
+[e ( _Wait_ms (1 -> -> 1 `i `ui ]
+[; ;FinalV3.C: 457: RESULT=RESULT>>1;
+"457
+[e = _RESULT -> >> -> _RESULT `i -> 1 `i `uc ]
+[; ;FinalV3.C: 458: if(RA4)
+"458
+[e $ ! _RA4 315  ]
+[; ;FinalV3.C: 459: {
+"459
+{
+[; ;FinalV3.C: 460: RESULT=RESULT+0X80;
+"460
+[e = _RESULT -> + -> _RESULT `i -> 128 `i `uc ]
+"461
+}
+[e :U 315 ]
+[; ;FinalV3.C: 461: }
+[; ;FinalV3.C: 462: DATA=DATA>>1;
+"462
+[e = _DATA -> >> -> _DATA `i -> 1 `i `uc ]
+"463
+}
+"442
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 310  ]
+[e :U 311 ]
+"463
+}
+[; ;FinalV3.C: 463: }
+[; ;FinalV3.C: 464: return(RESULT);
+"464
+[e ) _RESULT ]
+[e $UE 309  ]
+[; ;FinalV3.C: 465: }
+"465
+[e :UE 309 ]
+}
+"468
+[v _Set_Play `(v 1 ef2`uc`uc ]
+{
+[; ;FinalV3.C: 467: void Set_Play(unsigned char m, unsigned char n )
+[; ;FinalV3.C: 468: {
+[e :U _Set_Play ]
+[v _m `uc 1 r1 ]
+[v _n `uc 1 r2 ]
+[f ]
+[; ;FinalV3.C: 469: TMR3ON = 0;
+"469
+[e = _TMR3ON -> -> 0 `i `b ]
+[; ;FinalV3.C: 470: TMR3IE = 0;
+"470
+[e = _TMR3IE -> -> 0 `i `b ]
+[; ;FinalV3.C: 472: RA0=1;
+"472
+[e = _RA0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 473: RA2=1;
+"473
+[e = _RA2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 474: RA3=0;
+"474
+[e = _RA3 -> -> 0 `i `b ]
+[; ;FinalV3.C: 476: RA0=0;
+"476
+[e = _RA0 -> -> 0 `i `b ]
+[; ;FinalV3.C: 478: ISD_Out(0x01);
+"478
+[e ( _ISD_Out (1 -> -> 1 `i `uc ]
+[; ;FinalV3.C: 479: ISD_Out(0x00);
+"479
+[e ( _ISD_Out (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 481: RA0=1;
+"481
+[e = _RA0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 482: RA2=1;
+"482
+[e = _RA2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 483: RA3=0;
+"483
+[e = _RA3 -> -> 0 `i `b ]
+[; ;FinalV3.C: 485: RA0=0;
+"485
+[e = _RA0 -> -> 0 `i `b ]
+[; ;FinalV3.C: 486: ISD_Out(0x04);
+"486
+[e ( _ISD_Out (1 -> -> 4 `i `uc ]
+[; ;FinalV3.C: 487: ISD_Out(0x00);
+"487
+[e ( _ISD_Out (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 489: RA0=1;
+"489
+[e = _RA0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 490: RA2=1;
+"490
+[e = _RA2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 491: RA3=0;
+"491
+[e = _RA3 -> -> 0 `i `b ]
+[; ;FinalV3.C: 493: RA0=0;
+"493
+[e = _RA0 -> -> 0 `i `b ]
+[; ;FinalV3.C: 494: ISD_Out(0x80);
+"494
+[e ( _ISD_Out (1 -> -> 128 `i `uc ]
+[; ;FinalV3.C: 495: ISD_Out(0x00);
+"495
+[e ( _ISD_Out (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 497: ISD_Out(m);
+"497
+[e ( _ISD_Out (1 _m ]
+[; ;FinalV3.C: 498: ISD_Out(0x00);
+"498
+[e ( _ISD_Out (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 500: ISD_Out(n);
+"500
+[e ( _ISD_Out (1 _n ]
+[; ;FinalV3.C: 501: ISD_Out(0x00);
+"501
+[e ( _ISD_Out (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 502: ISD_Out(0x00);
+"502
+[e ( _ISD_Out (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 503: Wait_ms(100);
+"503
+[e ( _Wait_ms (1 -> -> 100 `i `ui ]
+[; ;FinalV3.C: 505: RA0=1;
+"505
+[e = _RA0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 506: RA2=1;
+"506
+[e = _RA2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 507: RA3=0;
+"507
+[e = _RA3 -> -> 0 `i `b ]
+[; ;FinalV3.C: 509: RA0=0;
+"509
+[e = _RA0 -> -> 0 `i `b ]
+[; ;FinalV3.C: 510: ISD_Out(0x07);
+"510
+[e ( _ISD_Out (1 -> -> 7 `i `uc ]
+[; ;FinalV3.C: 511: ISD_Out(0x00);
+"511
+[e ( _ISD_Out (1 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 512: RA0=1;
+"512
+[e = _RA0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 514: TMR3ON = 1;
+"514
+[e = _TMR3ON -> -> 1 `i `b ]
+[; ;FinalV3.C: 515: TMR3IE = 1;
+"515
+[e = _TMR3IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 517: }
+"517
+[e :UE 316 ]
+}
+"524
+[v _main `(v 1 ef ]
+{
+[; ;FinalV3.C: 523: void main(void)
+[; ;FinalV3.C: 524: {
+[e :U _main ]
+[f ]
+[; ;FinalV3.C: 526: SSPIE = 0;
+"526
+[e = _SSPIE -> -> 0 `i `b ]
+[; ;FinalV3.C: 527: TRISC5 = 0;
+"527
+[e = _TRISC5 -> -> 0 `i `b ]
+[; ;FinalV3.C: 528: TRISC4 = 1;
+"528
+[e = _TRISC4 -> -> 1 `i `b ]
+[; ;FinalV3.C: 529: TRISC3 = 0;
+"529
+[e = _TRISC3 -> -> 0 `i `b ]
+[; ;FinalV3.C: 530: TRISC6 = 0;
+"530
+[e = _TRISC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 531: SSPSTAT = 0x40;
+"531
+[e = _SSPSTAT -> -> 64 `i `uc ]
+[; ;FinalV3.C: 532: SSPCON1 = 0x22;
+"532
+[e = _SSPCON1 -> -> 34 `i `uc ]
+[; ;FinalV3.C: 534: T0CON = 0x88;
+"534
+[e = _T0CON -> -> 136 `i `uc ]
+[; ;FinalV3.C: 535: TMR0ON = 1;
+"535
+[e = _TMR0ON -> -> 1 `i `b ]
+[; ;FinalV3.C: 536: TMR0IE = 1;
+"536
+[e = _TMR0IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 537: TMR0IP = 1;
+"537
+[e = _TMR0IP -> -> 1 `i `b ]
+[; ;FinalV3.C: 538: TMR0 = -3150;
+"538
+[e = _TMR0 -> -U -> 3150 `i `ui ]
+[; ;FinalV3.C: 540: TMR1ON = 1;
+"540
+[e = _TMR1ON -> -> 1 `i `b ]
+[; ;FinalV3.C: 542: T3CON = 0x81;
+"542
+[e = _T3CON -> -> 129 `i `uc ]
+[; ;FinalV3.C: 543: TMR3ON = 1;
+"543
+[e = _TMR3ON -> -> 1 `i `b ]
+[; ;FinalV3.C: 544: TMR3IE = 1;
+"544
+[e = _TMR3IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 545: TMR3IP = 1;
+"545
+[e = _TMR3IP -> -> 1 `i `b ]
+[; ;FinalV3.C: 546: TMR3 = -250;
+"546
+[e = _TMR3 -> -U -> 250 `i `ui ]
+[; ;FinalV3.C: 548: TRISC1 = 1;
+"548
+[e = _TRISC1 -> -> 1 `i `b ]
+[; ;FinalV3.C: 549: CCP2CON = 0x05;
+"549
+[e = _CCP2CON -> -> 5 `i `uc ]
+[; ;FinalV3.C: 550: CCP2IE = 1;
+"550
+[e = _CCP2IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 551: CCP2IP=1;
+"551
+[e = _CCP2IP -> -> 1 `i `b ]
+[; ;FinalV3.C: 553: TRISC2 = 1;
+"553
+[e = _TRISC2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 554: CCP1CON = 0x04;
+"554
+[e = _CCP1CON -> -> 4 `i `uc ]
+[; ;FinalV3.C: 555: CCP1IE = 1;
+"555
+[e = _CCP1IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 556: CCP1IP=1;
+"556
+[e = _CCP1IP -> -> 1 `i `b ]
+[; ;FinalV3.C: 558: TRISB0 = 1;
+"558
+[e = _TRISB0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 559: INT0IE = 1;
+"559
+[e = _INT0IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 561: INTEDG0 = 1;
+"561
+[e = _INTEDG0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 563: INT1IE = 1;
+"563
+[e = _INT1IE -> -> 1 `i `b ]
+[; ;FinalV3.C: 564: INT1IP = 1;
+"564
+[e = _INT1IP -> -> 1 `i `b ]
+[; ;FinalV3.C: 565: TRISB1 = 1;
+"565
+[e = _TRISB1 -> -> 1 `i `b ]
+[; ;FinalV3.C: 566: INTEDG1 = 1;
+"566
+[e = _INTEDG1 -> -> 1 `i `b ]
+[; ;FinalV3.C: 568: PEIE = 1;
+"568
+[e = _PEIE -> -> 1 `i `b ]
+[; ;FinalV3.C: 569: GIE = 1;
+"569
+[e = _GIE -> -> 1 `i `b ]
+[; ;FinalV3.C: 570: ADCON1 = 0x0F;
+"570
+[e = _ADCON1 -> -> 15 `i `uc ]
+[; ;FinalV3.C: 574: TRISD=0x00;
+"574
+[e = _TRISD -> -> 0 `i `uc ]
+[; ;FinalV3.C: 576: TRISC0 = 0;
+"576
+[e = _TRISC0 -> -> 0 `i `b ]
+[; ;FinalV3.C: 577: TRISC1 = 1;
+"577
+[e = _TRISC1 -> -> 1 `i `b ]
+[; ;FinalV3.C: 578: TRISC2 = 1;
+"578
+[e = _TRISC2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 579: TRISC3 = 0;
+"579
+[e = _TRISC3 -> -> 0 `i `b ]
+[; ;FinalV3.C: 580: TRISC4 = 1;
+"580
+[e = _TRISC4 -> -> 1 `i `b ]
+[; ;FinalV3.C: 581: TRISC5 = 0;
+"581
+[e = _TRISC5 -> -> 0 `i `b ]
+[; ;FinalV3.C: 582: TRISC6 = 0;
+"582
+[e = _TRISC6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 583: TRISC7 = 0;
+"583
+[e = _TRISC7 -> -> 0 `i `b ]
+[; ;FinalV3.C: 585: TRISB0 = 1;
+"585
+[e = _TRISB0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 586: TRISB1 = 1;
+"586
+[e = _TRISB1 -> -> 1 `i `b ]
+[; ;FinalV3.C: 587: TRISB2 = 1;
+"587
+[e = _TRISB2 -> -> 1 `i `b ]
+[; ;FinalV3.C: 588: TRISB3 = 1;
+"588
+[e = _TRISB3 -> -> 1 `i `b ]
+[; ;FinalV3.C: 589: TRISB4 = 1;
+"589
+[e = _TRISB4 -> -> 1 `i `b ]
+[; ;FinalV3.C: 590: TRISB5 = 0;
+"590
+[e = _TRISB5 -> -> 0 `i `b ]
+[; ;FinalV3.C: 591: TRISB6 = 0;
+"591
+[e = _TRISB6 -> -> 0 `i `b ]
+[; ;FinalV3.C: 592: TRISB7 = 0;
+"592
+[e = _TRISB7 -> -> 0 `i `b ]
+[; ;FinalV3.C: 594: TRISA1 = 0;
+"594
+[e = _TRISA1 -> -> 0 `i `b ]
+[; ;FinalV3.C: 596: TRISA0 = 0;
+"596
+[e = _TRISA0 -> -> 0 `i `b ]
+[; ;FinalV3.C: 597: TRISA2 = 0;
+"597
+[e = _TRISA2 -> -> 0 `i `b ]
+[; ;FinalV3.C: 598: TRISA3 = 0;
+"598
+[e = _TRISA3 -> -> 0 `i `b ]
+[; ;FinalV3.C: 599: TRISA4 = 1;
+"599
+[e = _TRISA4 -> -> 1 `i `b ]
+[; ;FinalV3.C: 600: TRISA5 = 1;
+"600
+[e = _TRISA5 -> -> 1 `i `b ]
+[; ;FinalV3.C: 602: TRISE0 = 1;
+"602
+[e = _TRISE0 -> -> 1 `i `b ]
+[; ;FinalV3.C: 603: TRISE1 = 0;
+"603
+[e = _TRISE1 -> -> 0 `i `b ]
+[; ;FinalV3.C: 608: Time = 0;
+"608
+[e = _Time -> -> 0 `i `ui ]
+[; ;FinalV3.C: 609: x = 0;
+"609
+[e = _x -> -> 0 `i `uc ]
+[; ;FinalV3.C: 610: Color = 0;
+"610
+[e = _Color -> -> 0 `i `ui ]
+[; ;FinalV3.C: 611: RED = 1;
+"611
+[e = _RED -> -> 1 `i `ui ]
+[; ;FinalV3.C: 612: GREEN = 0;
+"612
+[e = _GREEN -> -> 0 `i `ui ]
+[; ;FinalV3.C: 613: BLUE = 0;
+"613
+[e = _BLUE -> -> 0 `i `ui ]
+[; ;FinalV3.C: 614: Count = 0;
+"614
+[e = _Count -> -> 0 `i `ui ]
+[; ;FinalV3.C: 615: R=0;
+"615
+[e = _R -> -> 0 `i `uc ]
+[; ;FinalV3.C: 616: B=0;
+"616
+[e = _B -> -> 0 `i `uc ]
+[; ;FinalV3.C: 617: G=0;
+"617
+[e = _G -> -> 0 `i `uc ]
+[; ;FinalV3.C: 618: Dnr=0;
+"618
+[e = _Dnr -> -> 0 `i `uc ]
+[; ;FinalV3.C: 619: Dnb=0;
+"619
+[e = _Dnb -> -> 0 `i `uc ]
+[; ;FinalV3.C: 620: Dng=0;
+"620
+[e = _Dng -> -> 0 `i `uc ]
+[; ;FinalV3.C: 621: soothing = 0;
+"621
+[e = _soothing -> -> 0 `i `uc ]
+[; ;FinalV3.C: 622: glower = 0;
+"622
+[e = _glower -> -> 0 `i `uc ]
+[; ;FinalV3.C: 623: z0=0;
+"623
+[e = _z0 -> -> 0 `i `uc ]
+[; ;FinalV3.C: 624: z1=2;
+"624
+[e = _z1 -> -> 2 `i `uc ]
+[; ;FinalV3.C: 625: Move=0;
+"625
+[e = _Move -> -> 0 `i `uc ]
+[; ;FinalV3.C: 626: Menu=1;
+"626
+[e = _Menu -> -> 1 `i `uc ]
+[; ;FinalV3.C: 627: Sub=0;
+"627
+[e = _Sub -> -> 0 `i `uc ]
+[; ;FinalV3.C: 628: Cat=0;
+"628
+[e = _Cat -> -> 0 `i `uc ]
+[; ;FinalV3.C: 629: Com=0;
+"629
+[e = _Com -> -> 0 `i `uc ]
+[; ;FinalV3.C: 630: Module = 0x0000;
+"630
+[e = _Module -> -> 0 `i `ui ]
+[; ;FinalV3.C: 631: LED = 1;
+"631
+[e = _LED -> -> 1 `i `uc ]
+[; ;FinalV3.C: 634: RA1 = 0;
+"634
+[e = _RA1 -> -> 0 `i `b ]
+[; ;FinalV3.C: 635: RC7 = 0;
+"635
+[e = _RC7 -> -> 0 `i `b ]
+[; ;FinalV3.C: 636: PORTD=0x00;
+"636
+[e = _PORTD -> -> 0 `i `uc ]
+[; ;FinalV3.C: 637: RA2=0;
+"637
+[e = _RA2 -> -> 0 `i `b ]
+[; ;FinalV3.C: 638: RC0 = 0;
+"638
+[e = _RC0 -> -> 0 `i `b ]
+[; ;FinalV3.C: 641: LCD_Init();
+"641
+[e ( _LCD_Init ..  ]
+[; ;FinalV3.C: 643: while(1) {
+"643
+[e :U 319 ]
+{
+[; ;FinalV3.C: 645: if (LED==1){Soothing();}
+"645
+[e $ ! == -> _LED `i -> 1 `i 321  ]
+{
+[e ( _Soothing ..  ]
+}
+[e $U 322  ]
+"646
+[e :U 321 ]
+[; ;FinalV3.C: 646: else if (LED==2){Glower();}
+[e $ ! == -> _LED `i -> 2 `i 323  ]
+{
+[e ( _Glower ..  ]
+}
+[e :U 323 ]
+"650
+[e :U 322 ]
+[; ;FinalV3.C: 650: if(RB4) {RF_output(A2, A2_ON[18], A2_OFF[18]); A2=(A2+1)%2;}
+[e $ ! _RB4 324  ]
+{
+[e ( _RF_output (3 , , -> _A2 `uc -> *U + &U _A2_ON * -> -> -> 18 `i `ui `ux -> -> # *U &U _A2_ON `ui `ux `*ui -> *U + &U _A2_OFF * -> -> -> 18 `i `ui `ux -> -> # *U &U _A2_OFF `ui `ux `*ui ]
+[e = _A2 % + _A2 -> -> 1 `i `ui -> -> 2 `i `ui ]
+}
+[e :U 324 ]
+[; ;FinalV3.C: 651: if(RB2) {IR_Program(0);}
+"651
+[e $ ! _RB2 325  ]
+{
+[e ( _IR_Program (1 -> -> -> 0 `i `l `ul ]
+}
+[e :U 325 ]
+[; ;FinalV3.C: 652: if(RB3) {IR_output(0);}
+"652
+[e $ ! _RB3 326  ]
+{
+[e ( _IR_output (1 -> -> 0 `i `uc ]
+}
+[e :U 326 ]
+[; ;FinalV3.C: 654: if(RA5) Set_Play(0x1B, 0x28);
+"654
+[e $ ! _RA5 327  ]
+[e ( _Set_Play (2 , -> -> 27 `i `uc -> -> 40 `i `uc ]
+[e :U 327 ]
+[; ;FinalV3.C: 656: if (RE0==1)
+"656
+[e $ ! == -> _RE0 `i -> 1 `i 328  ]
+[; ;FinalV3.C: 657: {
+"657
+{
+[; ;FinalV3.C: 658: RE1=1;
+"658
+[e = _RE1 -> -> 1 `i `b ]
+"659
+}
+[; ;FinalV3.C: 659: }
+[e $U 329  ]
+"660
+[e :U 328 ]
+[; ;FinalV3.C: 660: else
+[; ;FinalV3.C: 661: {
+"661
+{
+[; ;FinalV3.C: 662: RE1=0;
+"662
+[e = _RE1 -> -> 0 `i `b ]
+"663
+}
+[e :U 329 ]
+"871
+}
+[e :U 318 ]
+"643
+[e $U 319  ]
+[e :U 320 ]
+[; ;FinalV3.C: 663: }
+[; ;FinalV3.C: 871: }
+[; ;FinalV3.C: 872: }
+"872
+[e :UE 317 ]
+}
